@@ -1,75 +1,53 @@
 ---
-layout: editorial
-chapter: 6
-pageNumber: 47
-description: Array is a  list of data and are fundamental part of programming. Here, we can store a lot of data of different types.
+chapter: 1
+pageNumber: 9
+description: JavaScript is a high-level, interpreted, and dynamically-typed programming language primarily used for web development. It is one of the core technologies used to create interactive and dynamic websites and web applications. 
 ---
+# Chapter 1
+# Introduction
 
-# Chapter 6
-# Arrays
+Computers are common in today's world, as they are able to perform a wide variety of tasks quickly and accurately. They are used in many different industries, such as business, healthcare, education, and entertainment, and have become an essential part of daily life for many people. Besides this, they are also used to perform complex scientific and mathematical calculations, to store and process large amounts of data, and to communicate with people around the world.
 
-Arrays are a fundamental part of programming. An array is a list of data. We can store a lot of data in one variable, which makes our code more readable and easier to understand. It also makes it much easier to perform functions on related data.
+Programming involves creating a set of instructions, called a program, for a computer to follow. Writing a program can be tedious and frustrating at times because computers are very precise and need specific instructions in order to complete tasks.
 
-The data in arrays are called **elements**.
+![Intro Page](../.gitbook/assets/intro.png)
 
-Here is a simple array:
+Programming languages are artificial languages used to give instructions to computers. They are used in most programming tasks and are based on the way humans communicate with each other. Like human languages, programming languages allow words and phrases to be combined to express new concepts. It is interesting to note that the most effective way to communicate with computers involves using a language that is similar to human language.
 
-```javascript
-// 1, 1, 2, 3, 5, and 8 are the elements in this array
-let numbers = [1, 1, 2, 3, 5, 8];
-```
+In the past, the primary way to interact with computers was through language-based interfaces like BASIC and DOS prompts. These have been largely replaced by visual interfaces, which are easier to learn but offer less flexibility. However, computer languages like _JavaScript_ are still in use and can be found in modern web browsers and on most devices.
 
-Arrays can be created easily using array literals or with a `new` keyword.&#x20;
+JavaScript (_JS for short_) is the programming language that is used to create dynamic interaction while developing webpages, games, applications, and even servers. JavaScript started at Netscape, a web browser developed in the 1990s, and is today one of the most famous and used programming languages.
 
-```javascript
-const cars = ["Saab", "Volvo", "BMW"]; // using array literals
-const cars = new Array("Saab", "Volvo", "BMW"); // using the new keyword
-```
+Initially, it was created for making webpages alive and was able to run only on a browser. Now, it runs on any device that supports the JavaScript engine. Standard objects such as [Array](./arrays/README.md), [Date](./date-and-time.md), and [Math](./numbers/math.md) are available in JavaScript, as well as operators, control structures, and statements. _Client-side JavaScript_ and _Server-side JavaScript_ are the extended versions of core JavaScript.
 
-An index number is used to access the values of an array.  The index of the first element in an array is always `0` as array indexes start with `0`. The index number can also be used to change the elements of an array.
+* _Client-side JavaScript_ enables the enhancement and manipulation of web pages, and client browsers. Responses to user events such as mouse clicks, form input, and page navigation are some of its examples.
+* _Server-side JavaScript_ enables access to servers, databases, and file systems.
 
-```javascript
-const cars = ["Saab", "Volvo", "BMW"];
-console.log(cars[0]); 
-// Result: Saab
+JavaScript is an interpreted language. While running Javascript an interpreter interprets each line and runs it. The modern browser uses Just In Time (JIT) technology for compilation, which compiles JavaScript into executable bytecode.
 
-cars[0] = "Opel"; // changing the first element of an array
-console.log(cars);
-// Result: ['Opel', 'Volvo', 'BMW']
-```
-
-{% hint style="warning" %}
-Arrays are a special type of object.  One can have [objects](../objects/) in an array.
+{% hint style="info" %}
+"LiveScript" was the initial name given to JavaScript.
 {% endhint %}
 
-&#x20;The `length` property of an array returns the count of numbers elements.  Methods supported by Arrays are shown below:
+### Code, and what to do with it and Typographic conventions
 
-| Name              | Description                                                                                                                                       |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `concat()`        | Returns two or more combined arrays                                                                                                               |
-| `join()`          | Joins all elements in an array into a string                                                                                                      |
-| `push()`          | Adds one or more elements at the end of the array and returns the length                                                                          |
-| `pop()`           | Removes the last element of an array and returns that element                                                                                     |
-| `shift()`         | Removes the first element of an array and returns that element                                                                                    |
-| `unshift()`       | Adds one or more elements at the front of an array and returns the length                                                                         |
-| `slice()`         | Extracts the section of an array and returns the new array                                                                                        |
-| `at()`            | Returns element at the specified index or `undefined`                                                                                             |
-| `splice()`        | Removes elements from an array and (optionally) replaces them, and returns the array                                                              |
-| `reverse()`       | Transposes the elements of an array and returns a reference to an array                                                                           |
-| `flat()`          | Returns a new array with all sub-array elements concatenated into it recursively up to the specified depth                                        |
-| `sort()`          | Sorts the elements of an array in place, and returns a reference to the array                                                                     |
-| `indexOf()`       | Returns the index of the first match of the search element                                                                                        |
-| `lastIndexOf()`   | Returns the index of the last match of the search element                                                                                         |
-| `forEach()`       | Executes a callback in each element of an array and returns undefined                                                                             |
-| `map()`           | Returns a new array with a return value from executing `callback` on every array item.                                                            |
-| `flatMap()`       | Runs `map()` followed by `flat()` of depth 1                                                                                                      |
-| `filter()`        | Returns a new array containing the items for which `callback` returned `true`                                                                     |
-| `find()`          | Returns the first item for which `callback` returned `true`                                                                                       |
-| `findLast()`      | Returns the last item for which `callback` returned `true`                                                                                        |
-| `findIndex()`     | Returns the index of the first item for which `callback` returned `true`                                                                          |
-| `findLastIndex()` | Returns the index of the last item for which `callback` returned `true`                                                                           |
-| `every()`         | Returns `true` if `callback` returns `true` for every item in the array                                                                           |
-| `some()`          | Returns `true` if `callback` returns `true` for at least one item in the array                                                                    |
-| `reduce()`        | Uses `callback(accumulator, currentValue, currentIndex, array)` for reducing purpose and returns the final value returned by `callback` function  |
-| `reduceRight()`   | Works similarly lie `reduce()` but starts with the last element                                                                                   |
+_Code_ is the written instructions that make up a program. Here, many chapters contain a lot of code, and it is important to read and write code as part of learning how to program. You should not just quickly scan the examples - read them carefully and try to understand them. This may be difficult at first, but with practice, you will improve. The same goes for the exercises - make sure you actually try to write a solution before assuming you understand them. It is also helpful to try running your solutions to the exercises in a JavaScript interpreter, as this will allow you to see if your code is working correctly and may encourage you to experiment and go beyond the exercises.
 
+
+Here, text is written in a monospaced font represents elements of a program. This can be a self-contained fragment or a reference to part of a nearby program. Programs, like the one shown below, are written in this way:
+
+```javascript
+const numbers = [45, 4, 9, 16, 25];
+let txt = "";
+for (let x in numbers) {
+  txt += numbers[x];
+}
+```
+
+Sometimes, the expected output of a program is written after it, preceded by two slashes with a _Result_, like this:
+
+```javascript
+console.log(txt);
+
+// Result: txt = '45491625'
+```
