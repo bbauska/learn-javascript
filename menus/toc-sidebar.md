@@ -1,13 +1,22 @@
-HTML Table of Contents Sidebar using CSS & JS
+## HTML Table of Contents Sidebar using CSS & JS
 
-The table of content is a useful element to navigate between the sections of a longer article. It is also a useful way to provide a summary of topics to the users containing in an article. Users can easily jump to the selected topic with the help of a table of contents. So, how you can create a TOC in HTML? well! this tutorial explains the method to develop a table of contents in the sidebar using HTML, CSS, and JavaScript.
+The table of content is a useful element to navigate between the sections of a longer article. It is also a useful 
+way to provide a summary of topics to the users containing in an article. Users can easily jump to the selected 
+topic with the help of a table of contents. So, how you can create a TOC in HTML? well! this tutorial explains 
+the method to develop a table of contents in the sidebar using HTML, CSS, and JavaScript.
 
-Before creating the TOC, check the real example of the fixed sidebar table of contents on the demo page. There you can scroll the article and see how topics indicated with an animated marker. Similarly, you can scroll to the topic by clicking on the title of the topic.
+Before creating the TOC, check the real example of the fixed sidebar table of contents on the demo page. There 
+you can scroll the article and see how topics indicated with an animated marker. Similarly, you can scroll to 
+the topic by clicking on the title of the topic.
 
-Although, it’s an animated table of contents, the weak point is that you need to create its HTML structure manually. Because the JS file only handles marker/indicator animation and doesn’t generate TOC links dynamically. Anyhow, it’s quite fit for single-page applications/pages.
+Although, it’s an animated table of contents, the weak point is that you need to create its HTML structure 
+manually. Because the JS file only handles marker/indicator animation and doesn’t generate TOC links dynamically. 
+Anyhow, it’s quite fit for single-page applications/pages.
 
 HTML Structure for Table of Contents Sidebar
-Create the HTML nav element with a class name "toc" and place a list of hash links following the id of article sections. At the end of the list, place the svg element for the marker that indicates the active item in the table of content.
+Create the HTML nav element with a class name "toc" and place a list of hash links following the id of article 
+sections. At the end of the list, place the svg element for the marker that indicates the active item in the 
+table of content.
 
 ```
 <nav class="toc">
@@ -37,7 +46,8 @@ Create the HTML nav element with a class name "toc" and place a list of hash lin
 </nav>
 ```
 
-Similarly, create the article element with the class name "contents" and write your article inside it. You can create multiple sections with a unique id that you can target in the TOC’s link.
+Similarly, create the article element with the class name "contents" and write your article inside it. You can 
+create multiple sections with a unique id that you can target in the TOC’s link.
 
 ```
 <article class="contents">
@@ -84,7 +94,8 @@ set the top value (6em by default) according to your needs.
 }
 ```
 
-Now, target the ul element of the toc and remove its default bullets using list-style none property. Likewise, define the CSS styles for the links as follows:
+Now, target the ul element of the toc and remove its default bullets using list-style none property. 
+Likewise, define the CSS styles for the links as follows:
 
 ```
 .toc ul {
