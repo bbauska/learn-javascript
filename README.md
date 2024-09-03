@@ -1,9 +1,9 @@
 ---
 title: "Learn JS"
 author: "bbauska"
-date prior editted: "m/dd/yyyy h+a/pm"
-date last editted: "m/dd/yyyy h+a/pm"
-date last editted: "8/31/2024 4+pm"
+date prior editted: "8/31/2024 4+pm"
+date last editted: "9/3/2024 12+pm"
+date last editted: "9/3/2024 12+pm"
 output: 
   markdown:
     with some style
@@ -44,7 +44,7 @@ output:
 
 <h2 id="JSSyntax">JavaScript Syntax</h2>
 
-[Examples of lavaScript Svntax :]
+[Examples of JavaScript Syntax :]
 
 1.  [. Function Definition :]
 
@@ -67,7 +67,7 @@ output:
 ![](./images/image009.jpg){width="9.6875in"
 height="11.805555555555555in"}
 
-> [Examples of lavaScript Variables :]
+> [Examples of JavaScript Variables :]
 >
 > ![](./images/image010.jpg){width="5.221176727909011in"
 > height="0.29175196850393703in"}
@@ -78,15 +78,15 @@ height="11.805555555555555in"}
 
 [JavaScript let]
 
-> [Example of let in lavaScript :]
+> [Example of let in JavaScript :]
 
 [JavaScript const]
 
-> [Example of const in lavaScript :]
+> [Example of const in JavaScript :]
 
 [JavaScript Operators]
 
-> [Examples of lavaScript Operators :]
+> [Examples of JavaScript Operators :]
 
 1.  [Arithmetic Operators :]
 
@@ -501,7 +501,7 @@ height="11.805555555555555in"}
 >
 > [Reference Error :]
 
-## [JS Scope] {#js-scope .unnumbered}
+## [JS Scope]
 
 > [Examples of IS Scope :]
 >
@@ -532,7 +532,7 @@ height="11.805555555555555in"}
 >
 > [Using this in an Obiect :]
 
-### [JS Arrow Function] {#js-arrow-function .unnumbered}
+### [JS Arrow Function]
 
 > [Examples of IS Arrow Function :]
 >
@@ -555,7 +555,7 @@ height="11.805555555555555in"}
 >
 > [Importing a Module :]
 
-# JS JSON {#js-json .unnumbered}
+# JS JSON
 
 > [Examples of IS ISON :]
 >
@@ -787,13 +787,13 @@ height="11.805555555555555in"}
 >
 > [Adding a Static Method :]
 
-## [JS Async] {#js-async .unnumbered}
+## [JS Async]
 
 > [JS Callbacks]
 >
 > [Callbacks Example :]
 
-### [JS Asynchronous] {#js-asynchronous .unnumbered}
+### [JS Asynchronous]
 
 > [Asynchronous Example :]
 
@@ -822,19 +822,15 @@ height="11.805555555555555in"}
 
 > [Changing Element Content :]
 
-## [DOM Document] {#dom-document .unnumbered}
+## [DOM Document]
 
 > [Accessing Document Properties :]
 
 [DOM Elements]
 
-  -----------------------------------------------------------------------
        Element Stvles :
-  ---- ------------------------------------------------------------------
 
-  -----------------------------------------------------------------------
-
-# DOM HTML {#dom-html .unnumbered}
+# DOM HTML
 
 > [Changing HTML Attributes :]
 
@@ -842,11 +838,11 @@ height="11.805555555555555in"}
 
 > [Accessing Form Elements :]
 
-## [DOM CSS] {#dom-css .unnumbered}
+## [DOM CSS]
 
 > [Changing CSS Classes :]
 
-### [DOM Animations] {#dom-animations .unnumbered}
+### [DOM Animations]
 
 > [Animating an Element :]
 
@@ -865,7 +861,7 @@ height="11.805555555555555in"}
 >
 > [Traversing Child Elements :]
 
-### [DOM Nodes] {#dom-nodes .unnumbered}
+### [DOM Nodes]
 
 > [Creating a New Node :]
 >
@@ -922,7 +918,7 @@ height="11.805555555555555in"}
 >
 > [Accessing a Cookie :]
 
-### [JS web APIs] {#js-web-apis .unnumbered}
+### [JS web APIs]
 
 > [Web API Intro]
 >
@@ -957,7 +953,7 @@ height="11.805555555555555in"}
 >
 > [JS AJAX]
 
-#### [AJAX Intro] {#ajax-intro .unnumbered}
+#### [AJAX Intro]
 
 > [Simple AJAX Request :]
 >
@@ -982,14 +978,8 @@ height="11.805555555555555in"}
 
 > [Handling AIAX in PHP :]
 
-### [AJAX ASP] {#ajax-asp .unnumbered}
-
-  -----------------------------------------------------------------------
-           with ASP :
-  -------- --------------------------------------------------------------
-
-  -----------------------------------------------------------------------
-
+### [AJAX ASP]
+with ASP :
 [AJAX Database]
 
 [Database Interaction with ATAX :]
@@ -1012,16 +1002,13 @@ height="11.805555555555555in"}
 >
 > [AIAX Example 6 :]
 
-#### [Dvnamic Content Loading] {#dvnamic-content-loading .unnumbered}
+#### [Dvnamic Content Loading]
 
 [Form Submission with AJAX]
 
 > [Fetching ISON Data]
 
-+---+-----------------------------+-------------------------------------+
-|   | > Example 7 :               | Autocomplete Search                 |
-+===+=============================+=====================================+
-+---+-----------------------------+-------------------------------------+
+ > Example 7 :  | Autocomplete Search
 
 [Image Gallerv with ATAX]
 
@@ -1036,9 +1023,9 @@ height="11.805555555555555in"}
 >
 > [AIAX Example 11 : Displaving Time Dvnamicallv]
 
-### [JS JSON] {#js-json-1 .unnumbered}
+### [JS JSON]
 
-#### [ISON Intro] {#ison-intro .unnumbered}
+#### [ISON Intro]
 
 > [Example of ISON Data :]
 >
@@ -1046,7 +1033,7 @@ height="11.805555555555555in"}
 >
 > [Example of ISON Svntax :]
 
-#### [JSON vs XML] {#json-vs-xml .unnumbered}
+#### [JSON vs XML]
 
 > [Example Comparison between ISON and XML :]
 >
@@ -1054,7 +1041,7 @@ height="11.805555555555555in"}
 >
 > [Example of Different Data Tvpes in ISON :]
 
-#### [ISON Parse] {#ison-parse .unnumbered}
+#### [ISON Parse]
 
 > [Example of ISON Parsing :]
 >
@@ -1085,7 +1072,7 @@ height="11.805555555555555in"}
 >
 > [Example of Usine ISON Data in HTML :]
 
-#### [ISON JSONP] {#ison-jsonp .unnumbered}
+#### [ISON JSONP]
 
 > [Example of ISONP Request :]
 
@@ -1137,14 +1124,14 @@ height="11.805555555555555in"}
 
 20. [. Mappinz ISON Data to Another Structure :]
 
-[lavaScript vs iOuery : A Comprehensive Comparison]
+[JavaScript vs iOuery : A Comprehensive Comparison]
 
 > [JavaScript Overview]
 
 ![](./images/image046.jpg){width="8.04861111111111in"
 height="11.805555555555555in"}
 
-> [Example of lavaScript Functionalitv :]
+> [Example of JavaScript Functionalitv :]
 
 [jQuery Overview]
 
@@ -1167,7 +1154,7 @@ height="11.805555555555555in"}
 
 > [Example of iOuerv HTML Manipulation :]
 
-##### [jOuery CSS Manipulation] {#jouery-css-manipulation .unnumbered}
+##### [jOuery CSS Manipulation]
 
 > [Example ofiOuerv CSS Manipulation :]
 
@@ -1175,7 +1162,7 @@ height="11.805555555555555in"}
 
 > [Example of iOuerv DOM Traversal :]
 
-##### [Conclusion] {#conclusion .unnumbered}
+##### [Conclusion]
 
 1.  [. Selecting an Element bv ID :]
 
@@ -1225,7 +1212,7 @@ height="11.805555555555555in"}
 
 [JavaScript Graphics Libraries : Explained]
 
-1.  [. lavaScript Graphics]
+1.  [. JavaScript Graphics]
 
 2.  [. IS Canvas]
 
@@ -1431,7 +1418,7 @@ height="11.805555555555555in"}
 
 [Form Validation and Submission :]
 
-##### [Advanced Input Handling]![](./images/image057.jpg){width="7.298118985126859e-2in" height="0.18755468066491687in"} {#advanced-input-handling .unnumbered}
+##### [Advanced Input Handling]![](./images/image057.jpg){width="7.298118985126859e-2in" height="0.18755468066491687in"}
 
 > [DOM Obiect Creation and Manipulation :]
 
@@ -1462,14 +1449,14 @@ height="11.805555555555555in"}
 >
 > [Screen Obiect Attributes :]
 >
-> [Installing lavaScript :]
+> [Installing JavaScript :]
 >
 > [Setting Up Visual Studio Code for JavaScript Development
 > :]
 >
 > [Conclusion :]
 
-# Statements {#statements .unnumbered}
+# Statements
 
 > JavaScript statements are individual commands or instructions that the
 > browser executes . They form the logic of a program and can be simple
@@ -1499,7 +1486,7 @@ height="0.2604932195975503in"}
 > javascript code for ( let i O; i \< 5; i + + ) { // Executed 5 times
 > console . log ( i ) ;
 
-## Syntax {#syntax .unnumbered}
+## Syntax
 
 > JavaScript syntax refers to the rules that define the structure of
 > valid JavaScript code . It includes rules for writing statements,
@@ -1522,7 +1509,7 @@ height="0.2604932195975503in"}
 > \[![](./images/image062.jpg){width="0.8020833333333334in"
 > height="0.2500732720909886in"}
 
-### Comments {#comments .unnumbered}
+### Comments
 
 > Comments in JavaScript are used to add explanatory notes within the
 > code They are ignored by the interpreter and are only meant for human
@@ -1552,7 +1539,7 @@ This is a multi - line comment
 >
 > // const x 10;
 
-#### JavaScript Variables {#javascript-variables .unnumbered}
+#### JavaScript Variables
 
 > Variables in JavaScript are used to store data values . They can hold
 > various types of data such as numbers, strings, objects, and more ,
@@ -1574,7 +1561,7 @@ Examples ofJavaScript Variables :
 > javascript code let person {name : \'Bob, age : 30 // A variable
 > holding an object
 
-#### JavaScript let {#javascript-let .unnumbered}
+#### JavaScript let
 
 > The let keyword is used to declare variables in JavaScript . It allows
 > the declared variable to be reassigned a new value if
@@ -1588,7 +1575,7 @@ Example of let in JavaScript :
 > ![](./images/image065.jpg){width="0.4270833333333333in"
 > height="0.15629593175853018in"}10; // Reassigning \'x\' to a new value
 
-#### JavaScript const {#javascript-const .unnumbered}
+#### JavaScript const
 
 > The const keyword is used to declare constants in JavaScript . Once
 > assigned, the value of a const cannot be
@@ -1602,7 +1589,7 @@ Example of const in JavaScript :
 > // PI - - 3; // This will throw an error as reassignment is not
 > allowed
 
-#### JavaScript Operators {#javascript-operators .unnumbered}
+#### JavaScript Operators
 
 > JavaScript operators are symbols used to perform operations on
 > operands, such as arithmetic operations, assignment, comparison,
@@ -1624,7 +1611,6 @@ javascript code let x 5; let
 y![](./images/image068.jpg){width="0.6770833333333334in"
 height="0.2500732720909886in"}
 
-+-------------------------------+--------------------------------------+
 | console . log ( x             | > y ) ; // Equality check            |
 | ![](./images/media            |                                      |
 | /image69.jpg){width="0.125in" |                                      |
@@ -1650,7 +1636,7 @@ height="0.2500732720909886in"}
 | width="0.10416666666666667in" |                                      |
 | hei                           |                                      |
 | ght="4.167869641294838e-2in"} |                                      |
-+===============================+======================================+
+
 | console . log ( x             | y\) ; // Inequality check            |
 | ![](.                         |                                      |
 | /images/image075.jpg){wi |                                      |
@@ -1675,7 +1661,6 @@ height="0.2500732720909886in"}
 | /image80.jpg){width="0.125in" |                                      |
 | hei                           |                                      |
 | ght="4.167869641294838e-2in"} |                                      |
-+-------------------------------+--------------------------------------+
 
 > console . log ( x y) ; // Greater than console . log ( x \< y) ; //
 > Less than
@@ -1690,7 +1675,7 @@ height="0.2500732720909886in"}
 > statements, syntax, comments, variables ( let and const ) , and
 > operators, offering examples and explanations to aid understanding ,
 
-## JS Arithmetic {#js-arithmetic .unnumbered}
+## JS Arithmetic
 
 > JavaScript provides arithmetic operators to perform mathematical
 > calculations on numbers ,
@@ -1719,7 +1704,7 @@ Examples ofJS Arithmetic :
 > remainder![](./images/image082.jpg){width="0.4270833333333333in"
 > height="0.19797462817147857in"}
 
-### JS Assignment {#js-assignment .unnumbered}
+### JS Assignment
 
 > In JavaScript, the assignment operator (z) is used to assign values to
 > variables . Examples ofJS Assignment :
@@ -1733,12 +1718,12 @@ Examples ofJS Arithmetic :
 > javascript code let y = x 4 5; // Assigning the result of an
 > expression to ^l^y^r^
 
-#### JS Data Types {#js-data-types .unnumbered}
+#### JS Data Types
 
 > JavaScript has several data types that define the kinds of values it
 > can work with . Examples ofJS Data Types : Primitive Data Types :
 
-##### ![](./images/image083.jpg){width="4.1666666666666664e-2in" height="4.167869641294838e-2in"} Number : letnum - 10; {#number-letnum---10 .unnumbered}
+![](./images/image083.jpg){width="4.1666666666666664e-2in" height="4.167869641294838e-2in"} Number : letnum - 10;
 
 -   String : let text - \'Hello\';
 
@@ -1754,7 +1739,7 @@ Examples ofJS Arithmetic :
 
 -   Array: let numbers \[ 1, 2, 3, 41 5 \] ;
 
-## JS Functions {#js-functions .unnumbered}
+## JS Functions
 
 > Functions in JavaScript are reusable blocks of code that perform a
 > specific task when called .
@@ -1778,7 +1763,7 @@ Examples ofJS Functions :
 > height="0.2813331146106737in"}let result multiply ( 5, 3 ) ; // result
 > 15
 
-### JS Objects {#js-objects .unnumbered}
+### JS Objects
 
 > Objects in JavaScript are containers for named values called
 > properties and methods . Examples ofJS Objects :
@@ -1802,7 +1787,7 @@ Examples ofJS Functions :
 > javascript code console . log ( person greet ; // Output : Hello, my
 > name is Alice !
 
-# JS Events {#js-events .unnumbered}
+# JS Events
 
 > JavaScript events are actions that occur when a user interacts with a
 > web page, like clicking a button or typing in a form
@@ -1827,7 +1812,7 @@ Examples ofJS Events :
 > height="0.2604932195975503in"}console . log ( \'Input changed ! ^i^ )
 > •
 
-## JS Strings {#js-strings .unnumbered}
+## JS Strings
 
 > Strings in JavaScript are sequences of characters enclosed in single
 > or double quotes
@@ -1845,7 +1830,7 @@ Examples ofJS Events :
 > javascript code let greeting \'Hello, ^I^; let name \'Alice\'; let
 > welcomeMessage greeting + name; // welcomeMessage - \'Hello, Alice
 
-### JS String Methods {#js-string-methods .unnumbered}
+### JS String Methods
 
 > JavaScript provides various methods to manipulate strings . Examples
 > ofJS String Methods :
@@ -1860,7 +1845,7 @@ Examples ofJS Events :
 > javascript code let sentence - This is a sentence\'; let subSentence
 > sentence . substring( 5, 10 ) ; // subSentence - \'is a \'
 
-### JS String Search {#js-string-search .unnumbered}
+### JS String Search
 
 > JavaScript provides methods to search for substrings within a string .
 > Examples ofJS String Search :
@@ -1873,7 +1858,7 @@ indexOf ( \'Worldl ) ; // position = 7 includes Method :
 > javascript code let sentence This is a sentence\'; let containsWord
 > sentence . includes ( \'sentence\' ) ; // containsWord true
 
-#### JS String Templates {#js-string-templates .unnumbered}
+#### JS String Templates
 
 > Template literals allow embedding expressions and variables into
 > strings
@@ -1895,7 +1880,7 @@ indexOf ( \'Worldl ) ; // position = 7 includes Method :
 > .![](./images/image096.jpg){width="6.25e-2in"
 > height="0.20839457567804023in"}
 
-#### JS Numbers {#js-numbers .unnumbered}
+#### JS Numbers
 
 > JavaScript handles numeric data using the number data type .
 >
@@ -1916,7 +1901,7 @@ indexOf ( \'Worldl ) ; // position = 7 includes Method :
 > javascript code let scientificNumber = 2e3; // scientificNumber \--
 > 2000
 
-##### JS Biglnt {#js-biglnt .unnumbered}
+##### JS Biglnt
 
 > Biglnt is a numeric data type in JavaScript that can represent
 > integers with arbitrary
@@ -1933,7 +1918,7 @@ Examples ofJS Biglnt :
 >
 > javascript code let bigSum = bigNumher In;
 
-###### JS Number Methods {#js-number-methods .unnumbered}
+###### JS Number Methods
 
 > JavaScript provides methods for performing operations and
 > manipulations with numbers . Examples ofJS Number Methods :
@@ -1948,7 +1933,7 @@ Examples ofJS Biglnt :
 javascript code let stringNumber \'42; let parsedNumber = parselnt (
 stringNumber) ; // parsedNumber 42
 
-#### JS Number Properties {#js-number-properties .unnumbered}
+#### JS Number Properties
 
 > JavaScript has some built - in properties associated with numbers .
 > Examples ofJS Number Properties :
@@ -1968,7 +1953,7 @@ Number . MIN_VALUE Property :
 > templates, numbers, Biglnt, number methods, and number properties,
 > providing examples and explanations for each topic .
 
-##### JS Arrays {#js-arrays .unnumbered}
+##### JS Arrays
 
 > Arrays in JavaScript are used to store multiple values in a single
 > variable . Examples ofJS Arrays :
@@ -1990,7 +1975,7 @@ Number . MIN_VALUE Property :
 ![](./images/image102.jpg){width="8.722222222222221in"
 height="11.805555555555555in"}
 
-##### JS Array Methods {#js-array-methods .unnumbered}
+##### JS Array Methods
 
 > JavaScript provides various methods to manipulate arrays effciently .
 > Examples ofJS Array Methods :
@@ -2006,7 +1991,7 @@ height="11.805555555555555in"}
 > javascript code numbers splice ( 2, 1 ) ; // Removes 1 element at
 > index 2 ( removes 131 )
 
-###### JS Array Sort {#js-array-sort .unnumbered}
+###### JS Array Sort
 
 > JavaScript offers methods to sort arrays in various ways
 > ![](./images/image103.jpg){width="3.125e-2in"
@@ -2022,7 +2007,7 @@ height="11.805555555555555in"}
 > height="0.15629593175853018in"}javascript code fruits . sortO ; //
 > Alphabetical order
 
-## JS Array Iteration {#js-array-iteration .unnumbered}
+## JS Array Iteration
 
 > Array iteration involves looping through arrays to perform operations
 > on each element . Examples ofJS Array Iteration :
@@ -2038,7 +2023,7 @@ height="11.805555555555555in"}
 > javascript code let doubledNumbers numbers . map ( number \> number \*
 > 2 );
 
-### JS Array Const {#js-array-const .unnumbered}
+### JS Array Const
 
 > Arrays declared with const can\'t be reassigned but their elements can
 > be modified .
@@ -2052,7 +2037,7 @@ Examples ofJS Array Const :
 > // weekdays = \'Monday\', \'Thursday\', ^i^Wednesday\' \] ; // This
 > will throw an error
 
-#### JS Dates {#js-dates .unnumbered}
+#### JS Dates
 
 > JavaScript provides a Date object to work with dates and times
 > ![](./images/image107.jpg){width="4.1666666666666664e-2in"
@@ -2069,7 +2054,7 @@ Examples ofJS Array Const :
 > javascript code let specificDate new Date ( \'2023 - 12 - 31\' ) ; //
 > December 31, 2023
 
-### JS Date Formats {#js-date-formats .unnumbered}
+### JS Date Formats
 
 > Date formatting in JavaScript involves converting dates to different
 > formats . Examples ofJS Date Formats :
@@ -2084,7 +2069,7 @@ Examples ofJS Array Const :
 > javascript code let localeString specificDate . toLocaleString () ; //
 > Convert to local date and time string
 
-#### Date Get Methods {#date-get-methods .unnumbered}
+#### Date Get Methods
 
 > JavaScript Date object provides various methods to retrieve specific
 > date
@@ -2101,7 +2086,7 @@ Examples ofJS Date Get Methods :
 > javascript code let month = specificDate . getMonth ; // Get the month
 > ( 11 for December )
 
-#### JS Date Set Methods {#js-date-set-methods .unnumbered}
+#### JS Date Set Methods
 
 > JavaScript Date object also has methods to set specific date
 > components .
@@ -2116,7 +2101,7 @@ Examples ofJS Date Set Methods :
 > javascript code specificDate . setMonth ( O ) ; // Set the month to
 > January ( O index )
 
-#### Math {#math .unnumbered}
+#### Math
 
 > JavaScript Math object provides mathematical constants and functions
 > ![](./images/image112.jpg){width="4.1666666666666664e-2in"
@@ -2134,7 +2119,7 @@ Examples ofJS Math :
 > javascript code let squareRcot Math . sqrt ( 25 ) ; // Square root of
 > 25 ( 5 )
 
-##### JS Random {#js-random .unnumbered}
+##### JS Random
 
 > JavaScript Math . random () generates pseudo - random numbers .
 
@@ -2150,7 +2135,7 @@ Examples ofJS Random :
 > javascript code let randomlnteger = Math . floor ( Math . random 10 )
 > ; // Random integer between O and 9
 
-##### Booleans {#booleans .unnumbered}
+##### Booleans
 
 > Booleans in JavaScript represent true or false values . Examples ofJS
 > Booleans :
@@ -2163,7 +2148,7 @@ height="5.209864391951006e-2in"}let isFalse = false; Comparison :
 
 > javascript code let greaterThan // true let equalTo 5 5; // true
 
-#### JS Comparisons {#js-comparisons .unnumbered}
+#### JS Comparisons
 
 > JavaScript offers various comparison operators to compare values .
 > Examples ofJS Comparisons :
@@ -2186,7 +2171,7 @@ height="5.209864391951006e-2in"}let isFalse = false; Comparison :
 > random, booleans, and comparisons, providing examples and explanations
 > for each topic .
 
-##### JS If Else {#js-if-else .unnumbered}
+##### JS If Else
 
 > The if else statement in JavaScript executes a block of code if a
 > specified condition is true and another block of code if the condition
@@ -2208,7 +2193,7 @@ Basic if else :
 > positive\'![](./images/image118.jpg){width="0.22916666666666666in"
 > height="0.2813331146106737in"}
 >
-> Nested if \... else :
+> Nested if \... else:
 >
 > javascript code let x 5; if (x \> O) { console .
 > log![](./images/image119.jpg){width="0.3645833333333333in"
@@ -2226,7 +2211,7 @@ Basic if else :
 >
 > ) else f console . log ( is zeroi ) ;
 
-#### JS Switch {#js-switch .unnumbered}
+#### JS Switch
 
 > The switch statement in JavaScript executes different actions based on
 > different conditions
@@ -2246,14 +2231,14 @@ Basic if else :
 >
 > console . log ( Other day\' ) ;
 
-##### JS Loop For {#js-loop-for .unnumbered}
+##### JS Loop For
 
 > The for loop in JavaScript repeatedly executes a block of code until a
 > specified condition evaluates to false
 > ![](./images/image127.jpg){width="4.1666666666666664e-2in"
 > height="4.167869641294838e-2in"}
 
-Examples ofJS Loop For :
+Examples of JS Loop For :
 
 Basic for Loop :
 
@@ -2264,7 +2249,7 @@ Basic for Loop :
 > javascript code let arr \'applet, banana\', \'orange\' \] ; for ( let
 > i O; i \< arr . length; i ++) { console . log ( arr \[ i \]) ;
 
-##### JS Loop For In {#js-loop-for-in-1 .unnumbered}
+##### JS Loop For In
 
 > The for \... in loop in JavaScript iterates over the enumerable
 > properties of an object .
@@ -2279,7 +2264,7 @@ IAIiceI, age 30, gender : female\'
 > for ( let prop in person ) { console . log ( prop + person \[ prop l)
 > ;
 
-##### JS Loop For Of {#js-loop-for-of .unnumbered}
+##### JS Loop For Of
 
 > The for of loop in JavaScript iterates over iterable objects such as
 > arrays, strings, etc
@@ -2293,7 +2278,7 @@ IAIiceI, age 30, gender : female\'
 > height="0.2813331146106737in"}for ( let num of numbers ) f console .
 > log ( num ) ;
 
-##### JS Loop While {#js-loop-while .unnumbered}
+##### JS Loop While
 
 > The while loop in JavaScript executes a block of code while a
 > specified condition is true
@@ -2311,7 +2296,7 @@ Basic while Loop :
 > ![](./images/image133.jpg){width="1.3020833333333333in"
 > height="0.21881452318460193in"}
 
-##### JS Break {#js-break .unnumbered}
+##### JS Break
 
 > The break statement in JavaScript terminates the current loop or
 > switch statement
@@ -2330,7 +2315,7 @@ Basic while Loop :
 >
 > console . log ( i ) ;
 
-### JS Iterables {#js-iterables .unnumbered}
+### JS Iterables
 
 > Iterables in JavaScript are objects that can be iterated over using
 > loops ![](./images/image112.jpg){width="4.1666666666666664e-2in"
@@ -2344,7 +2329,7 @@ Basic while Loop :
 >
 > for ( let value of iterable ) { console . log ( value ) ;
 
-#### JS Sets {#js-sets .unnumbered}
+#### JS Sets
 
 > Sets in JavaScript are collections of unique values
 > ![](./images/image127.jpg){width="4.1666666666666664e-2in"
@@ -2364,7 +2349,7 @@ Basic while Loop :
 > ![](./images/image140.jpg){width="8.333333333333333e-2in"
 > height="0.26049431321084865in"}console log ( item ) ;
 
-##### JS Maps {#js-maps .unnumbered}
+##### JS Maps
 
 > Maps in JavaScript are collections of key - value pairs where keys can
 > be any type .
@@ -2381,7 +2366,7 @@ Examples ofJS Maps :
 > javascript code for ( let \[ key, value I of myMap ) { console . log (
 > key \_ • value ) ;
 
-##### JS Typeof {#js-typeof .unnumbered}
+##### JS Typeof
 
 > The typeof operator in JavaScript returns the data type of its operand
 > . Examples ofJS Typeof :
@@ -2392,7 +2377,7 @@ Examples ofJS Maps :
 > console . log ( typeof\'Hello\' ) ; // Output : \'string\' console .
 > log ( typeoftrue ) ; // Output : boolean\'
 
-###### JS Type Conversion {#js-type-conversion .unnumbered}
+###### JS Type Conversion
 
 > Type conversion in JavaScript involves converting values from one data
 > type to another . Examples ofJS Type Conversion :
@@ -2410,7 +2395,7 @@ Examples ofJS Maps :
 > toString![](./images/image145.jpg){width="0.3229166666666667in"
 > height="0.270913167104112in"}
 
-###### JS Bitwise {#js-bitwise .unnumbered}
+###### JS Bitwise
 
 > Bitwise operators in JavaScript perform operations on the binary
 > representations of numeric values .
@@ -2425,7 +2410,7 @@ Bitwise OR Operator ![](./images/image146.jpg){width="6.25e-2in"
 height="0.15629702537182852in"}javascript code let result 5 1 3; //
 Output: 7
 
-####### JS RegExp {#js-regexp .unnumbered}
+####### JS RegExp
 
 > Regular expressions in JavaScript are used for pattern matching within
 > strings . Examples ofJS RegExp :
@@ -2443,19 +2428,19 @@ Output: 7
 >
 > console . log ( pattern . test ( str )) ; // Output : true
 
-###### JS Precedence {#js-precedence .unnumbered}
+###### JS Precedence
 
 > Operator precedence in JavaScript determines the order of operations
 > in an expression .
 
-Examples ofJS Precedence :
+Examples of JS Precedence :
 
 > Arithmetic Precedence :
 >
 > java script code let result 5 3\* 2; // Output: 11 ( Multiplication
 > has higher precedence )
 
-##### JS Errors {#js-errors .unnumbered}
+##### JS Errors
 
 > Errors in JavaScript can be generated when an incorrect code is
 > encountered during execution .
@@ -2475,7 +2460,7 @@ Examples ofJS Errors :
 > This will throw a reference error as undefinedVariable is not defined
 > .
 
-###### JS Scope {#js-scope-1 .unnumbered}
+###### JS Scope
 
 > Scope in JavaScript defines the visibility and accessibility of
 > variables . Examples ofJS Scope :
@@ -2489,7 +2474,7 @@ Examples ofJS Errors :
 >
 > console . log ( globalVar ) ; // Accessible outside function
 
-### JS Hoisting {#js-hoisting .unnumbered}
+### JS Hoisting
 
 > Hoisting in JavaScript allows variables and functions to be used
 > before they are declared Examples ofJS Hoisting :
@@ -2503,7 +2488,7 @@ javascript code sayHellc ; // Outputs : \'Hello\' function sayHello
 ![](./images/image149.jpg){width="0.4166666666666667in"
 height="0.2604932195975503in"}console . log ( \'Hello\' ) ;
 
-## JS Strict Mode {#js-strict-mode .unnumbered}
+## JS Strict Mode
 
 > Strict mode in JavaScript enforces stricter rules and better error
 > handling . Examples ofJS Strict Mode :
@@ -2520,7 +2505,7 @@ height="0.2604932195975503in"}console . log ( \'Hello\' ) ;
 >
 > // Strict mode only applies inside this function
 
-### JS this Keyword {#js-this-keyword .unnumbered}
+### JS this Keyword
 
 > The this keyword in JavaScript refers to the object it belongs to .
 > Examples ofJS this Keyword :
@@ -2535,7 +2520,7 @@ height="0.2604932195975503in"}console . log ( \'Hello\' ) ;
 >
 > person . greet ; // Outputs : \'Hello, my name is Alice\'
 
-### JS Arrow Function {#js-arrow-function-1 .unnumbered}
+### JS Arrow Function
 
 Arrow functions in JavaScript provide a concise syntax for writing
 functions .
@@ -2553,7 +2538,7 @@ Arrow Function :
 > ![](./images/image153.jpg){width="0.375in"
 > height="0.2604932195975503in"}
 
-#### JS Classes {#js-classes .unnumbered}
+#### JS Classes
 
 > Classes in JavaScript provide a way to create objects using a
 > blueprint .
@@ -2572,7 +2557,7 @@ Examples ofJS Classes :
 > height="0.2604932195975503in"}alice . greet ; // Outputs : \'Hello, my
 > name is Alice\'
 
-#### JS Modules {#js-modules .unnumbered}
+#### JS Modules
 
 > Modules in JavaScript allow splitting code into separate files or
 > modules for better organization
@@ -2590,7 +2575,7 @@ Examples ofJS Classes :
 > java script code // Main . js import \[ greet } from ./ Module . js\';
 > greet ( \'Alice\' ) ; // Outputs : \'Hello, Alice ! I
 
-##### JS JSON {#js-json-2 .unnumbered}
+##### JS JSON
 
 > JSON ( JavaScript Object Notation ) is a lightweight data interchange
 > format .
@@ -2608,7 +2593,7 @@ javascript code let jsonStr = name Alice j age u: 30)^i^; let obj = JSON
 > javascript code let obj {name : Alice\', age: 30 l; let jsonString =
 > JSON . stringify (obj ) ;
 
-#### JS Debugging {#js-debugging .unnumbered}
+#### JS Debugging
 
 > Debugging in JavaScript involves identifying and fixing errors or
 > issues in the code . Examples ofJS Debugging :
@@ -2621,7 +2606,7 @@ javascript code let x 5; console . log ( x ) ;
 >
 > Inspect elements, view console logs, set breakpoints, etc .
 
-#### JS Style Guide {#js-style-guide .unnumbered}
+#### JS Style Guide
 
 > A JavaScript style guide defines a set of rules and conventions for
 > writing clean and maintainable code . Examples ofJS Style Guide :
@@ -2634,7 +2619,7 @@ javascript code let x 5; console . log ( x ) ;
 >
 > Use consistent spaces or tabs for indentation .
 
-#### JS Best Practices {#js-best-practices .unnumbered}
+#### JS Best Practices
 
 > Best practices in JavaScript ensure code quality, readability, and
 > maintainability . Examples ofJS Best Practices :
@@ -2648,7 +2633,7 @@ javascript code let x 5; console . log ( x ) ;
 >
 > Encapsulate code to avoid polluting the global scope .
 
-#### JS Mistakes {#js-mistakes .unnumbered}
+#### JS Mistakes
 
 > Common mistakes in JavaScript and how to avoid thern .
 >
@@ -2666,7 +2651,7 @@ javascript code let x 5; console . log ( x ) ;
 
 javascript code let y; console . log ( y) ; // Outputs : undefined
 
-#### JS Performance {#js-performance .unnumbered}
+#### JS Performance
 
 > Improving performance in JavaScript involves optimizing code for speed
 > and emciency . Examples ofJS Performance :
@@ -2681,7 +2666,7 @@ javascript code let y; console . log ( y) ; // Outputs : undefined
 >
 > Choose algorithms that have better time complexity for operations .
 
-##### JS Reserved Words {#js-reserved-words .unnumbered}
+##### JS Reserved Words
 
 > Reserved words in JavaScript have special meanings and cannot be used
 > as identifiers ( variable or function
@@ -2731,7 +2716,7 @@ Object Definitions :
 > javascript code car . color \'blue\'; // Adding property \'color\' car
 > . model \'Corolla\'; // Modifying property \'model\'
 
-##### Object Methods {#object-methods .unnumbered}
+##### Object Methods
 
 > Methods in JavaScript objects are functions that define behavior .
 > Object Methods Examples :
@@ -2747,7 +2732,7 @@ Object Definitions :
 >
 > car . start = function return \'Car started\'; l;
 
-###### Object Display {#object-display .unnumbered}
+###### Object Display
 
 > Displaying objects in JavaScript can be done using various methods .
 > Object Display Examples :
@@ -2761,7 +2746,7 @@ Object Definitions :
 > javascript code let carString JSON . stringify ( car ) ; console . log
 > ( carString ) ; // Output the string representation of the object
 
-#### Object Accessors {#object-accessors .unnumbered}
+#### Object Accessors
 
 > Accessors in JavaScript objects provide a way to get and set the
 > values of object properties . Object Accessors Examples :
@@ -2781,7 +2766,7 @@ console . log ( user. fullName ) ; // Output : John Doe\' user .
 fullName = \'Alice Smith\'; // Setting fiillName using setter console .
 log ( user. firstName ) ; // Output : \'Alice\'
 
-### Object Constructors {#object-constructors .unnumbered}
+### Object Constructors
 
 > Constructors in JavaScript are functions used for creating objects and
 > setting initial values
@@ -2801,7 +2786,7 @@ log ( user. firstName ) ; // Output : \'Alice\'
 > height="0.2813331146106737in"}console . log ( newPerson . greet ()) ;
 > // Output : \'Hello, my narne is Bob\'
 
-### Object Prototypes {#object-prototypes .unnumbered}
+### Object Prototypes
 
 > Prototypes in JavaScript are a mechanism to share properties and
 > methods between objects . Object Prototypes Examples :
@@ -2819,7 +2804,7 @@ log ( user. firstName ) ; // Output : \'Alice\'
 > console . log ( newPerson . info ()) ; // Output: \'Name : Bob, Age
 > 251
 
-#### Object Iterables {#object-iterables .unnumbered}
+#### Object Iterables
 
 > Iterables in JavaScript are objects that can be iterated using loops .
 
@@ -2836,7 +2821,7 @@ Object Iterables Examples :
 > java script code let keys = Object . keys ( person ) ; // Get an array
 > of object keys
 
-##### Object Sets {#object-sets .unnumbered}
+##### Object Sets
 
 > Sets in JavaScript are collections of unique values .
 
@@ -2856,7 +2841,7 @@ Object Sets Examples :
 >
 > javascript code console . log ( mySet . has ( 2 )) ; // Output : true
 
-##### Object Maps {#object-maps .unnumbered}
+##### Object Maps
 
 > Maps in JavaScript are collections of key - value pairs where keys can
 > be any type .
@@ -2871,7 +2856,7 @@ Object Maps Examples :
 > javascript code console . log ( myMap . get ( \'key Il )) ; // Output
 > : \'value?
 
-##### Object Reference {#object-reference .unnumbered}
+##### Object Reference
 
 > In JavaScript, objects are stored and passed by reference . Object
 > Reference Examples :
@@ -2893,7 +2878,7 @@ javascript code object2 name = \'Alice\'; console . log ( objectl . name
 > constructorsj prototypes, iterables, sets; maps, and object
 > references, with examples and explanations for each concept .
 
-#### JS Functions {#js-functions-1 .unnumbered}
+#### JS Functions
 
 > Functions in JavaScript are reusable blocks of code that perform a
 > specific task when
@@ -2918,7 +2903,7 @@ height="0.1146172353455818in"}
 >
 > return \'Hello ! \';
 
-#### Function Parameters {#function-parameters .unnumbered}
+#### Function Parameters
 
 > Function parameters are placeholders for values that a function will
 > receive when it\'s called
@@ -2936,7 +2921,7 @@ height="0.1146172353455818in"}
 > return![](./images/image181.jpg){width="0.7916666666666666in"
 > height="0.16671587926509188in"}
 
-#### Function Invocation {#function-invocation .unnumbered}
+#### Function Invocation
 
 > Function invocation means calling a function to execute its code .
 > Function Invocation Examples :
@@ -2946,7 +2931,7 @@ height="0.1146172353455818in"}
 > javascript code greet O ; // Function call let result sum ( 5, 3 ) ;
 > // Function call with arguments
 
-##### Function Call {#function-call .unnumbered}
+##### Function Call
 
 > The call () method in JavaScript allows a function to be called with a
 > specified this value and arguments provided individually .
@@ -2963,7 +2948,7 @@ Function Call Examples :
 > ![](./images/image184.jpg){width="0.15625in"
 > height="0.270913167104112in"}let message greet . call ( person) ;
 
-##### Function Apply {#function-apply .unnumbered}
+##### Function Apply
 
 > The apply () method in JavaScript allows a function to be called with
 > a specified this value and arguments provided as an
@@ -2985,7 +2970,7 @@ Function Apply Examples :
 > height="0.2813331146106737in"}let args = \[l ; let message = greet .
 > apply ( person, args ) ;
 
-##### Function Bind {#function-bind .unnumbered}
+##### Function Bind
 
 > The bind () method in JavaScript creates a new function that, when
 > called, has its this keyword set to a specified value . Function Bind
@@ -3002,7 +2987,7 @@ Function Apply Examples :
 > height="0.2813331146106737in"}let newGreet greet . bind (person ) ;
 > let message = newGreet () ;
 
-##### Function Closures {#function-closures .unnumbered}
+##### Function Closures
 
 > Closures in JavaScript are functions that retain access to variables
 > in the scope where they were defined , Function Closures Examples :
@@ -3027,7 +3012,7 @@ Function Apply Examples :
 > ![](./images/image191.jpg){width="4.1666666666666664e-2in"
 > height="4.167869641294838e-2in"}
 
-###### JS Classes {#js-classes-1 .unnumbered}
+###### JS Classes
 
 > Classes in JavaScript provide a way to create objects using a
 > blueprint Class Intro : Class Declaration :
@@ -3044,7 +3029,7 @@ Function Apply Examples :
 > \'Buddy\', 3 ) ; console . log ( dog . sound ; // Output : \'Animal
 > soundl
 
-## Class Inheritance {#class-inheritance .unnumbered}
+## Class Inheritance
 
 > Inheritance in JavaScript classes allows a subclass to inherit
 > properties and methods from a superclass .
@@ -3067,7 +3052,7 @@ console . log ( puppy. sound ; // Output \'Woof !
 ![](./images/image194.jpg){width="4.1666666666666664e-2in"
 height="9.377734033245844e-2in"}
 
-### Class Static {#class-static .unnumbered}
+### Class Static
 
 > Static methods in JavaScript classes are called on the class itself
 > rather than on instances of the class .
@@ -3082,7 +3067,7 @@ height="9.377734033245844e-2in"}
 > ![](./images/image195.jpg){width="0.21875in"
 > height="0.2813331146106737in"}console . log ( result) ; // Output: 8
 
-### JS Async {#js-async-1 .unnumbered}
+### JS Async
 
 > Asynchronous programming in JavaScript involves handling operations
 > that don\'t execute immediately .
@@ -3108,7 +3093,7 @@ JS Callbacks
 > fetchData ( processData ) ; // Output after 2 seconds \'Data received
 > : Some data\'
 
-#### JS Asynchronous {#js-asynchronous-1 .unnumbered}
+#### JS Asynchronous
 
 > Asynchronous operations in JavaScript allow non - blocking execution
 > of code
@@ -3127,7 +3112,7 @@ JS Callbacks
 >
 > console . log ( \'Inside setTimeout\' ) ;
 
-##### ![](./images/image201.jpg){width="0.16666666666666666in" height="0.2813331146106737in"}2000 ) ; {#section .unnumbered}
+![](./images/image201.jpg){width="0.16666666666666666in" height="0.2813331146106737in"}2000 ) ; 
 
 > console . log ( \'End\' ) ;
 >
@@ -3156,7 +3141,7 @@ Promises Example :
 > height="0.2604932195975503in"}console . log ( result) ; // Output
 > after 2 seconds : \'Promise resolved\'
 
-#### JS Async / Await {#js-async-await .unnumbered}
+#### JS Async / Await
 
 > Async / await in JavaScript provides a more synchronous way to write
 > asynchronous code using promises .
@@ -3182,7 +3167,7 @@ log ( data ) ; // Output after 2 seconds : Data fetched\'
 > operations, promises, and async / await, with examples and
 > explanations for each concept .
 
-##### JS HTML DOM {#js-html-dom .unnumbered}
+##### JS HTML DOM
 
 > JavaScript interacts with HTML documents through the Document Object
 > Model ( DOM ) , representing the document as a tree structure .
@@ -3211,7 +3196,7 @@ DOM Intro :
 > ![](./images/image211.jpg){width="0.11458333333333333in"
 > height="0.1250371828521435in"} / html\>
 
-###### DOM Methods {#dom-methods .unnumbered}
+###### DOM Methods
 
 > DOM methods provide various ways to manipulate HTML elements
 > ![](./images/image212.jpg){width="4.1666666666666664e-2in"
@@ -3238,7 +3223,7 @@ DOM Intro :
 >
 > \< / html\>
 
-####### DOM Document {#dom-document-1 .unnumbered}
+####### DOM Document
 
 > The document object represents the entire HTML document .
 >
@@ -3265,7 +3250,7 @@ DOM Intro :
 >
 > \< / bodY\> html\>
 
-###### DOM Elements {#dom-elements .unnumbered}
+###### DOM Elements
 
 > Elements in the DOM represent HTML tags .
 >
@@ -3295,7 +3280,7 @@ DOM Intro :
 > ![](./images/image225.jpg){width="0.11458333333333333in"
 > height="0.1250371828521435in"} / html\>
 
-###### DOM HTML {#dom-html-1 .unnumbered}
+###### DOM HTML
 
 > The DOM HTML includes properties that deal with the HTML content .
 >
@@ -3324,7 +3309,7 @@ DOM Intro :
 > ![](./images/image229.jpg){width="0.11458333333333333in"
 > height="0.1250371828521435in"} / html\>
 
-####### ![](./images/image230.jpg){width="0.11458333333333333in" height="0.1250371828521435in"}![](./images/image231.jpg){width="2.0833333333333332e-2in" height="9.377843394575679e-2in"}![](./images/image232.jpg){width="2.0833333333333332e-2in" height="8.335739282589676e-2in"}DOM Forms {#dom-forms .unnumbered}
+![](./images/image230.jpg){width="0.11458333333333333in" height="0.1250371828521435in"}![](./images/image231.jpg){width="2.0833333333333332e-2in" height="9.377843394575679e-2in"}![](./images/image232.jpg){width="2.0833333333333332e-2in" height="8.335739282589676e-2in"}DOM Forms
 
 The DOM allows rnanipulation of HTML forms .
 
@@ -3356,7 +3341,7 @@ height="11.805555555555555in"}
 >
 > \< / html\>
 
-####### DOM CSS {#dom-css-1 .unnumbered}
+####### DOM CSS
 
 > The DOM CSS allows manipulation of CSS styles .
 >
@@ -3387,7 +3372,7 @@ html code
 ![](./images/image241.jpg){width="8.48611111111111in"
 height="11.805555555555555in"}
 
-######## DOM Animations {#dom-animations-1 .unnumbered}
+######## DOM Animations
 
 > The DOM supports creating simple
 > animations![](./images/image242.jpg){width="6.25e-2in"
@@ -3440,7 +3425,7 @@ html code
 > addEventListener ( \' click , function f alert (i\' Button clicked \")
 > ;
 
-######### D; {#d .unnumbered}
+######### D;
 
 > ![](./images/image247.jpg){width="0.11458333333333333in"
 > height="0.12503608923884516in"} / script\>
@@ -3475,7 +3460,7 @@ html code
 >
 > \< / html\>
 
-######## DOM Navigation {#dom-navigation .unnumbered}
+######## DOM Navigation
 
 > The DOM allows navigation between elements Traversing Child Elements :
 
@@ -3503,7 +3488,7 @@ html code
 >
 > \< / html\>
 
-######### DOM Nodes {#dom-nodes-1 .unnumbered}
+######### DOM Nodes
 
 > Nodes are the fundamental building blocks in the DOM .
 >
@@ -3533,7 +3518,7 @@ height="11.805555555555555in"}
 >
 > \< / html\>
 
-######### DOM Collections {#dom-collections .unnumbered}
+######### DOM Collections
 
 > Collections in the DOM are arrays of HTML elements .
 >
@@ -3599,14 +3584,14 @@ html code
 > animations, events, event listeners, navigation, nodes, collections,
 > and node lists, with examples and explanations for each topic .
 
-##### JS Browser BOM {#js-browser-bom .unnumbered}
+##### JS Browser BOM
 
 > The Browser Object Model ( BOM ) in JavaScript represents the browser
 > window and its
 > components![](./images/image262.jpg){width="5.2083333333333336e-2in"
 > height="4.167869641294838e-2in"}
 
-###### JS Window {#js-window .unnumbered}
+###### JS Window
 
 > The window object is the global object in a browser\'s JavaScript
 > environment .
@@ -3617,7 +3602,7 @@ html code
 > Inner height of the window console . log ( window . innerWidth ) ; //
 > Output : Inner width of the window
 
-###### JS Screen {#js-screen .unnumbered}
+###### JS Screen
 
 > The screen object represents the screen of a device .
 >
@@ -3627,7 +3612,7 @@ html code
 > width in pixels console . log ( screen . height ) ; // Output : Screen
 > height in pixels
 
-###### JS Location {#js-location .unnumbered}
+###### JS Location
 
 > The location object contains information about the current URL .
 >
@@ -3637,7 +3622,7 @@ html code
 > URL ofthe current page console . log ( location hostname ) ; // Output
 > Hostname of the current URL
 
-###### JS History {#js-history .unnumbered}
+###### JS History
 
 > The history object contains the browsing history of the window .
 >
@@ -3646,7 +3631,7 @@ html code
 > javascript code history. back () ; // Go back to the previous page
 > history. forward () ; // Go forward to the next page
 
-####### JS Navigator {#js-navigator .unnumbered}
+####### JS Navigator
 
 > The navigator object contains information about the browser .
 >
@@ -3656,7 +3641,7 @@ html code
 > User - Agent header of the browser console . log ( navigator .
 > platform ) ; // Output : Platform of the browser
 
-####### JS Popup Alert {#js-popup-alert .unnumbered}
+####### JS Popup Alert
 
 > Popup alerts in JavaScript display messages to users .
 >
@@ -3666,7 +3651,7 @@ html code
 > message![](./images/image263.jpg){width="0.3229166666666667in"
 > height="0.2813331146106737in"}
 
-###### JS Timing {#js-timing .unnumbered}
+###### JS Timing
 
 > JavaScript\'s timing functions allow scheduling of code execution .
 >
@@ -3689,7 +3674,7 @@ html code
 > ![](./images/image269.jpg){width="0.16666666666666666in"
 > height="0.2813331146106737in"}3000 ) ; // Execute every 3 seconds
 
-####### JS Cookies {#js-cookies .unnumbered}
+####### JS Cookies
 
 > Cookies in JavaScript store small pieces of information on the
 > client\'s machine .
@@ -3713,14 +3698,14 @@ explanations for each concept
 ![](./images/image191.jpg){width="4.1666666666666664e-2in"
 height="4.167869641294838e-2in"}
 
-###### JS Web APIs {#js-web-apis-1 .unnumbered}
+###### JS Web APIs
 
 > Web APIs are sets of tools and interfaces provided by web browsers to
 > interact with various functionalities of the browser or device
 > ![](./images/image116.jpg){width="4.1666666666666664e-2in"
 > height="4.167869641294838e-2in"}
 
-####### Web API Intro {#web-api-intro .unnumbered}
+####### Web API Intro
 
 > Web APIs enable web developers to access various browser features and
 > functionalities .
@@ -3736,7 +3721,7 @@ height="4.167869641294838e-2in"}
 > coords latitude ) ; console . log (\'i Longitude : , position . coords
 > longitude ) ;
 
-######## D; {#d-1 .unnumbered}
+######## D;
 
 Web Forms API
 
@@ -3750,7 +3735,7 @@ Web Forms API
 > height="0.18755468066491687in"}letinputFie1d = form . elements \[i\'
 > username ; console . log ( inputField value ) ;
 
-####### Web History API {#web-history-api .unnumbered}
+####### Web History API
 
 > The Web History API allows manipulation ofthe browser\'s history .
 >
@@ -3759,7 +3744,7 @@ Web Forms API
 > javascript code window . history. pushState ( { page 1 Title , ?page =
 > 1 I) ;
 
-######## Web Storage API {#web-storage-api .unnumbered}
+######## Web Storage API
 
 > The Web Storage API provides methods to store data in the browser .
 >
@@ -3793,7 +3778,7 @@ web Worker API
 >
 > worker . postMessage (\'i Message from main \") j
 
-######## web Fetch API {#web-fetch-api .unnumbered}
+######## web Fetch API
 
 > The Fetch API provides a way to make HTTP requests .
 >
@@ -3807,7 +3792,7 @@ web Worker API
 >
 > . catch error ) \-- \> console . log (t\' Error , error )) ;
 
-######## Web Geolocation API {#web-geolocation-api .unnumbered}
+######## Web Geolocation API
 
 > The Geolocation API retrieves geographical information about the
 > user\'s device .
@@ -3832,7 +3817,7 @@ JS AJAX
 > server![](./images/image278.jpg){width="4.1666666666666664e-2in"
 > height="4.167869641294838e-2in"}
 
-######### AJAX Intro {#ajax-intro-1 .unnumbered}
+######### AJAX Intro
 
 > AJAX allows web pages to update content without reloading the entire
 > page .
@@ -3904,7 +3889,7 @@ AJAX Request
 >
 > xhttp . open GET \" data json ^i^ \' , true ) ; xhttp . send () ;
 
-######### AJAX XML File {#ajax-xml-file .unnumbered}
+######### AJAX XML File
 
 > AJAX can be used to fetch and handle XML files .
 >
@@ -3922,7 +3907,7 @@ AJAX Request
 >
 > xhttp . open GET \" data . xml \" , true ) ; xhttp . send () ;
 
-######### AJAX PHP {#ajax-php .unnumbered}
+######### AJAX PHP
 
 > AJAX can interact with server - side technologies like PHP to exchange
 > data ![](./images/image292.jpg){width="4.1666666666666664e-2in"
@@ -3971,7 +3956,7 @@ AJAX Request
 >
 > Response . Write (i\' Hello from ASP ! ii )
 
-######### AJAX Database {#ajax-database .unnumbered}
+######### AJAX Database
 
 > AJAX can be used to interact with databases on the server .
 >
@@ -3996,7 +3981,7 @@ AJAX Request
 >
 > // Fetch data from database and return as JSON
 
-######### AJAX Applications {#ajax-applications .unnumbered}
+######### AJAX Applications
 
 > AJAX enables building interactive web applications with real - time
 > data .
@@ -4007,7 +3992,7 @@ AJAX Request
 >
 > // Fetch new messages and update chat interface l, 5000 ) ;
 
-######### AJAX Examples {#ajax-examples .unnumbered}
+######### AJAX Examples
 
 > Here are more examples demonstrating various AJAX functionalities .
 >
@@ -4475,7 +4460,7 @@ height="11.805555555555555in"}
 >
 > \< !\-- Initially loaded content \-- \>
 
-######## \< / dip {#dip .unnumbered}
+######## \< / dip
 
 > ![](./images/image380.jpg){width="0.11458333333333333in"
 > height="0.1250371828521435in"} / bodY\>
@@ -4571,7 +4556,7 @@ html code
 
 \<div id progressBar / diV\>
 
-######## ![](./images/image388.jpg){width="0.11458333333333333in" height="0.12503608923884516in"} / dip {#dip-1 .unnumbered}
+![](./images/image388.jpg){width="0.11458333333333333in" height="0.12503608923884516in"} / dip
 
 > ![](./images/image340.jpg){width="0.11458333333333333in"
 > height="0.1250371828521435in"} / bodY\>
@@ -4664,14 +4649,14 @@ getTime . php ( Server - side Script to Get Current Time ):
 > interactions between the client and server without page reloads,
 > enhancing user experience and providing dynamic content updates .
 
-####### JS JSON {#js-json-3 .unnumbered}
+####### JS JSON
 
 > JSON ( JavaScript Object Notation ) is a lightweight data interchange
 > format that is easy for humans to read and write and easy for machines
 > to parse and generate . It is commonly used to transmit data between a
 > server and a web application .
 
-######## JSON Intro {#json-intro .unnumbered}
+######## JSON Intro
 
 > JSON serves as a language - independent data format derived from
 > JavaScript object literals It\'s widely used for data exchange between
@@ -4705,7 +4690,7 @@ getTime . php ( Server - side Script to Get Current Time ):
 > l, ![](./images/image411.jpg){width="8.333333333333333e-2in"
 > height="0.10419728783902012in"}hobbies reading coding , traveling \"l
 
-######## JSON Syntax {#json-syntax .unnumbered}
+######## JSON Syntax
 
 > JSON syntax is derived from JavaScript object notation, consisting of
 > key - value pairs enclosed in curly braces O , and values can be
@@ -4734,7 +4719,7 @@ getTime . php ( Server - side Script to Get Current Time ):
 height="0.10419728783902012in"}key6 \": \'i arrayVa1ue1 arrayVälue2
 ^t^\' \]
 
-######### JSON vs XML {#json-vs-xml-1 .unnumbered}
+######### JSON vs XML
 
 > JSON and XML are both used for data interchange, but JSON is generally
 > more lightweight and easier to read and parse than XML .
@@ -4810,7 +4795,7 @@ JSON Parse
 > = JSON . parse ( jsonString ) ; console . log ( jsonObj . name); //
 > Output : Alice
 
-######## JSON Stringify {#json-stringify .unnumbered}
+######## JSON Stringify
 
 JSON . stringify () is a method in JavaScript used to convert a
 JavaScript object into a JSON string .
@@ -4823,7 +4808,7 @@ JavaScript object into a JSON string .
 > ) ; console . log (jsonString ) ; // Output : { \'^i^ name Bob , age
 > 30)
 
-######### JSON Objects {#json-objects .unnumbered}
+######### JSON Objects
 
 > JSON objects contain key - value pairs enclosed in curly braces f} .
 > Keys must be strings, and values can be of any JSON data type .
@@ -4853,7 +4838,7 @@ JSON Arrays
 > orange![](./images/image434.jpg){width="0.14583333333333334in"
 > height="0.2604932195975503in"}
 
-######### JSON Server {#json-server .unnumbered}
+######### JSON Server
 
 > JSON is commonly used to transfer data between a server and a web
 > client in web development . Servers often provide data in JSON format
@@ -5235,7 +5220,7 @@ height="0.2604932195975503in"}itemld 0: 3,
 > including creating, manipulating; parsingj and working with JSON data
 > in various scenarios .
 
-### JavaScript vs jQuery : A Comprehensive Comparison {#javascript-vs-jquery-a-comprehensive-comparison .unnumbered}
+### JavaScript vs jQuery : A Comprehensive Comparison
 
 > JavaScript and jQuery are both powerful tools used in web development
 > JavaScript is a programming language, while jQuery is a library built
@@ -5263,7 +5248,7 @@ JavaScript Overview
 > Document Object Model ( DOM ) and manipulate HTML elements, enabling
 > developers to create dynamic web applications .
 
-#### jQuery Overview {#jquery-overview .unnumbered}
+#### jQuery Overview
 
 > jQueryj on the other hand, is a fast, lightweight JavaScript library
 > designed to simplify the process of client - side scripting and DOM
@@ -5321,7 +5306,7 @@ JavaScript Overview
         learning curve due to its concise syntax and abstraction of
         complex JavaScript operations .
 
-#### jQuery Selectors {#jquery-selectors .unnumbered}
+#### jQuery Selectors
 
 > jQuery provides powerful selectors that allow developers to effciently
 > target and manipulate HTML elements
@@ -5369,7 +5354,7 @@ height="0.2604932195975503in"}
 > With jQuery\'s methods like append, html text and remove , developers
 > can effciently modify HTML content on the fly .
 
-#### jQuery CSS Manipulation {#jquery-css-manipulation .unnumbered}
+#### jQuery CSS Manipulation
 
 > jQuery facilitates CSS maniptilation, allowing changes to element
 > styles dynamically .
@@ -5394,7 +5379,7 @@ height="0.2604932195975503in"}
 > jQueryls css , addClass , removeClass and toggleClass methods simplify
 > applying, removing, and toggling CSS styles .
 
-#### jQuery DOM Traversal {#jquery-dom-traversal .unnumbered}
+#### jQuery DOM Traversal
 
 > jQuery simplifies DOM traversal, enabling easy navigation between
 > elements and their relationships within the
@@ -5419,7 +5404,7 @@ Using methods like next, prev. find, closest and siblings jQuery
 provides effcient ways to navigate and manipulate elements within the
 DOM .
 
-#### Conclusion {#conclusion-1 .unnumbered}
+#### Conclusion
 
 > JavaScript and jQuery each have their strengths and use cases in web
 > development . JavaScript is the foundation language that provides
@@ -5919,7 +5904,7 @@ height="11.805555555555555in"}
 >
 > constoptions = \[ title : \'My Daily Activities\', pieHole : O 4,
 
-#### l; {#l .unnumbered}
+#### l;
 
 > const chart new google . visualization . PieChart ( document .
 > getElementById ( \'donutchartl )) ; chart . draw ( data, options ) ;
@@ -6038,7 +6023,7 @@ height="11.805555555555555in"}
 >
 > borderWidth • 1
 
-##### D; {#d-2 .unnumbered}
+##### D;
 
 6.  Line Chart ![](./images/image616.jpg){width="6.25e-2in"
     height="5.209864391951006e-2in"}javascript code const ctx - document
@@ -6157,7 +6142,7 @@ height="0.270913167104112in"}
 > ![](./images/image627.jpg){width="8.333333333333333e-2in"
 > height="0.270913167104112in"}
 
-###### . attr ( 10 ![](./images/image628.jpg){width="8.333333333333333e-2in" height="0.270913167104112in"}. attr ( 10 ![](./images/image629.jpg){width="8.333333333333333e-2in" height="0.2500732720909886in"} {#attr-10-.-attr-10 .unnumbered}
+. attr ( 10 ![](./images/image628.jpg){width="8.333333333333333e-2in" height="0.270913167104112in"}. attr ( 10 ![](./images/image629.jpg){width="8.333333333333333e-2in" height="0.2500732720909886in"}
 
 > . attr ( •width\', 80 )
 >
@@ -6487,7 +6472,7 @@ let area = calculateCircleArea ( 5 ) ; // Output .• . 54
 > \'invalidJSON\'![](./images/image674.jpg){width="0.23958333333333334in"
 > height="0.2813331146106737in"}
 
-####### } catch ( error ) { {#catch-error .unnumbered}
+####### } catch ( error )
 
 console . error ( \'Error occurred : error. message
 
@@ -6571,7 +6556,7 @@ height="11.805555555555555in"}
 > javascript code function outerFunction ( outerValue ) { return
 > function ( innerValue ) { returnouterValue -v innerVa1ue;
 
-#### l; {#l-1 .unnumbered}
+#### l;
 
 > let addFive = outerFunction ( 5
 > ![](./images/image684.jpg){width="0.21875in"
@@ -6646,7 +6631,7 @@ height="11.805555555555555in"}
 > done\'![](./images/image693.jpg){width="0.22926071741032372in"
 > height="0.2813331146106737in"}
 
-##### ![](./images/image694.jpg){width="0.14589238845144356in" height="0.2813320209973753in"}1000 ) ; {#section-1 .unnumbered}
+![](./images/image694.jpg){width="0.14589238845144356in" height="0.2813320209973753in"}1000 ) ;
 
 > asyncFunction![](./images/image695.jpg){width="0.17715660542432196in"
 > height="0.2604932195975503in"}
@@ -6701,7 +6686,7 @@ height="11.805555555555555in"}
 > event ) { if( event . target . matches ( \'button\' )) f console log (
 > \'Button clicked ) ;
 
-## D; {#d-3 .unnumbered}
+## D;
 
 > ES6 + Features :
 
@@ -6806,7 +6791,7 @@ methods, async operations, DOM manipulation, and newer ES6 + features ,
 > height="0.270913167104112in"}setTimeout (() = \> { console . log (
 > value ) ; resolve () ;
 
-### ![](./images/image719.jpg){width="6.25e-2in" height="0.270913167104112in"}, 1000 ) ; {#section-3 .unnumbered}
+### ![](./images/image719.jpg){width="6.25e-2in" height="0.270913167104112in"}, 1000 ) ;
 
 > async function executeAsyncOperations
 > ![](./images/image720.jpg){width="0.4166666666666667in"
@@ -6866,7 +6851,7 @@ methods, async operations, DOM manipulation, and newer ES6 + features ,
 > height="0.270913167104112in"}value : \'Alice Smith\*, writable :
 > false, configurable : true
 
-## D; {#d-4 .unnumbered}
+## D;
 
 2.  Object . setPrototypeOf for Setting Prototype :
 
@@ -7003,7 +6988,7 @@ Biglnt data type .
 > const result = fn . apply ( this, args ) ; cache \[ key I = result;
 > return result;
 
-## l; {#l-2 .unnumbered}
+## l;
 
 > function factorial
 > ![](./images/image749.jpg){width="0.17708333333333334in"
@@ -7233,7 +7218,7 @@ Promise , finally method ,
 > )![](./images/image774.jpg){width="5.2083333333333336e-2in"
 > height="0.19797462817147857in"}
 
-### returna + b![](./images/image775.jpg){width="4.1666666666666664e-2in" height="4.167869641294838e-2in"} {#returna-b .unnumbered}
+### returna + b![](./images/image775.jpg){width="4.1666666666666664e-2in" height="4.167869641294838e-2in"}
 
 > const memoizedSum - memoize ( SUm ) ;
 
@@ -7635,7 +7620,7 @@ console . log ( memoizedSum ( 2, 3 )) ; console . log ( memoizedSum ( 2,
 > height="0.2813320209973753in"}console . log ( value ) ; // Output :
 > \'Secondl ( Resolved earlier )
 
-### D; {#d-5 .unnumbered}
+### D;
 
 8.  Async Function Using try \... catch for Error Handling .
 
@@ -8040,7 +8025,7 @@ name: \'Bob\' )
 > textContent}![](./images/image862.jpg){width="0.4166666666666667in"
 > height="0.2813331146106737in"}
 
-### D; {#d-6 .unnumbered}
+### D;
 
 > 6, Creating and Dispatching Custom Events :
 >
@@ -8142,7 +8127,7 @@ name: \'Bob\' )
 >
 > // Form is valid, proceed with submission form . submit () ;
 
-### D, {#d-7 .unnumbered}
+### D,
 
 > function validateEmai1 ( email ) {
 >
@@ -8167,7 +8152,7 @@ name: \'Bob\' )
 > height="0.2813331146106737in"}// Update UI based on range input value
 > changes
 
-### D; {#d-8 .unnumbered}
+### D;
 
 > 6, Input Masking for Phone Number Input :
 >
@@ -8180,7 +8165,7 @@ name: \'Bob\' )
 > (/ / g, ) ; value value . slice ( OJ 10 ) ; // Limit to 10 digits for
 > a phone number phonelnput . value value;
 
-### D; {#d-9 .unnumbered}
+### D;
 
 > These JavaScript snippets demonstrate input event handling, form
 > validation, real - time UI updates based on input changes, and
@@ -8298,7 +8283,7 @@ name: \'Bob\' )
 > blurred\'![](./images/image886.jpg){width="0.21875in"
 > height="0.270913167104112in"}
 
-### D; {#d-10 .unnumbered}
+### D;
 
 > Event Delegation and Bubbling :
 
@@ -8365,7 +8350,7 @@ console . log ( • Clicked on parent element • ) ;
 >
 > ) else { emailField . setCustomValidity ( ) ;
 
-### D; {#d-11 .unnumbered}
+### D;
 
 These JavaScript snippets showcase various event handling techniques,
 including keyboard events, focus and blur events, event delegation,
@@ -8463,7 +8448,7 @@ submission and input validation .
 > requestFullscreen![](./images/image907.jpg){width="0.3229166666666667in"
 > height="0.270913167104112in"}
 
-### D; {#d-12 .unnumbered}
+### D;
 
 > These JavaScript snippets showcase browser manipulation using the
 > Browser Object Model (BOM) exploring navigator and location objects,
