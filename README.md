@@ -3,7 +3,7 @@ title: "Learn JS"
 author: "bbauska"
 date prior editted: "8/31/2024 4+pm"
 date last editted: "9/3/2024 12+pm"
-date last editted: "9/3/2024 12+pm"
+date last editted: "9/8/2024 8+pm"
 output: 
   markdown:
     with some style
@@ -64,13 +64,20 @@ output:
 
 [JavaScript Variables]
 
-![](./images/image009.jpg){width="9.6875in"
-height="11.805555555555555in"}
+<p align="center">
+  <img src="./images/image009.jpg"
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:5in;" />
+<!-- ![](./images/image009.jpg){width="9.6875in" height="11.805555555555555in"} -->
 
 > [Examples of JavaScript Variables :]
->
-> ![](./images/image010.jpg){width="5.221176727909011in"
-> height="0.29175196850393703in"}
+<p align="center">
+  <img src="./images/image010.jpg"
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:5in;" />
+<!-- (./images/image010.jpg){width="5.221176727909011in" > height="0.29175196850393703in"} -->
 
 2.  [. String Variable :]
 
@@ -102,8 +109,12 @@ height="11.805555555555555in"}
 >
 > [Subtraction :]
 
-![](./images/image011.jpg){width="9.194444444444445in"
-height="11.805555555555555in"}
+<p align="center">
+  <img src="./images/image011.jpg"
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:5in;" />
+<!-- ![](./images/image011.jpg){width="9.194444444444445in" height="11.805555555555555in"} -->
 
 > [Multiplication :]
 >
@@ -138,46 +149,12 @@ height="11.805555555555555in"}
 > [Arrow Function :]
 >
 > Objects
-
-![](./images/image012.jpg){width="9.243055555555555in"
-height="11.805555555555555in"}
-
-> Objects :
->
-> [Obiect Declaration :]
->
-> [Accessing Object Properties :]
->
-> [Calling Obiect Method :]
-
-[JS Events]
-
-> [Examples of IS Events :]
->
-> [Click Event :]
->
-> [Input Event :]
-
-[JS Strings]
-
-> [Examples of IS Strings :]
->
-> [Declaring a String Variable :]
->
-> [Concatenating Strings :]
-
-[JS String Methods]
-
-> [Examples of IS String Methods :]
->
-> [toUpperCase () Method :]
->
-> [substring ( ) Method :]
->
-> String Search
-
-![](./images/image013.jpg){width="9.902777777777779in"
-height="11.805555555555555in"}
+<p align="center">
+  <img src="./images/image012.jpg"
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:5in;" />
+<!-- ![](./images/image012.jpg){width="9.243055555555555in"height="11.805555555555555in"} -->
 
 > Objects :
 >
@@ -215,6 +192,47 @@ height="11.805555555555555in"}
 
 ![](./images/image013.jpg){width="9.902777777777779in"
 height="11.805555555555555in"}
+
+> Objects :
+>
+> [Obiect Declaration :]
+>
+> [Accessing Object Properties :]
+>
+> [Calling Obiect Method :]
+
+[JS Events]
+
+> [Examples of IS Events :]
+>
+> [Click Event :]
+>
+> [Input Event :]
+
+[JS Strings]
+
+> [Examples of IS Strings :]
+>
+> [Declaring a String Variable :]
+>
+> [Concatenating Strings :]
+
+[JS String Methods]
+
+> [Examples of IS String Methods :]
+>
+> [toUpperCase () Method :]
+>
+> [substring ( ) Method :]
+>
+> String Search
+
+<p align="center">
+  <img src="./images/image013.jpg"
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:5in;" />
+<!-- ![](./images/image013.jpg){width="9.902777777777779in" height="11.805555555555555in"} -->
 
 > String Search :
 >
@@ -250,8 +268,12 @@ height="11.805555555555555in"}
 >
 > [Number Methods]
 
-![](./images/image014.jpg){width="9.430555555555555in"
-height="11.805555555555555in"}
+<p align="center">
+  <img src="./images/image014.jpg"
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:5in;" />
+<!-- ![](./images/image014.jpg){width="9.430555555555555in" height="11.805555555555555in"} -->
 
 > Number Methods :
 >
@@ -287,8 +309,12 @@ height="11.805555555555555in"}
 >
 > [splice ( ) Method :]
 
-![](./images/image015.jpg){width="9.527777777777779in"
-height="11.805555555555555in"}
+<p align="center">
+  <img src="./images/image015.jpg"
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:5in;" />
+<!-- ![](./images/image015.jpg){width="9.527777777777779in" height="11.805555555555555in"} -->
 
 [JS Array Sort]
 
@@ -323,9 +349,12 @@ height="11.805555555555555in"}
 > [Examples of IS Date Formats :]
 >
 > [Formatting to String :]
-
-![](./images/image016.jpg){width="9.993055555555555in"
-height="11.805555555555555in"}
+<p align="center">
+  <img src="./images/image016.jpg"
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:5in;" />
+<!-- ![](./images/image016.jpg){width="9.993055555555555in" height="11.805555555555555in"} -->
 
 > [Formatting to Locale String :]
 
@@ -360,9 +389,12 @@ height="11.805555555555555in"}
 > [Generating Random Number :]
 >
 > [Generating Random Integer :]
-
-![](./images/image017.jpg){width="9.784722222222221in"
-height="11.805555555555555in"}
+<p align="center">
+  <img src="./images/image017.jpg"
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:5in;" />
+<!-- ![](./images/image017.jpg){width="9.784722222222221in" height="11.805555555555555in"} -->
 
 [JS Booleans]
 
@@ -394,9 +426,12 @@ Equalitv Operator j.\' Strict Equalitv Operator j:
 > [JS Loop For]
 >
 > [Examples of TS Loop For :]
-
-![](./images/image018.jpg){width="9.57638888888889in"
-height="11.805555555555555in"}
+<p align="center">
+  <img src="./images/image018.jpg"
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:5in;" />
+<!-- [](./images/image018.jpg){width="9.57638888888889in" height="11.805555555555555in"} -->
 
 > [Basic for Loop :]
 >
@@ -413,9 +448,12 @@ height="11.805555555555555in"}
 > [Examples of IS Loop For Of :]
 >
 > [Iterating Over Array Elements :]
-
-![](./images/image019.jpg){width="5.213582677165354e-2in"
-height="3.125984251968504e-2in"}[JS Loop While]
+<p align="center">
+  <img src="./images/image019.jpg"
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:5in;" />
+<!-- ![](./images/image019.jpg){width="5.213582677165354e-2in" height="3.125984251968504e-2in"}[JS Loop While] -->
 
 > [Examples of IS Loop While :]
 >
@@ -431,9 +469,23 @@ height="3.125984251968504e-2in"}[JS Loop While]
 
 > [Examples of IS Iterables :]
 >
-> [Using Iterables with for
-> of]![](./images/image020.jpg){width="5.213582677165354e-2in"
-> height="5.209864391951006e-2in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 20. (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image020.jpg"
+  title="Using Iterables with for. of"
+  alt="Using Iterables with for. of."
+  style="border: 2px solid #000000; width:5in;" />
+<!-- [Using Iterables with for > of]![](./images/image020.jpg){width="5.213582677165354e-2in" > height="5.209864391951006e-2in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image021.jpg"
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:7in;" />
 
 ![](./images/image021.jpg){width="9.722222222222221in"
 height="11.805555555555555in"}
@@ -453,10 +505,19 @@ height="11.805555555555555in"}
 > [Creating a Map :]
 >
 > [Iterating Over a Map :]
-
-![](./images/image022.jpg){width="6.25e-2in"
-height="7.293744531933509e-2in"}![](./images/image023.jpg){width="6.25e-2in"
-height="2.083880139982502e-2in"}[JS Typeof]
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22/23. (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image022.jpg"
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:3.5in;" />
+<img src="./images/image023.jpg"
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:3.5in;" />
+<!-- ![](./images/image022.jpg){width="6.25e-2in" {width="6.25e-2in" height="2.083880139982502e-2in"}[JS Typeof] -->
 
 > [Examples of IS Tvpeof :]
 >
@@ -471,9 +532,15 @@ height="2.083880139982502e-2in"}[JS Typeof]
 > [JS Bitwise]
 >
 > [Examples of IS Bitwise :]
-
-![](./images/image024.jpg){width="9.875in"
-height="11.805555555555555in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image024.jpg"
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:7in;" />
+<!-- (./images/image024.jpg){width="9.875in" height="11.805555555555555in"} -->
 
 > [Bitwise AND Operator :]
 >
@@ -508,9 +575,15 @@ height="11.805555555555555in"}
 > [Global Scope :]
 
 [JS Hoisting]
-
-![](./images/image025.jpg){width="9.743055555555555in"
-height="11.805555555555555in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 25. (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image025.jpg"
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:7in;" />
+<!-- (./images/image025.jpg){width="9.743055555555555in" height="11.805555555555555in"} -->
 
 > [Examples IS Hoisting :]
 >
@@ -545,9 +618,15 @@ height="11.805555555555555in"}
 > [Examples of IS Classes :]
 >
 > [Class Declaration :]
-
-![](./images/image026.jpg){width="9.347222222222221in"
-height="11.805555555555555in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 26. (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image026.jpg"
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:7in;" />
+<!-- (./images/image026.jpg){width="9.347222222222221in" height="11.805555555555555in"} -->
 
 [JS Modules]
 
@@ -580,9 +659,15 @@ height="11.805555555555555in"}
 > [Indentation :]
 
 [JS Best Practices]
-
-![](./images/image027.jpg){width="9.222222222222221in"
-height="11.805555555555555in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 27. (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image027.jpg"
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:7in;" />
+<!-- ./images/image027.jpg){width="9.222222222222221in" height="11.805555555555555in"} -->
 
 > [Examples TS Best Practices :]
 >
