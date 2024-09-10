@@ -3,7 +3,7 @@ title: "Learn JS"
 author: "bbauska"
 date prior editted: "8/31/2024 4+pm"
 date last editted: "9/3/2024 12+pm"
-date last editted: "9/8/2024 8+pm"
+date last editted: "9/9/2024 7+pm"
 output: 
   markdown:
     with some style
@@ -11,7 +11,7 @@ output:
 
 <h1 align="center">Learn JavaScript</h1>
 
-<h6 align="center">(by ,  - </h6>
+<h6 align="center">(by Brian Bauska, educator)</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ readme.md of learn-js.bauska.org ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -30,21 +30,21 @@ output:
 <!-- ![](./images/image007.jpg){width="17.84722222222222in" height="1.5902777777777777in"} -->
 <!-- ![](./images/image008.jpg){width="11.596264216972878in" height="4.211161417322835in"} -->
 >
-> Table of Contents
+<h2>Table of Contents</h2>
 
-[JavaScript Statements]
+<h3 id="JSStmts">JavaScript Statements</h3>
 
-[Examples of JavaScript Statements :]
+<h4>Examples of JavaScript Statements:</h4>
+<ol type="1" start="1">
+  <li>Variable Declaration:</li>
+  <li>Conditional Statement:</li>
+  <li>Loops</li>
+</ol>
 
-1.  [. Variable Declaration :]
-
-2.  [. Conditional Statement :]
-
-3.  [. Loops :]
-
-<h2 id="JSSyntax">JavaScript Syntax</h2>
+<h3 id="JSSyntax">JavaScript Syntax</h3>
 
 [Examples of JavaScript Syntax :]
+<ol type="1" start="1">
 
 1.  [. Function Definition :]
 
@@ -52,17 +52,21 @@ output:
 
 3.  [. Arrav Declaration :]
 
-<h2 id="JSComments">JavaScript Comments</h2>
+<h3 id="JSComments">JavaScript Comments</h3>
+<h4>Examples of TavaScript Comments:</h4>
+<ol type="1" start="1">
+  <li>Single Line Comment:</li>
+  <li>Multi - line Comment:</li>
+  <li>Commenting Out Code:</li>
+</ol>
 
-[Examples of TavaScript Comments :]
-
-1.  [. Single Line Comment :]
-
-2.  [. Multi - line Comment :]
-
-3.  [. Commentina Out Code :]
-
-[JavaScript Variables]
+<h3 id="JSVars">JavaScript Variables</h3
+<h4>Examples of JavaScript  Variables</h4>
+<ol type="1" start="1">
+  <li>Declaring and Assigning a Variable:</li>
+  <li>String Variable:</li>
+  <li>Object Variable:</li>
+</ol>
 
 <p align="center">
   <img src="./images/image009.jpg"
@@ -70,8 +74,6 @@ output:
   alt="."
   style="border: 2px solid #000000; width:5in;" />
 <!-- ![](./images/image009.jpg){width="9.6875in" height="11.805555555555555in"} -->
-
-> [Examples of JavaScript Variables :]
 <p align="center">
   <img src="./images/image010.jpg"
   title=""
@@ -79,69 +81,153 @@ output:
   style="border: 2px solid #000000; width:5in;" />
 <!-- (./images/image010.jpg){width="5.221176727909011in" > height="0.29175196850393703in"} -->
 
-2.  [. String Variable :]
+<h3 id="JSVars">JavaScript Variables</h3>
+<h4>Examples of JavaScript  Variables</h4>
+<ol type="1" start="1">
+  <li>Declaring and Assigning a Variable:</li>
+  <li>String Variable:</li>
+  <li>Object Variable:</li>
+</ol>
 
-3.  [. Obiect Variable :]
+<h3 id="JSlet">JavaScript let</h3>
+<h4>Example of let in JavaScript</h4>
+<ol type="1" start="1">
+  <li>String Variable</li>
+  <li>Object Variable</li>
+</ol>
+<h3 id="JSconst">JavaScript const</h3>
+<h4>Example of const in JavaScript</h4>
 
-[JavaScript let]
+<h3 id="JSOper">JavaScript Operators</h3>
+<h4>Examples of JavaScript  Operators</h4>
+<ol type="1" start="1">
+  <li>Arithmetic Operators:</li>
+  <li>Comparison Operators:</li>
+  <li>Logical Operators:</li>
+</ol>
 
-> [Example of let in JavaScript :]
+<h3 id="JSArithmetic">JS Arithmetic</h3>
+<h4>Examples of JavaScript  Arithmetic</h4>
+<ol type="1" start="1">
+  <li>Addition:</li>
+  <li>Subtraction:</li>
+  <li>Multiplication:</li>
+  <li>Division:</li>
+  <li>Modulus (Remainder):</li>
+</ol>
 
-[JavaScript const]
+<h3 id="JSAssign">JS Assignment</h3>
+<h4>Examples of JavaScript Assignment</h4>
+<ol type="1" start="1">
+  <li>Assigning a Value to a Variable:</li>
+  <li>Assigning the Result of an Expression:</li>
+</ol>
 
-> [Example of const in JavaScript :]
+<h3 id="JSDataTypes">JS Data Types</h3>
+<h4>Examples of JS Data Types:</h4>
+<ol type="1" start="1">
+  <li>Primitive Data Tvpes:</li>
+  <li>Complex Data Types:</li>
+</ol>
 
-[JavaScript Operators]
+<h3 id="JSFunctions">JS Functions</h3>
+<h4>Examples of IS Functions:</h4>
+<ol type="1" start="1">
+  <li>Function Declaration:</li>
+  <li>Function Call:</li>
+  <li>Arrow Function:</li>
+</ol>
 
-> [Examples of JavaScript Operators :]
+<h3 id="JSObjects">JS Objects</h3>
+<h4>Examples of JS Objects:</h4>
+<ol type="1" start="1">
+  <li>Object Declaration:</li>
+  <li>Accessing Object Properties:</li>
+  <li>Calling Object Method:</li>
+</ol>
 
-1.  [Arithmetic Operators :]
+<h3 id="JSEvents">JS Events</h3>
+<h4>Examples of JS Events:</h4>
+<ol type="1" start="1">
+  <li>Click Events:</li>
+  <li>Input Events:</li>
+</ol>
 
-2.  [. Comparison Operators :]
+<h3 id="JSStrings">JS Strings</h3>
+<h4>Examples of JS String:</h4>
+<ol type="1" start="1">
+  <li>Declaring a String Variable:</li>
+  <li>Concatenating Strings:</li>
+</ol>
 
-3.  [. Logical Operators :]
+<h3 id="JSStringMethods">JS String Methods</h3>
+<h4>Examples of JS String Methods:</h4>
+<ol type="1" start="1">
+  <li>toUpperCase() Method:</li>
+  <li>substring() Method:</li>
+</ol>
 
-> [JS Arithmetic]
->
-> [Examples of IS Arithmetic :]
->
-> [Addition :]
->
-> [Subtraction :]
+<h3 id="JSStringMethods">JS String Templates</h3>
+<h4>Examples of JS String Templates:</h4>
+<ol type="1" start="1">
+  <li>Basic Template Literal:</li>
+  <li>Multi-line Template Literal:</li>
+</ol>
 
-<p align="center">
-  <img src="./images/image011.jpg"
-  title=""
-  alt="."
-  style="border: 2px solid #000000; width:5in;" />
-<!-- ![](./images/image011.jpg){width="9.194444444444445in" height="11.805555555555555in"} -->
+<h3 id="JSNumbers">JS Numbers</h3>
+<h4>Examples of JS Numbers:</h4>
+<ol type="1" start="1">
+  <li>Whole Numbers:</li>
+  <li>Decimal Numbers:</li>
+</ol>
 
-> [Multiplication :]
->
-> [Division :]
->
-> Modulus ( Remainder
+<h3 id="JSBigInt">JS BigInt</h3>
+<h4>Examples of JS BigInt:</h4>
+<ol type="1" start="1">
+  <li>Creating a BigInt:</li>
+  <li>Performing Operations with BigInt:</li>
+</ol>
 
-[JS Assignment]
+<h3 id="JSNumProperties">JS Number Properties</h3>
+<h4>Examples of JS Number Properties:</h4>
+<ol type="1" start="1">
+  <li>Number_MAX_VALUE Property:</li>
+  <li>Number_MIN_VALUE Property:</li>
+</ol>
 
-> [Examples of IS Assignment :]
->
-> [Assigning a Value to a Variable :]
->
-> [Assigning the Result cf an Expression :]
+<h3 id="JSArrays">JS Arrays</h3>
+<h4>Examples of JS Arrays:</h4>
+<ol type="1" start="1">
+  <li>Declaration:</li>
+  <li>Accessing Elements:</li>
+  <li>Modifying Elements:</li>
+</ol>
 
-[JS Data Types]
+<h3 id="JSArrayMethods">JS Array Methods</h3>
+<h4>Examples of JS Array Methods:</h4>
+<ol type="1" start="1">
+  <li>push() Method:</li>
+  <li>pop() Method:</li>
+  <li>splice() Method:</li>
+</ol>
 
-> [Examples of IS Data Tvpes :]
->
-> [Primitive Data Tvpes :]
->
-> [Complex Data Tvpes :]
 
-[JS Functions]
 
-> [Examples of IS Functions :]
->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 > [Function Declaration :]
 >
 > [Function Call :]
