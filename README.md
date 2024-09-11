@@ -2613,8 +2613,7 @@ Missing Semicolon :
 javascript code let x = 5
 >
 Remember to add a semicolon at the end of the
-statement![](./images/image157.jpg){width="4.1666666666666664e-2in"
-height="4.167869641294838e-2in"}
+statement
 >
 Uninitialized Variables :
 
@@ -2630,8 +2629,7 @@ Reduce DOM Manipulations :
 Combine multiple DOM updates into one to reduce reflows .
 >
 Use Eficient
-Algorithms![](./images/image158.jpg){width="6.25e-2in"
-height="0.15629593175853018in"}
+Algorithms
 >
 Choose algorithms that have better time complexity for operations .
 
@@ -2639,8 +2637,7 @@ Choose algorithms that have better time complexity for operations .
 
 Reserved words in JavaScript have special meanings and cannot be used
 as identifiers ( variable or function
-names![](./images/image159.jpg){width="0.13541666666666666in"
-height="0.270913167104112in"}
+names
 
 Examples ofJS Reserved Words :
 
@@ -2653,16 +2650,14 @@ mistakes, and performance optimization . JS Objects
 >
 Objects in JavaScript are collections of key - value pairs . They
 store data as properties ( variables ) and functionality as methods (
-functions![](./images/image160.jpg){width="0.15625in"
-height="0.2604932195975503in"}
+functions
 
 Object Definitions :
 
 Creating an Object Literally :
 >
 javascript code let person = f name : &apos;Alice% age 30, greet :
-function ![](./images/image161.jpg){width="0.4166666666666667in"
-height="0.26049431321084865in"}return &apos;Helloj my name is &Hat;i&Hat; -v this
+function return &apos;Helloj my name is &Hat;i&Hat; -v this
 . name;
 >
 Using the Object Constructor :
@@ -2672,8 +2667,7 @@ javascript code let car new Object O;
 car . brand = &apos;Toyota&apos;; car . model = &apos;Camry&apos;; Object Properties
 >
 Properties in JavaScript objects are variables that hold values
-![](./images/image162.jpg){width="4.1666666666666664e-2in"
-height="4.167869641294838e-2in"}Object Properties Examples :
+Object Properties Examples :
 >
 Accessing Object Properties :
 >
@@ -2691,8 +2685,7 @@ Methods in JavaScript objects are functions that define behavior .
 Object Methods Examples :
 >
 Accessing Object Methods
-![](./images/image163.jpg){width="6.25e-2in"
-height="0.15629593175853018in"}javascript code console . log ( person
+javascript code console . log ( person
 . greet ; // Accessing method greet&apos;
 >
 Adding Methods to an Object :
@@ -2706,8 +2699,7 @@ car . start = function return &apos;Car started&apos;; l;
 Displaying objects in JavaScript can be done using various methods .
 Object Display Examples :
 >
-Using console . log ![](./images/image164.jpg){width="0.25in"
-height="0.2604932195975503in"}javascript code console . log ( person )
+Using console . log javascript code console . log ( person )
 ; // Output the entire object
 >
 Stringify with JSON :
@@ -2728,8 +2720,7 @@ lastName : &apos;Doe&apos;, get fullName () f return this . firstName + + this
 lastName;
 >
 set fullName ( name ) f let parts = name . split ; this . firstName =
-parts &lbrack; O ![](./images/image165.jpg){width="0.1875in"
-height="0.2813331146106737in"}this . lastName = parts &lbrack; 1 &rbrack; ;
+parts &lbrack; O this . lastName = parts &lbrack; 1 &rbrack; ;
 
 console . log ( user. fullName ) ; // Output : John Doe&apos; user .
 fullName = &apos;Alice Smith&apos;; // Setting fiillName using setter console .
@@ -2739,20 +2730,17 @@ log ( user. firstName ) ; // Output : &apos;Alice&apos;
 
 Constructors in JavaScript are functions used for creating objects and
 setting initial values
-![](./images/image166.jpg){width="6.25e-2in"
-height="4.167869641294838e-2in"}Object Constructors Examples :
+Object Constructors Examples :
 >
 Using Constructor Functions :
 >
 javascript code function Person ( name, age ) { this . name name; this
 . age age; this . greet = function
-![](./images/image167.jpg){width="0.4166666666666667in"
-height="0.270913167104112in"}return &apos;Helloj my name is &Hat;i&Hat; -v this .
+return &apos;Helloj my name is &Hat;i&Hat; -v this .
 name;
 >
 let newPerson &ast; new Person ( &apos;Bob&apos;, 25
-![](./images/image168.jpg){width="0.22916666666666666in"
-height="0.2813331146106737in"}console . log ( newPerson . greet ()) ;
+console . log ( newPerson . greet ()) ;
 // Output : &apos;Hello, my narne is Bob&apos;
 
 <h3>Object Prototypes</h3>
@@ -2765,10 +2753,8 @@ Adding Methods to the Prototype :
 javascript code
 >
 Person . prototype . info function
-![](./images/image169.jpg){width="0.4166666666666667in"
-height="0.270913167104112in"}return &apos;Name: + this . name +
-![](./images/image170.jpg){width="1.2083333333333333in"
-height="0.270913167104112in"} this . age;
+return &apos;Name: + this . name +
+this . age;
 >
 console . log ( newPerson . info ()) ; // Output: &apos;Name : Bob, Age
 251
@@ -2799,12 +2785,9 @@ Object Sets Examples :
 Creating a Set :
 >
 javascript code let mySet = new Set ; mySet . add ( 1
-![](./images/image171.jpg){width="0.21875in"
-height="0.27091207349081364in"}mySet . add ( 2
-![](./images/image172.jpg){width="0.21875in"
-height="0.270913167104112in"}mySet . add (
-3![](./images/image173.jpg){width="0.21875in"
-height="0.270913167104112in"}
+mySet . add ( 2
+mySet . add (
+3!
 >
 Checking Set Membership :
 >
@@ -2817,8 +2800,7 @@ be any type .
 
 Object Maps Examples :
 
-Creating a Map ![](./images/image174.jpg){width="6.25e-2in"
-height="0.14587598425196852in"}javascript code let myMap = new Map ;
+Creating a Mapjavascript code let myMap = new Map ;
 myMap . set ( ikeyli, &apos;valueli ) ; myMap . set ( ikey2&apos;, ivalue2i )
 ; Getting Values from a Map :
 >
@@ -2833,8 +2815,7 @@ Reference Examples :
 Referencing an Object :
 
 javascript code let objectl - {name: &apos;John&apos;&rbrack;
-![](./images/image175.jpg){width="5.2083333333333336e-2in"
-height="0.19797462817147857in"}let object2 = objectl; // object2 points
+let object2 = objectl; // object2 points
 to the same object as objectl
 
 Changing Object through Reference :
@@ -2851,50 +2832,28 @@ references, with examples and explanations for each concept .
 
 Functions in JavaScript are reusable blocks of code that perform a
 specific task when
-called![](./images/image176.jpg){width="4.1666666666666664e-2in"
-height="4.167869641294838e-2in"}
+called
 
 Function Definitions :
-
 Function Declaration :
->
 javascript code function greet () &lbrack; return &apos;Hello ! &apos;i
-
-Function Expression ![](./images/image177.jpg){width="6.25e-2in"
-height="0.15629593175853018in"}javascript code let greet function {
+Function Expression javascript code let greet function {
 return &apos;Hello
-!![](./images/image178.jpg){width="0.11458333333333333in"
-height="0.1146172353455818in"}
-
 Arrow Function :
->
 javascript code let greet &gt; {
->
 return &apos;Hello ! &apos;;
-
 <h3>Function Parameters</h3>
-
 Function parameters are placeholders for values that a function will
 receive when it&apos;s called
-![](./images/image157.jpg){width="4.1666666666666664e-2in"
-height="4.167869641294838e-2in"}Function Parameters Examples :
->
+Function Parameters Examples :
 Single Parameter :
->
 javascript code function greet ( name ) { return &apos;Hello, + name
-+![](./images/image179.jpg){width="0.375in"
-height="0.20839457567804023in"}
->
-Multiple Parameters ![](./images/image180.jpg){width="6.25e-2in"
-height="0.15629593175853018in"}javascript code function sum ( a, b) {
-return![](./images/image181.jpg){width="0.7916666666666666in"
-height="0.16671587926509188in"}
-
++
+Multiple Parameters javascript code function sum ( a, b) {
+return
 <h3>Function Invocation</h3>
-
 Function invocation means calling a function to execute its code .
 Function Invocation Examples :
->
 Calling a Function :
 >
 javascript code greet O ; // Function call let result sum ( 5, 3 ) ;
@@ -2907,36 +2866,28 @@ specified this value and arguments provided individually .
 
 Function Call Examples :
 
-Using call ![](./images/image182.jpg){width="0.25in"
-height="0.2604932195975503in"}javascript code function greet () &lbrack;
+Using call javascript code function greet () &lbrack;
 return &apos;Hello, + this . name + t&apos;
-!![](./images/image183.jpg){width="0.11458333333333333in"
-height="0.1146172353455818in"}
 >
 let person { name : &apos;Alice&apos;
-![](./images/image184.jpg){width="0.15625in"
-height="0.270913167104112in"}let message greet . call ( person) ;
+let message greet . call ( person) ;
 
 <h4>Function Apply</h4>
 
 The apply () method in JavaScript allows a function to be called with
 a specified this value and arguments provided as an
-array![](./images/image94.jpg){width="5.2083333333333336e-2in"
-height="4.167979002624672e-2in"}
+array
 
 Function Apply Examples :
 
 Using apply C):
 >
 javascript code function greet ()
-![](./images/image185.jpg){width="8.333333333333333e-2in"
-height="0.270913167104112in"}return &apos;Hello, + this . name +
-![](./images/image186.jpg){width="0.375in"
-height="0.2604932195975503in"}
+return &apos;Hello, + this . name +
+
 >
 let person name
-![](./images/image187.jpg){width="1.0104166666666667in"
-height="0.2813331146106737in"}let args = &lbrack;l ; let message = greet .
+let args = &lbrack;l ; let message = greet .
 apply ( person, args ) ;
 
 <h4>Function Bind</h4>
@@ -2944,57 +2895,36 @@ apply ( person, args ) ;
 The bind () method in JavaScript creates a new function that, when
 called, has its this keyword set to a specified value . Function Bind
 Examples :
->
 Using bind C):
->
 javascript code function greet () &lbrack; return &apos;Hello, &apos; + this . name
-+![](./images/image188.jpg){width="0.375in"
-height="0.20839457567804023in"}
->
++
 let person {name: &apos;Charlie&apos;
-![](./images/image189.jpg){width="0.15625in"
-height="0.2813331146106737in"}let newGreet greet . bind (person ) ;
+let newGreet greet . bind (person ) ;
 let message = newGreet () ;
 
 <h4>Function Closures</h4>
 
 Closures in JavaScript are functions that retain access to variables
 in the scope where they were defined , Function Closures Examples :
->
 Closure Example :
->
 javascript code function outerFunction let outerVariable = &apos;I am from
 the outer function&apos;;
->
 function innerFunction () { console . log ( outerVariable ) ;
->
 return innerFunction;
->
 let closure = outerFunction
-![](./images/image190.jpg){width="4.1666666666666664e-2in"
-height="4.167869641294838e-2in"}closure () ; // Output : il am from
+closure () ; // Output : il am from
 the outer functioni
->
 This comprehensive guide covers various aspects of JavaScript
 functions, including definitions, parameters, invocation, call, apply,
 bind, and closures, with examples and explanations for each concept
-![](./images/image191.jpg){width="4.1666666666666664e-2in"
-height="4.167869641294838e-2in"}
-
 <h5>JS Classes</h5>
-
 Classes in JavaScript provide a way to create objects using a
 blueprint Class Intro : Class Declaration :
->
 javascript code class Animal constructor ( name, age ) { this . name =
 name;
->
 this age = age;
->
 sound () f return &apos;Animal sound&apos;;
->
-Creating Instances ![](./images/image192.jpg){width="6.25e-2in"
-height="0.15629593175853018in"}javascript code let dog = new Animal(
+Creating Instances javascript code let dog = new Animal(
 &apos;Buddy&apos;, 3 ) ; console . log ( dog . sound ; // Output : &apos;Animal
 soundl
 
@@ -3006,35 +2936,22 @@ properties and methods from a superclass .
 Class Inheritance Example :
 
 Extending a Class :
->
 javascript code class Dog extends Animal { constructor ( name, age,
 breed ) &lbrack; super ( name, age ) ; this . breed breed;
->
 sound () f return &Hat;i&Hat;Woof
-!![](./images/image193.jpg){width="0.11458333333333333in"
-height="0.1146172353455818in"}
->
 Using Inherited Methods :
 
 javascript code let puppy = new Dog ( &apos;Max&apos;, 1, &apos;Labrador&apos; ) ;
 console . log ( puppy. sound ; // Output &apos;Woof !
-![](./images/image194.jpg){width="4.1666666666666664e-2in"
-height="9.377734033245844e-2in"}
 
 <h3>Class Static</h3>
-
 Static methods in JavaScript classes are called on the class itself
 rather than on instances of the class .
->
 Class Static Example :
->
 Adding a Static Method :
->
 javascript code class Calculator static add ( a, b) { returna 4 b;
->
 let result = Calculator . add ( 5, 3
-![](./images/image195.jpg){width="0.21875in"
-height="0.2813331146106737in"}console . log ( result) ; // Output: 8
+console . log ( result) ; // Output: 8
 
 <h3>JS Async</h3>
 
@@ -3045,20 +2962,12 @@ JS Callbacks
 
 Callbacks in JavaScript are functions passed as arguments to another
 function to be executed later
-![](./images/image196.jpg){width="4.1666666666666664e-2in"
-height="4.167869641294838e-2in"}
->
 Callbacks Example :
->
 javascript code function fetchData ( callback ) { setTimeout = &gt; let
 data = &apos;Some data&apos;; callback ( data ) ;
->
-![](./images/image197.jpg){width="0.15625in"
-height="0.2813331146106737in"}2000 ) ;
->
+2000 ) ;
 function processData ( data ) { console . log ( &apos;Data received + data
 ) ;
->
 fetchData ( processData ) ; // Output after 2 seconds &apos;Data received
 : Some data&apos;
 
@@ -3066,48 +2975,26 @@ fetchData ( processData ) ; // Output after 2 seconds &apos;Data received
 
 Asynchronous operations in JavaScript allow non - blocking execution
 of code
-![](./images/image198.jpg){width="4.1666666666666664e-2in"
-height="4.167979002624672e-2in"}
->
 Asynchronous Example :
->
 javascript code console . log (
-&apos;Start&apos;![](./images/image199.jpg){width="0.21875in"
-height="0.270913167104112in"}
->
+&apos;Start&apos;>
 setTimeout (O = &gt;
-![](./images/image200.jpg){width="8.333333333333333e-2in"
-height="0.2604932195975503in"}
->
+
 console . log ( &apos;Inside setTimeout&apos; ) ;
-
-![](./images/image201.jpg){width="0.16666666666666666in" height="0.2813331146106737in"}2000 ) ; 
-
 console . log ( &apos;End&apos; ) ;
->
 // Output : &apos;Start&apos;, &apos;End&apos;, &apos;Inside setTimeoutI ( After 2 seconds
 ) JS Promises
->
 Promises in JavaScript represent a value that might not be available
 yet but will resolve or reject in the future .
-
 Promises Example :
-
 Creating a Promise :
->
 javascript code let myPromise &ast; new Prornise (( resolve, reject ) &gt;
 { setTimeout (O &gt;
-![](./images/image202.jpg){width="8.333333333333333e-2in"
-height="0.270913167104112in"}resolve ( &apos;Promise
-resolvedl![](./images/image203.jpg){width="0.21875in"
-height="0.270913167104112in"}
->
-![](./images/image204.jpg){width="0.16666666666666666in"
-height="0.2813331146106737in"} 2000 ) ;
->
+resolve ( &apos;Promise
+resolvedl
+2000 ) ;
 myPromise . then result) = &gt;
-![](./images/image205.jpg){width="8.333333333333333e-2in"
-height="0.2604932195975503in"}console . log ( result) ; // Output
+console . log ( result) ; // Output
 after 2 seconds : &apos;Promise resolved&apos;
 
 <h3>JS Async / Await</h3>
@@ -3120,11 +3007,8 @@ Async / Await Example :
 Using Async / Await :
 
 javascript code async function fetchData { return new Promise resolve
-) ![](./images/image206.jpg){width="0.3020833333333333in"
-height="0.2604932195975503in"}setTimeout(Oof resolve ( &apos;Data
-fetched&apos; ) ; l,2000![](./images/image207.jpg){width="0.21875in"
-height="0.2813331146106737in"}
-
+) setTimeout(Oof resolve ( &apos;Data
+fetched&apos; ) ; l,2000
 async function processData () { let data await fetchData () ; console .
 log ( data ) ; // Output after 2 seconds : Data fetched&apos;
 
@@ -3146,10 +3030,8 @@ DOM Intro :
 Accessing an Element by ID :
 >
 html code
-![](./images/image208.jpg){width="0.11458333333333333in"
-height="0.1250371828521435in"} ! DOCTYPE html&gt;
-![](./images/image209.jpg){width="0.11458333333333333in"
-height="0.1250371828521435in"}html &gt; ebodY&gt;
+! DOCTYPE html&gt;
+html &gt; ebodY&gt;
 >
 &lt;hl id heading &gt;Welcome to the DOM&lt; / hl &gt;
 >
@@ -3159,29 +3041,22 @@ DOM&apos;
 >
 &lt; / script&gt;
 >
-![](./images/image210.jpg){width="0.11458333333333333in"
-height="0.12503608923884516in"} / bodY&gt;
+/ bodY&gt;
 >
-![](./images/image211.jpg){width="0.11458333333333333in"
-height="0.1250371828521435in"} / html&gt;
+/ html&gt;
 
 <h5>DOM Methods</h5>
 
 DOM methods provide various ways to manipulate HTML elements
-![](./images/image212.jpg){width="4.1666666666666664e-2in"
-height="4.167979002624672e-2in"}
 >
 Changing Element Content :
 >
 html code
-![](./images/image208.jpg){width="0.11458333333333333in"
-height="0.12503608923884516in"} ! DOCTYPE html&gt;
-![](./images/image209.jpg){width="0.11458333333333333in"
-height="0.12503608923884516in"}html &gt;
+! DOCTYPE html&gt;
+html &gt;
 >
 epid - &Hat;i&Hat;&apos; demo &gt;This is a paragraph . &lt;
-/![](./images/image213.jpg){width="0.3125in"
-height="0.20839457567804023in"}
+/
 >
 &lt;script&gt; document . getE1ementById (Il demo &quot;). innerHTML = &quot; This
 is a new paragraph
@@ -3196,14 +3071,8 @@ is a new paragraph
 
 The document object represents the entire HTML document .
 >
-![](./images/image214.jpg){width="4.1666666666666664e-2in"
-height="9.377734033245844e-2in"}![](./images/image215.jpg){width="4.1666666666666664e-2in"
-height="9.377734033245844e-2in"}![](./images/image216.jpg){width="6.25e-2in"
-height="5.209864391951006e-2in"}![](./images/image217.jpg){width="4.1666666666666664e-2in"
-height="4.167869641294838e-2in"}![](./images/image218.jpg){width="6.25e-2in"
-height="8.335739282589676e-2in"}Accessing Document
-Properties![](./images/image219.jpg){width="6.25e-2in"
-height="0.15629593175853018in"}
+Accessing Document
+Properties
 >
 html code
 >
@@ -3214,8 +3083,7 @@ html code
 escript&gt; console . log ( document . title ) ; // Output : Document
 title console . log ( document . URL ) ; // Output : Document URL
 >
-![](./images/image220.jpg){width="0.11458333333333333in"
-height="0.12503608923884516in"} / scripts
+/ scripts
 >
 &lt; / bodY&gt; html&gt;
 
@@ -3227,27 +3095,21 @@ Changing Element Styles :
 >
 html code
 >
-![](./images/image221.jpg){width="0.11458333333333333in"
-height="0.1250371828521435in"} ! DOCTYPE html&gt;
-![](./images/image222.jpg){width="0.11458333333333333in"
-height="0.1250371828521435in"}html &gt;
+! DOCTYPE html&gt;
+html &gt;
 >
 &lt;Pid demo &quot; &gt;This is a paragraph . &lt;
-/![](./images/image223.jpg){width="0.3125in"
-height="0.20839457567804023in"}
+/
 >
 &lt; script&gt; let element document . getElementById demo
-![](./images/image224.jpg){width="0.3125in"
-height="0.2604932195975503in"}element . style . color red ; element .
+element . style . color red ; element .
 style . fontSize = 20px ;
 >
 &lt; / script&gt;
 >
-![](./images/image210.jpg){width="0.11458333333333333in"
-height="0.1250371828521435in"} / bodY&gt;
+/ bodY&gt;
 >
-![](./images/image225.jpg){width="0.11458333333333333in"
-height="0.1250371828521435in"} / html&gt;
+/ html&gt;
 
 <h5>DOM HTML</h5>
 
@@ -3257,28 +3119,22 @@ Changing HTML Attributes :
 >
 html code
 >
-![](./images/image222.jpg){width="0.11458333333333333in"
-height="0.12503608923884516in"} ! DOCTYPE html&gt;
+! DOCTYPE html&gt;
 >
 html &gt;
 >
 &lt;img id mylmage &quot; src image . jpg &gt;
 >
 &lt; script&gt; let image = document . getElementById (41 mylmage
-![](./images/image226.jpg){width="0.3125in"
-height="0.270913167104112in"}image . src new_image .
-jpg![](./images/image227.jpg){width="0.22916666666666666in"
-height="0.2500732720909886in"}
->
+image . src new_image .
+jpg>
 &lt; / script&gt;
 >
-![](./images/image228.jpg){width="0.11458333333333333in"
-height="0.1250371828521435in"} / body)
+/ body)
 >
-![](./images/image229.jpg){width="0.11458333333333333in"
-height="0.1250371828521435in"} / html&gt;
+ / html&gt;
 
-![](./images/image230.jpg){width="0.11458333333333333in" height="0.1250371828521435in"}![](./images/image231.jpg){width="2.0833333333333332e-2in" height="9.377843394575679e-2in"}![](./images/image232.jpg){width="2.0833333333333332e-2in" height="8.335739282589676e-2in"}DOM Forms
+DOM Forms
 
 The DOM allows rnanipulation of HTML forms .
 
@@ -3286,10 +3142,8 @@ Accessing Form Elements :
 >
 html code
 >
-![](./images/image233.jpg){width="0.11458333333333333in"
-height="0.1250371828521435in"} ! DOCTYPE html&gt;
-![](./images/image234.jpg){width="0.11458333333333333in"
-height="0.1250371828521435in"}html &gt;
+! DOCTYPE html&gt;
+html &gt;
 >
 &lt;form id a&quot; myForm &gt;
 
@@ -3297,14 +3151,10 @@ height="0.1250371828521435in"}html &gt;
 
 &lt;input type submit value z&quot; Submit &gt; form&gt;
 
-![](./images/image235.jpg){width="7.895833333333333in"
-height="11.805555555555555in"}
-
 &lt; script&gt; let form = document . getE1ementById (t&apos; myForm • let
 username = form . elements username value;
 >
-![](./images/image236.jpg){width="0.1146314523184602in"
-height="0.1250371828521435in"} / script&gt;
+/ script&gt;
 >
 &lt; / bodY&gt;
 >
@@ -3323,54 +3173,39 @@ html code
 &lt; html &gt;
 >
 &lt;Pid demo &gt; This is a paragraph . &lt;
-/![](./images/image237.jpg){width="0.31263232720909884in"
-height="0.20839457567804023in"}
 >
 escript&gt; let element = document . getE1ementById demo
-![](./images/image238.jpg){width="0.31263232720909884in"
-height="0.26049431321084865in"}element classList . add (&apos;i new -
+element classList . add (&apos;i new -
 class &quot;)
-![](./images/image239.jpg){width="4.168416447944007e-2in"
-height="4.167979002624672e-2in"}
+
 >
-![](./images/image240.jpg){width="0.11463254593175853in"
-height="0.12503608923884516in"} / script&gt;
+/ script&gt;
 >
 &lt; / bodY&gt; html&gt;
-
-![](./images/image241.jpg){width="8.48611111111111in"
-height="11.805555555555555in"}
 
 <h6>DOM Animations
 
 The DOM supports creating simple
-animations![](./images/image242.jpg){width="6.25e-2in"
-height="4.167869641294838e-2in"}
+animations
 >
 Animating an Element :
 >
 html code
 >
-![](./images/image221.jpg){width="0.11458333333333333in"
-height="0.1250371828521435in"} ! DOCTYPE html&gt;
-![](./images/image222.jpg){width="0.11458333333333333in"
-height="0.1250371828521435in"}html &gt;
+! DOCTYPE html&gt;
+html &gt;
 
 &lt;d1V id box &apos;l style width : IOOpx;height : IOOpx;background - color :
 red;position relative; &quot; / diV&gt;
 
 &lt; script&gt; let elem = document . getElementById (Il box ; let pos
-![](./images/image243.jpg){width="0.5104166666666666in"
-height="0.2500732720909886in"}let id setlnterval ( frame, 10 ) ;
+let id setlnterval ( frame, 10 ) ;
 >
 function frame ()
-![](./images/image244.jpg){width="8.333333333333333e-2in"
-height="0.270913167104112in"}![](./images/image245.jpg){width="0.3333333333333333in"
-height="0.26049431321084865in"}pos 350) f clearlnterval ( id) ;
+pos 350) f clearlnterval ( id) ;
 >
 elem style . top = pos -v &apos;px&Hat;i&Hat; ; elem style . left = pos + &Hat;i&Hat; px ;
-![](./images/image246.jpg){width="0.11458333333333333in"
-height="0.1250371828521435in"} / script&gt;
+/ script&gt;
 >
 &lt; / bodY&gt;
 >
@@ -3394,8 +3229,7 @@ html code
 addEventListener ( &apos; click , function f alert (i&apos; Button clicked &quot;)
 ;D;
 
-![](./images/image247.jpg){width="0.11458333333333333in"
-height="0.12503608923884516in"} / script&gt;
+ / script&gt;
 >
 &lt; / bodY&gt;
 >
@@ -3417,8 +3251,7 @@ ed1V id myDiv &Hat;i&Hat;&apos; &gt;Mouse over mec / diV&gt;
 >
 &lt;script&gt; document . getElementById (I&apos; myDiv n). addEventListener
 (&apos;l mouseover &quot; function
-![](./images/image248.jpg){width="0.4166666666666667in"
-height="0.270913167104112in"}alert (I&apos; Mouse over event triggered Il)
+alert (I&apos; Mouse over event triggered Il)
 ;
 >
 &lt; / script&gt;
@@ -3439,14 +3272,10 @@ html code
 >
 eul id myList &gt;
 >
-![](./images/image249.jpg){width="2.489582239720035in"
-height="1.156590113735783in"}
 >
 &lt;script&gt; let list document . getElementById (VI myList
-![](./images/image250.jpg){width="0.3125in"
-height="0.2813331146106737in"}let items = list . getElementsByTagName
-(&quot; li ![](./images/image251.jpg){width="0.3229166666666667in"
-height="0.2813331146106737in"}console . log ( items . length ) ; //
+let items = list . getElementsByTagName
+(&quot; li console . log ( items . length ) ; //
 Output : 3
 >
 &lt; / script&gt;
@@ -3471,15 +3300,11 @@ edivid myDiv / divs
 
 &lt;script&gt; let node = document . createE1ement (I&apos; p &apos;I) ;
 
-![](./images/image252.jpg){width="8.604166666666666in"
-height="11.805555555555555in"}
-
 let textNode = document . createTextNode (i&apos; New paragraph U) ; node
 appendChild ( textNode ) ; document . getElementById myDiv &quot;).
 appendChild ( node ) ;
 >
-![](./images/image253.jpg){width="0.11458333333333333in"
-height="0.1250371828521435in"} / script&gt;
+ / script&gt;
 >
 &lt; / bodY&gt;
 >
@@ -3498,8 +3323,7 @@ html code
 &lt; html &gt;
 >
 &lt;p&gt;Click the button to get the collection length . &lt; /
-![](./images/image254.jpg){width="0.3020833333333333in"
-height="0.20839457567804023in"}ebutton onclick getLength &gt;Get
+ebutton onclick getLength &gt;Get
 Collection Length&lt; / buttons
 >
 &lt;script&gt; function getLength () { let elements document . links;
@@ -3507,11 +3331,9 @@ alert (I&apos; Number of links : + elements . length) ;
 >
 &lt; / script&gt;
 >
-![](./images/image246.jpg){width="0.11458333333333333in"
-height="0.1250371828521435in"} / bodY&gt;
+ / bodY&gt;
 >
-![](./images/image255.jpg){width="0.11458333333333333in"
-height="0.12503608923884516in"} / html&gt;
+ / html&gt;
 >
 DOM Node Lists
 >
@@ -3522,29 +3344,22 @@ Accessing Node List Elements :
 >
 html code
 >
-![](./images/image256.jpg){width="0.11458333333333333in"
-height="0.1250371828521435in"} ! DOCTYPE html&gt;
-![](./images/image257.jpg){width="0.11458333333333333in"
-height="0.1250371828521435in"}html &gt;
+ ! DOCTYPE html&gt;
+html &gt;
 >
 &lt;Pid demo &gt;This is a paragraph . &lt;
-/![](./images/image258.jpg){width="0.3125in"
-height="0.20839457567804023in"}
+/
 >
 &lt; script&gt; let nodeList document . querySelectorAll (L&apos; #demo
-![](./images/image259.jpg){width="0.3229166666666667in"
-height="0.270913167104112in"}console . log ( nodeList I O l. innerHTML
+console . log ( nodeList I O l. innerHTML
 ) ; // Output : &apos;This is a paragraph .
-![](./images/image260.jpg){width="3.125e-2in"
-height="9.377734033245844e-2in"}
+
 >
 &lt; / script&gt;
 >
-![](./images/image246.jpg){width="0.11458333333333333in"
-height="0.1250371828521435in"} / bodY&gt;
+ / bodY&gt;
 >
-![](./images/image261.jpg){width="0.11458333333333333in"
-height="0.12503608923884516in"} / html&gt;
+ / html&gt;
 >
 This comprehensive guide covers JavaScript&apos;s HTML DOM, including an
 introduction to the DOM, methods, document, elements, HTML forms, CSS,
@@ -3555,8 +3370,7 @@ and node lists, with examples and explanations for each topic .
 
 The Browser Object Model ( BOM ) in JavaScript represents the browser
 window and its
-components![](./images/image262.jpg){width="5.2083333333333336e-2in"
-height="4.167869641294838e-2in"}
+components
 
 <h5>JS Window</h5>
 
@@ -3615,31 +3429,24 @@ Popup alerts in JavaScript display messages to users .
 Displaying an Alert :
 >
 javascript code alert This is an alert
-message![](./images/image263.jpg){width="0.3229166666666667in"
-height="0.2813331146106737in"}
+message
 
 <h5>JS Timing</h5>
 
 JavaScript&apos;s timing functions allow scheduling of code execution .
 >
-Using setTimeout ![](./images/image264.jpg){width="0.25in"
-height="0.2604932195975503in"}javascript code setTimeout
-![](./images/image265.jpg){width="0.375in"
-height="0.1146172353455818in"}console . log (l&apos; Delayed message I&apos;)
+Using setTimeout javascript code setTimeout
+console . log (l&apos; Delayed message I&apos;)
 ;
 >
-![](./images/image266.jpg){width="0.16666666666666666in"
-height="0.270913167104112in"}2000 ) ; // Execute after 2 seconds
+2000 ) ; // Execute after 2 seconds
 >
 Using setlnterval
-![](./images/image267.jpg){width="0.2604166666666667in"
-height="0.270913167104112in"}javascript code setlnterval
-![](./images/image268.jpg){width="0.375in"
-height="0.1146172353455818in"}console . log (l&apos; Repeated message &apos;J)
+javascript code setlnterval
+console . log (l&apos; Repeated message &apos;J)
 ;
 >
-![](./images/image269.jpg){width="0.16666666666666666in"
-height="0.2813331146106737in"}3000 ) ; // Execute every 3 seconds
+3000 ) ; // Execute every 3 seconds
 
 <h6>JS Cookies</h6>
 
@@ -3654,23 +3461,18 @@ javascript code document . cookie username John Doe; expires - - Thu,
 Accessing a Cookie :
 >
 javascript code let username = document cookie . split ( o l. split (
-![](./images/image270.jpg){width="1.0208333333333333in"
-height="0.2604932195975503in"}console . log ( username ) ; // Output :
+console . log ( username ) ; // Output :
 &apos;John Doe&apos;
 
 This comprehensive guide covers JavaScript&apos;s Browser Object Model ( BOM
 ) , including the window object, screen, location, history, navigat0%
 popup alerts; timing functions, and cookies, with examples and
 explanations for each concept
-![](./images/image191.jpg){width="4.1666666666666664e-2in"
-height="4.167869641294838e-2in"}
 
 <h5>JS Web APIs</h5>
 
 Web APIs are sets of tools and interfaces provided by web browsers to
 interact with various functionalities of the browser or device
-![](./images/image116.jpg){width="4.1666666666666664e-2in"
-height="4.167869641294838e-2in"}
 
 <h6>Web API Intro</h6>
 
@@ -4078,11 +3880,8 @@ javascript code fetch ( &apos;data jsont
 
 json code
 
-![](./images/image329.jpg){width="8.333333333333333e-2in"
-height="9.377734033245844e-2in"}name &Hat;i&Hat;&apos;: John Doe
-![](./images/image330.jpg){width="0.22916666666666666in"
-height="0.2604932195975503in"}![](./images/image331.jpg){width="8.333333333333333e-2in"
-height="9.377734033245844e-2in"}age 30,
+name &Hat;i&Hat;&apos;: John Doe
+age 30,
 >
 &quot; city n: New York &quot;
 >
@@ -4100,66 +3899,47 @@ HTML :
 >
 html code
 >
-![](./images/image332.jpg){width="0.11458333333333333in"
-height="0.12503608923884516in"} ! DOCTYPE html&gt;
-![](./images/image333.jpg){width="0.11458333333333333in"
-height="0.12503608923884516in"}html &gt;
+ ! DOCTYPE html&gt;
+html &gt;
 >
 &lt;title&gt;AJAX Image Gallery&lt; / title)
 >
 •script&gt; function
-loadlmages![](./images/image334.jpg){width="0.4166666666666667in"
-height="0.26049431321084865in"}
+loadlmages
 >
 let xhttp = new XMLHttpRequest ; xhttp onreadystatechange = function
-![](./images/image335.jpg){width="0.4166666666666667in"
-height="0.2604932195975503in"}if( this readyState 4 this . status 200
+if( this readyState 4 this . status 200
 ) &lbrack; let images = JSON . parse ( this . responseText ) ; let gallery =
 document . getElementById imageGallery t&apos;) ; images . forEach ( img =
 { let imageNode = document . createElement (i&apos; img &quot; ; imageNode .
 src = img url; gallery appendChild ( imageNode ) ;
 >
-![](./images/image336.jpg){width="0.7708333333333334in"
-height="1.1982699037620297in"}
 >
 xhttp . open (0 GET o , images . json &quot; , true ) ; xhttp .
-send![](./images/image337.jpg){width="0.3125in"
-height="0.2813331146106737in"}
+send
 >
 &lt; / script&gt;
 >
-![](./images/image246.jpg){width="0.11458333333333333in"
-height="0.12503608923884516in"} / heads
+ / heads
 >
-&lt;body onload loadlmages![](./images/image338.jpg){width="0.5in"
-height="0.2604932195975503in"}
+&lt;body onload loadlmages
 
-![](./images/image339.jpg){width="0.3020833333333333in"
-height="0.21881452318460193in"}IV id imageGallery &quot; / diV&gt;
+IV id imageGallery &quot; / diV&gt;
 
-![](./images/image340.jpg){width="0.11458333333333333in"
-height="0.12503608923884516in"} / bodY&gt;
+ / bodY&gt;
 
-![](./images/image341.jpg){width="0.11458333333333333in"
-height="0.12503608923884516in"} / html&gt; images . json ( Sample Image
+ / html&gt; images . json ( Sample Image
 Data in JSON Format ):
 
 json code
 >
-![](./images/image342.jpg){width="8.333333333333333e-2in"
-height="0.10419728783902012in"}url imagel . jpg ,
-![](./images/image343.jpg){width="8.333333333333333e-2in"
-height="0.10419728783902012in"}caption i&apos;. Image
-1![](./images/image344.jpg){width="8.333333333333333e-2in"
-height="0.10419728783902012in"}
+url imagel . jpg ,
+caption i&apos;. Image
+1
 >
-![](./images/image345.jpg){width="8.333333333333333e-2in"
-height="0.10419728783902012in"}url i&apos;: image2 . jpg
-![](./images/image346.jpg){width="0.21875in"
-height="0.270913167104112in"}![](./images/image347.jpg){width="8.333333333333333e-2in"
-height="0.10419728783902012in"}caption it. Image
-2![](./images/image348.jpg){width="8.333333333333333e-2in"
-height="0.10419728783902012in"}
+url i&apos;: image2 . jpg
+caption it. Image
+2
 >
 // Add more image objects as needed
 >
@@ -4184,19 +3964,14 @@ html code
 >
 &lt;script&gt; function search () { let query = document . getElementById
 searchlnput value; fetch ( &apos; search . php?q &dollar;(query} &apos;
-![](./images/image349.jpg){width="8.333333333333333e-2in"
-height="0.270913167104112in"}
+
 
 -   then ( response = &gt; response . json 0)
-    ![](./images/image350.jpg){width="4.1666666666666664e-2in"
-    height="4.167869641294838e-2in"} then ( data = &gt; { let results =
+     then ( data = &gt; { let results =
     document . getElementById (&apos;i searchResults &quot;)
-    ![](./images/image351.jpg){width="7.291666666666667e-2in"
-    height="0.20839457567804023in"}results . innerHTML =
-    ![](./images/image352.jpg){width="0.16666666666666666in"
-    height="0.1146172353455818in"}data forEach ( item = &gt;
-    ![](./images/image353.jpg){width="8.333333333333333e-2in"
-    height="0.2604932195975503in"}let listltem = document .
+    results . innerHTML =
+    
+let listltem = document .
     createE1ement (&apos;i li ; listltem textContent = item name; results .
     appendChild ( listltem ) ;
 
@@ -4204,18 +3979,13 @@ height="0.270913167104112in"}
 
 &lt; / script&gt;
 >
-![](./images/image354.jpg){width="0.11458333333333333in"
-height="0.1250371828521435in"} / heads
+/ heads
 >
 &lt;input type text id searchlnput onkeyup search (Y&apos; placeholder
-Search ![](./images/image355.jpg){width="0.5208333333333334in"
-height="0.20839566929133857in"}cul id searchResu1ts /
-![](./images/image356.jpg){width="0.4166666666666667in"
-height="0.21881452318460193in"}![](./images/image357.jpg){width="0.11458333333333333in"
-height="0.12503608923884516in"} / bodY&gt;
+Search cul id searchResu1ts /
+/ bodY&gt;
 
-![](./images/image358.jpg){width="0.11458333333333333in"
-height="0.12503608923884516in"} / html&gt; search php ( Server - side
+/ html&gt; search php ( Server - side
 Script Handling Search ):
 
 php code
@@ -4227,11 +3997,8 @@ php code
 // Perform database or data search operations based on the query and
 return results
 >
-&dollar;results = ![](./images/image359.jpg){width="6.25e-2in"
-height="0.26049431321084865in"}![](./images/image360.jpg){width="0.14583333333333334in"
-height="0.2604932195975503in"}name &gt; Result &vert; 4&apos;&rbrack; ,
-![](./images/image361.jpg){width="0.14583333333333334in"
-height="0.2604932195975503in"}name &gt; Result 2 &Hat;il&Hat; l ,
+&dollar;results = ame &gt; Result &vert; 4&apos;&rbrack; ,
+name &gt; Result 2 &Hat;il&Hat; l ,
 >
 // Add more search results as needed
 >
@@ -4242,8 +4009,7 @@ As the user types in the search input field, an AJAX request is made
 to a server - side PHP script ( search . php) that processes the
 search query and returns matching results in JSON format, which are
 then displayed as autocomplete suggestions
-![](./images/image134.jpg){width="4.1666666666666664e-2in"
-height="4.167869641294838e-2in"}
+
 >
 These additional examples showcase different functionalities of AJAX,
 such as creating an image gallery dynamically and implementing an
@@ -4265,42 +4031,31 @@ html code
 &lt;title&gt;Live Data Update&lt; / title&gt;
 >
 &lt;script&gt; function updateData () { setlnterval
-![](./images/image362.jpg){width="0.3541666666666667in"
-height="0.11461614173228346in"}fetch ( &apos;live_data , php•
-![](./images/image363.jpg){width="8.333333333333333e-2in"
-height="0.270913167104112in"}
+fetch ( &apos;live_data , php•
+
 >
 . then ( response = response json0)
-![](./images/image364.jpg){width="4.1666666666666664e-2in"
-height="4.167869641294838e-2in"} then ( data = &lbrack; document .
+then ( data = &lbrack; document .
 getElementById ( &Hat;i&Hat; liveData&apos; inner Text = data . value;
 >
 . catch ( error = &gt; console . error ( &apos;Error : j, error ;
 >
-![](./images/image365.jpg){width="0.14583333333333334in"
-height="0.2813331146106737in"}5000 ) ; // Update every 5 seconds
+5000 ) ; // Update every 5 seconds
 >
 window . onload = updateData;
 >
-![](./images/image366.jpg){width="0.11458333333333333in"
-height="0.1250371828521435in"} / scripts
+ / scripts
 >
-![](./images/image247.jpg){width="0.11458333333333333in"
-height="0.12503608923884516in"} / heads
+/ heads
 
-![](./images/image367.jpg){width="0.8333333333333334in"
-height="0.21881452318460193in"}Data &lt; spanid liveData / span&gt;&lt; /
-h![](./images/image368.jpg){width="0.2916666666666667in"
-height="0.1875557742782152in"}
+Data &lt; spanid liveData / span&gt;&lt; /
+h
 
-![](./images/image369.jpg){width="0.11458333333333333in"
-height="0.1250371828521435in"} / bodY&gt;
+ / bodY&gt;
 >
-![](./images/image370.jpg){width="0.11458333333333333in"
-height="0.1250371828521435in"} / html&gt; live_data . php ( Server -
+ / html&gt; live_data . php ( Server -
 side Script Providing Live Data
-![](./images/image371.jpg){width="0.13541666666666666in"
-height="0.21881452318460193in"}php code
+php code
 >
 &lt; ? php
 >
@@ -4328,52 +4083,40 @@ HTML : html code
 >
 &lt; style &gt;
 >
-![](./images/image372.jpg){width="4.1701662292213476e-2in"
-height="4.167869641294838e-2in"}![](./images/image373.jpg){width="4.1701662292213476e-2in"
-height="4.167869641294838e-2in"}![](./images/image374.jpg){width="8.340332458442695e-2in"
-height="0.270913167104112in"}#content height : 200px; overflow - y:
+#content height : 200px; overflow - y:
 scroll;
 >
 &lt; / style&gt; &lt;script&gt; let page
-![](./images/image375.jpg){width="0.510845363079615in"
-height="0.2500732720909886in"}function loadMoreContent { let content
+function loadMoreContent { let content
 document . getElementById ( &apos;content&apos; ) let scrollHeight content .
 scrollHeight; let scrollTop content . scrollTop; let offsetHeight
 content . offsetHeight; if( scrollHeight - scrollTop offsetHeight) {
 fetch ( content , php?page &dollar;{page} ) then ( response &gt; response text
 C)) then ( data &gt;
 
-![](./images/image376.jpg){width="8.38888888888889in"
-height="11.805555555555555in"}
+
 
 content . innerHTML +- data; page +4 .
 >
 . catch ( error = &gt; console . error &apos;Error : , error )) ;
 >
 window . onscroll = loadMoreContent;
-![](./images/image377.jpg){width="0.11458333333333333in"
-height="0.1250371828521435in"} / script&gt;
+/ script&gt;
 >
-![](./images/image246.jpg){width="0.11458333333333333in"
-height="0.1250371828521435in"} / heads
+/ heads
 >
-![](./images/image378.jpg){width="0.3020833333333333in"
-height="0.21881452318460193in"}IV id content t&apos; onscroll
-loadMoreContent (Y&Hat;i&Hat; ![](./images/image379.jpg){width="0.125in"
-height="0.12503608923884516in"}
+IV id content t&apos; onscroll
+loadMoreContent (Y&Hat;i&Hat; 
 >
 &lt; !&dash;- Initially loaded content &dash;- &gt;
 
 <h6>&lt; / dip
 
-![](./images/image380.jpg){width="0.11458333333333333in"
-height="0.1250371828521435in"} / bodY&gt;
+ / bodY&gt;
 
-![](./images/image309.jpg){width="0.11458333333333333in"
-height="0.1250371828521435in"} / html&gt; content . php ( Server - side
+/ html&gt; content . php ( Server - side
 Script Providing Content
-![](./images/image381.jpg){width="0.14583333333333334in"
-height="0.22923337707786526in"}php code
+php code
 
 &lt; ? php
 >
@@ -4391,8 +4134,7 @@ height="0.22923337707786526in"}php code
 >
 &dollar;results = range ( &dollar;start 1, &dollar;start + &dollar;limit ) ; foreach (
 &dollar;results as &dollar;result) { echo cp&gt;ltem &dollar;result&lt;
-/![](./images/image382.jpg){width="0.6458333333333334in"
-height="0.270913167104112in"}
+
 >
 This example demonstrates an infinite scroll functionality using AJAX
 . As the user scrolls down the pagej the loadMoreContent function
@@ -4400,8 +4142,7 @@ detects when the user reaches the bottom of the content area and
 triggers an AJAX request to fetch more content ( content . php ) from
 the server - side PHP script, which is then dynamically appended to
 the existing content on the webpage
-![](./images/image112.jpg){width="4.1666666666666664e-2in"
-height="4.167869641294838e-2in"}
+
 >
 These additional examples showcase different functionalities of AJAX,
 such as live data updates and implementing infinite scroll behavior on
@@ -4428,23 +4169,18 @@ getElementById ( &apos;filelnput&apos; ) ; let file filelnput . files I O ;
 let formData = new FormData ; formData . append ( file&apos;, file ) ;
 >
 let xhr = new XMLHttpRequest () ; xhr . open ( &apos;POST&apos;, &apos;upload .
-phpl, true ) ![](./images/image383.jpg){width="6.25e-2in"
-height="0.20839457567804023in"}xhr , upload . onprogress function ( e
-) { ![](./images/image384.jpg){width="0.3333333333333333in"
-height="0.270913167104112in"}e lengthComputab1e ) { let
+phpl, true ) xhr , upload . onprogress function ( e
+) { e lengthComputab1e ) { let
 percentComplete ( e . loaded / e . total ) &ast; 100; document .
 getElementById ( &apos;progressBar&apos; style . width percentComplete
-+![](./images/image385.jpg){width="0.5729166666666666in"
-height="0.2604932195975503in"}
++
 >
 Xhr . onload function if( xhr . status
-![](./images/image386.jpg){width="0.9583333333333334in"
-height="0.19797462817147857in"}alert ( &apos;File uploaded successfully !
+alert ( &apos;File uploaded successfully !
 ) ;
 >
 alert ( &apos;Error uploading file
-,![](./images/image387.jpg){width="0.3333333333333333in"
-height="0.2813331146106737in"}
+,
 >
 xhr . send ( formData ) ;
 >
@@ -4460,33 +4196,26 @@ xhr . send ( formData ) ;
 
 &lt;div id progressBar / diV&gt;
 
-![](./images/image388.jpg){width="0.11458333333333333in" height="0.12503608923884516in"} / dip
+ / dip
 
-![](./images/image340.jpg){width="0.11458333333333333in"
-height="0.1250371828521435in"} / bodY&gt;
+ / bodY&gt;
 
-![](./images/image341.jpg){width="0.11458333333333333in"
-height="0.1250371828521435in"} / html&gt; upload php ( Server - side
+} / html&gt; upload php ( Server - side
 Script for File Upload ):
 
 php code &lt; ? php
 >
-![](./images/image389.jpg){width="0.34375in"
-height="0.2604932195975503in"}&dollar;&lowbar;SERVER I &apos;REQUEST_METHOD I TOSTI
+&dollar;&lowbar;SERVER I &apos;REQUEST_METHOD I TOSTI
 isset ( &dollar;&lowbar;FILES &lbrack; &apos;file&apos; l)) { &dollar;targetDir = &apos;uploads / I;
 >
 &dollar;targetFile = &dollar;targetDir . basename ( &dollar;&lowbar;FILES &lbrack; &apos;file&apos; Inamel
-l) ![](./images/image390.jpg){width="6.25e-2in"
-height="0.18755468066491687in"}if ( move_uploaded_file ( &dollar;&lowbar;FILES &lbrack;
+l) if ( move_uploaded_file ( &dollar;&lowbar;FILES &lbrack;
 &ast;filet Il &apos;tmp_name• I &dollar;targetFile )) &lbrack; echo &apos;File uploaded
 successfully ! I;
 >
 } else &lbrack; echo &apos;Error uploading file
-.![](./images/image391.jpg){width="0.10416666666666667in"
-height="0.2604932195975503in"}
 
-![](./images/image392.jpg){width="0.2708333333333333in"
-height="1.156590113735783in"}
+
 
 This example demonstrates a file upload functionality using AJAX with
 a progress bar . When a user selects a file and clicks the Upload I&apos;
@@ -4500,41 +4229,32 @@ HTML :
 >
 html code
 >
-![](./images/image393.jpg){width="0.11458333333333333in"
-height="0.12503608923884516in"} ! DOCTYPE html&gt;
-![](./images/image394.jpg){width="0.11458333333333333in"
-height="0.12503608923884516in"}html &gt;
+ ! DOCTYPE html&gt;
+html &gt;
 >
 &lt;title&gt;Displaying Time Dynamically&lt; / title&gt;
 >
 •script&gt; function displayTime () { let timeDisp1ay = document .
 getE1ementById ( &apos;timeDisplay&Hat;i&Hat; ) ; setlnterval
-![](./images/image395.jpg){width="0.3541666666666667in"
-height="0.10419728783902012in"}fetch ( &apos;getTime php &Hat;i&Hat; )
-![](./images/image396.jpg){width="4.1666666666666664e-2in"
-height="4.167869641294838e-2in"}then ( response = response text C))
+fetch ( &apos;getTime php &Hat;i&Hat; )
+then ( response = response text C))
 >
 . then ( data = &lbrack; timeDisplay. innerHTML = data;
 >
 . catch ( error = &gt; console . error ( &apos;Error : i, error ;
 >
-![](./images/image397.jpg){width="0.14583333333333334in"
-height="0.2813320209973753in"}1000 ) ; // Update every second
+1000 ) ; // Update every second
 >
 window . onload = displayTime;
-![](./images/image398.jpg){width="0.11458333333333333in"
-height="0.12503608923884516in"} / script&gt;
+ / script&gt;
 >
-![](./images/image340.jpg){width="0.11458333333333333in"
-height="0.12503608923884516in"} / heads
+ / heads
 
 Chl &gt;Current Time (span id timeDisplay / span&gt;&lt; / 111b
 
-![](./images/image309.jpg){width="0.11458333333333333in"
-height="0.1250371828521435in"} / bodY&gt;
+ / bodY&gt;
 >
-![](./images/image210.jpg){width="0.11458333333333333in"
-height="0.1250371828521435in"} / html&gt;
+ / html&gt;
 
 getTime . php ( Server - side Script to Get Current Time ):
 
@@ -4565,19 +4285,14 @@ server and a web application .
 JSON serves as a language - independent data format derived from
 JavaScript object literals It&apos;s widely used for data exchange between
 web servers and web clients
-![](./images/image191.jpg){width="4.1666666666666664e-2in"
-height="4.167979002624672e-2in"}
 >
 Example of JSON Data
 json code
 >
 name John Doe
-![](./images/image402.jpg){width="8.333333333333333e-2in"
-height="0.10419728783902012in"}age n: 30, &Hat;i&Hat;&quot; email john@example com
-t&apos; ![](./images/image404.jpg){width="8.333333333333333e-2in"
-height="0.10419728783902012in"}isStudent i&apos;: false,
-![](./images/image405.jpg){width="8.333333333333333e-2in"
-height="0.10419728783902012in"}address
+age n: 30, &Hat;i&Hat;&quot; email john@example com
+t&apos; isStudent i&apos;: false,
+address
 street i&apos;: 123 Main St
 city
 Anytown
@@ -4619,29 +4334,21 @@ json code
 >
 // JSON
 >
-![](./images/image416.jpg){width="8.333333333333333e-2in"
-height="0.10419728783902012in"}name John , age 25,
-![](./images/image417.jpg){width="8.333333333333333e-2in"
-height="0.10419728783902012in"}city New
-York![](./images/image418.jpg){width="8.333333333333333e-2in"
-height="0.10419728783902012in"}
+name John , age 25,
+city New
+York
 >
 xml code
 >
-![](./images/image419.jpg){width="0.4895833333333333in"
-height="0.16671587926509188in"}XML
-![](./images/image420.jpg){width="0.4166666666666667in"
-height="0.12503608923884516in"}euser&gt;
+XML
+euser&gt;
 >
 •namesJohn&lt; / name&gt;
 >
-![](./images/image421.jpg){width="0.9479166666666666in"
-height="0.2500732720909886in"}/ ago
+/ ago
 >
 •citY&gt;New York&lt; / citY&gt;
 >
-![](./images/image369.jpg){width="0.11458333333333333in"
-height="0.12503608923884516in"}
 >
 / user)
 
@@ -4655,28 +4362,21 @@ Example of Different Data Types in JSON :
 json code
 
 &quot; string Hello, World
-![](./images/image422.jpg){width="0.2916666666666667in"
-height="0.2604932195975503in"}![](./images/image423.jpg){width="8.333333333333333e-2in"
-height="9.377734033245844e-2in"}number &Hat;Il&Hat;: 42,
+number &Hat;Il&Hat;: 42,
 >
 &quot; boolean I&apos;: true,
 >
 &quot; nullValue &Hat;it&Hat;: null,
-![](./images/image424.jpg){width="8.333333333333333e-2in"
-height="9.377734033245844e-2in"}object ( &quot; key &apos;l: &quot; value
-l&apos;![](./images/image425.jpg){width="0.14583333333333334in"
-height="0.270913167104112in"}
+object ( &quot; key &apos;l: &quot; value
+l&apos
 >
 &quot; array &lbrack; 1, 2, 3
-![](./images/image426.jpg){width="5.2083333333333336e-2in"
-height="0.2604932195975503in"}
 
 JSON Parse
 
 JSON . parse () is a method in JavaScript used to parse JSON data into
 a JavaScript object
-![](./images/image427.jpg){width="4.1666666666666664e-2in"
-height="4.167869641294838e-2in"}
+
 >
 Example ofJSON Parsing :
 >
@@ -4692,8 +4392,7 @@ JavaScript object into a JSON string .
 Example of JSON Stringification :
 >
 javascript code let obj {name Bob age: 30
-![](./images/image428.jpg){width="0.14583333333333334in"
-height="0.26049431321084865in"}let jsonString = JSON . stringify ( obj
+let jsonString = JSON . stringify ( obj
 ) ; console . log (jsonString ) ; // Output : { &apos;&Hat;i&Hat; name Bob , age
 30)
 
@@ -4706,26 +4405,20 @@ Example of a JSON Object :
 >
 json code
 >
-![](./images/image429.jpg){width="8.333333333333333e-2in"
-height="0.10419728783902012in"}name Sarah t&apos; age 35,
-![](./images/image430.jpg){width="8.333333333333333e-2in"
-height="0.10419728783902012in"}city &apos;i:
-London![](./images/image431.jpg){width="7.291666666666667e-2in"
-height="0.10419728783902012in"}
+name Sarah t&apos; age 35,
+city &apos;i:
+London
 
 JSON Arrays
 
 JSON arrays are ordered lists of values enclosed in square brackets
 l&rbrack;, The values can be of any JSON data type
-![](./images/image432.jpg){width="4.1666666666666664e-2in"
-height="4.167979002624672e-2in"}
+
 >
 Example of a JSON Array :
 >
-json code ![](./images/image433.jpg){width="0.15625in"
-height="0.2604932195975503in"}apple , banana ,
-orange![](./images/image434.jpg){width="0.14583333333333334in"
-height="0.2604932195975503in"}
+json code apple , banana ,
+orange
 
 ###<h6>JSON Server
 
@@ -4734,19 +4427,16 @@ client in web development . Servers often provide data in JSON format
 through APIs .
 >
 Example of JSON Data from a
-Server![](./images/image435.jpg){width="6.25e-2in"
-height="0.15629593175853018in"}
+Server
 
 json code
 
 // Received from a server API endpoint
 >
-![](./images/image436.jpg){width="1.1354166666666667in"
-height="1.0211340769903763in"}
+
 >
 title &apos;I: Sample
-Post![](./images/image437.jpg){width="0.22916666666666666in"
-height="0.2604932195975503in"}
+Post
 >
 &quot; content it: &quot; This is a sample post content .11
 
@@ -4757,8 +4447,7 @@ json_decode () functions respectively, to convert data to and from
 JSON format .
 >
 Example of Encoding and Decoding JSON in PHP
-![](./images/image438.jpg){width="6.25e-2in"
-height="0.15629593175853018in"}php code
+php code
 >
 // Encoding PHP array to JSON
 
@@ -4771,8 +4460,7 @@ height="0.15629593175853018in"}php code
 &dollar;jsonString= name t&apos;: Alice , age &apos;i: 30}i;
 
 &dollar;decodedData = json_decode ( &dollar;jsonString, true
-)![](./images/image439.jpg){width="5.2083333333333336e-2in"
-height="0.20839457567804023in"}
+)
 
 JSON HTML
 
@@ -4780,22 +4468,15 @@ JSON data can be used in HTML to dynamically generate content on
 webpages using JavaScript .
 >
 Example of Using JSON Data in
-HTML![](./images/image440.jpg){width="6.25e-2in"
-height="0.15629593175853018in"}
+HTML
 >
-html code ![](./images/image441.jpg){width="0.40625in"
-height="0.21881452318460193in"}id userList
-/![](./images/image442.jpg){width="0.4166666666666667in"
-height="0.21881452318460193in"}
+html code id userList
+
 >
 &lt; script&gt; const users
-![](./images/image444.jpg){width="0.125in"
-height="8.335739282589676e-2in"}![](./images/image445.jpg){width="0.3125in"
-height="0.2604932195975503in"}name &apos; John &quot; age 25 1,
-![](./images/image446.jpg){width="0.3125in"
-height="0.2604932195975503in"}name Alice &quot; age 301,
-![](./images/image447.jpg){width="0.3125in"
-height="0.2604932195975503in"}name Bob &quot; , age 28
+name &apos; John &quot; age 25 1,
+name Alice &quot; age 301,
+name Bob &quot; , age 28
 
 &Hat;I&Hat;
 
@@ -4804,8 +4485,7 @@ forEach ( user = &gt; f let listltem = document . createElement (&apos;i li
 t&apos;) ; listltem . textContent = &dollar;fuser name} - &dollar;{user. age) years
 old , userList . appendChi1d ( listltem ) ;
 >
-![](./images/image448.jpg){width="0.11458333333333333in"
-height="0.1250371828521435in"} / script&gt;
+ / script&gt;
 
 JSON JSONP
 
@@ -4833,11 +4513,9 @@ use, and widespread support .
 I Creating aJSON Object :
 >
 javascript code let person = {
-![](./images/image449.jpg){width="8.333333333333333e-2in"
-height="0.10419728783902012in"}name John , age 30, t&apos; city &apos;i: i&apos;
+name John , age 30, t&apos; city &apos;i: i&apos;
 New York
-![](./images/image450.jpg){width="8.333333333333333e-2in"
-height="0.10419728783902012in"}l;
+l;
 
 2.  . Accessing JSON Object Properties :
 
@@ -4848,57 +4526,34 @@ console . log ( person . age ) ; // Output : 30
 
 java script code
 >
-let employee![](./images/image451.jpg){width="0.375in"
-height="0.2604932195975503in"}
+let employee
 >
-![](./images/image452.jpg){width="8.333333333333333e-2in"
-height="0.10419728783902012in"}name Alice
-![](./images/image453.jpg){width="8.333333333333333e-2in"
-height="0.10419728783902012in"}![](./images/image454.jpg){width="8.333333333333333e-2in"
-height="8.335739282589676e-2in"}position &apos;i: Engineer
-![](./images/image455.jpg){width="0.21875in"
-height="0.270913167104112in"}contact
-![](./images/image456.jpg){width="5.2083333333333336e-2in"
-height="5.209864391951006e-2in"}![](./images/image457.jpg){width="8.333333333333333e-2in"
-height="0.10419728783902012in"}email : alice@example com t&apos;
-![](./images/image458.jpg){width="5.2083333333333336e-2in"
-height="0.10419728783902012in"}![](./images/image459.jpg){width="8.333333333333333e-2in"
-height="0.10419728783902012in"}phone &quot; 123 - 456 -
-7890![](./images/image460.jpg){width="8.333333333333333e-2in"
-height="0.10419728783902012in"}
+name Alice
+position &apos;i: Engineer
+contact
+email : alice@example com t&apos;
+phone &quot; 123 - 456 -
+7890
 
 4.  JSON Array of Objects :
 
 javascript code let
-books![](./images/image461.jpg){width="0.125in"
-height="8.335739282589676e-2in"}
+books
 >
-![](./images/image462.jpg){width="0.5in"
-height="1.646317804024497in"}&quot; title .
-&apos;![](./images/image463.jpg){width="2.0833333333333332e-2in"
-height="9.377734033245844e-2in"}Book
-1![](./images/image464.jpg){width="8.333333333333333e-2in"
-height="9.377734033245844e-2in"}, &quot; author Author 1
-![](./images/image465.jpg){width="0.3125in"
-height="0.270913167104112in"}title 0: Book 2
-![](./images/image466.jpg){width="2.0833333333333332e-2in"
-height="9.377734033245844e-2in"} ,
-![](./images/image467.jpg){width="7.291666666666667e-2in"
-height="9.377734033245844e-2in"}author Author 2
-![](./images/image468.jpg){width="0.3125in"
-height="0.270913167104112in"}&quot;
-title![](./images/image469.jpg){width="0.3020833333333333in"
-height="0.20839457567804023in"}Book3![](./images/image470.jpg){width="8.333333333333333e-2in"
-height="9.377734033245844e-2in"}&quot; author &apos;l: Author 3
-![](./images/image471.jpg){width="8.333333333333333e-2in"
-height="9.377734033245844e-2in"}
+&quot; title .
+&apos;  Book
+1, &quot; author Author 1
+title 0: Book 2
+ ,
+author Author 2
+&quot;
+title  Book3  &quot; author &apos;l: Author 3
 
 5.  Converting JSON to String :
 
 javascript code let jsonString z JSON . stringify ( person ) ; console
 . log (jsonString) ; // Output : { name &quot; John&apos; , &quot; age 1&apos;• 30, &quot;
-city New York![](./images/image472.jpg){width="0.25in"
-height="0.270913167104112in"}
+city New York
 
 6.  Parsing JSON String to Object :
 
@@ -4906,10 +4561,8 @@ javascript code let jsonObject = JSON . parse ( name Alice j age •t: 25,
 city London y ) ; console . log (jsonObject . name ) ; // Output : Alice
 
 7.  . Fetching JSON Data from URL ( using Fetch API
-    ![](./images/image473.jpg){width="0.15625in"
-    height="0.2604932195975503in"}javascript code fetch ( &apos;data .
-    json&apos;![](./images/image474.jpg){width="8.333333333333333e-2in"
-    height="0.2604932195975503in"}
+javascript code fetch ( &apos;data .
+    json&apos;
 
 . then ( response &gt; response . json C))
 >
@@ -4919,8 +4572,7 @@ city London y ) ; console . log (jsonObject . name ) ; // Output : Alice
 
 8.  Displaying JSON Data Dynamically in HTML : javascript code
     letjsonData { &quot; name &apos;1: Bob &quot; , age
-    28![](./images/image475.jpg){width="0.15625in"
-    height="0.2813331146106737in"}
+    28
 
 let displayDiv document . getElementById ( &apos;jsonDataDisplay&apos; ) ;
 displayDiv. innerHTML = &lt;p&gt;Name: &dollar;fjsonData . name}&lt; / p&gt;&lt;p&gt;Age
@@ -4943,17 +4595,11 @@ javascript code let complexObj &lbrack;
 &quot; name Sam &quot; ,
 >
 &quot; age 35,
-![](./images/image476.jpg){width="8.333333333333333e-2in"
-height="9.377734033245844e-2in"}addresses
-![](./images/image477.jpg){width="0.15625in"
-height="0.21881452318460193in"}![](./images/image478.jpg){width="0.3125in"
-height="0.2604932195975503in"}type &Hat;1&Hat;&apos;: &quot; home address 123 Main St
-&quot; ![](./images/image479.jpg){width="0.15625in"
-height="0.270913167104112in"}![](./images/image480.jpg){width="0.2916666666666667in"
-height="0.2604932195975503in"}type u: &quot; work &quot; , &quot; address 456
+addresses
+type &Hat;1&Hat;&apos;: &quot; home address 123 Main St
+&quot;type u: &quot; work &quot; , &quot; address 456
 Business
-Ave![](./images/image481.jpg){width="0.22916666666666666in"
-height="0.2604932195975503in"}
+Ave
 >
 let complexString = JSON . stringify ( complexObj ) ; let parsedObj =
 JSON . parse ( complexString ) ; console . log ( parsedObj . addresses
@@ -4962,98 +4608,74 @@ I O l. address ) ; // Output : 123 Main St
 11. . Filtering JSON Array Data :
 
 java script code let
-employees![](./images/image482.jpg){width="0.28125in"
-height="0.26049431321084865in"}
+employees
 >
-![](./images/image483.jpg){width="0.28125in"
-height="1.646317804024497in"}&quot; name n: &quot; John , department HR }
-![](./images/image484.jpg){width="6.25e-2in"
-height="9.377843394575679e-2in"}&quot; name &Hat;n&Hat; : &quot; Alice , department
-IT![](./images/image485.jpg){width="0.3229166666666667in"
-height="0.270913167104112in"}
+&quot; name n: &quot; John , department HR }
+&quot; name &Hat;n&Hat; : &quot; Alice , department
+IT
 >
 &quot; name n: &quot; Bob &quot; ,
-department![](./images/image486.jpg){width="0.8020833333333334in"
-height="0.20839566929133857in"}
+department
 >
 let hrEmployees = employees . filter ( employee &dash;- &gt; employee
 department HR &apos;)
-![](./images/image487.jpg){width="5.2083333333333336e-2in"
-height="0.20839566929133857in"}console . log ( hrEmployees ) ; //
+console . log ( hrEmployees ) ; //
 Output : name John
-department![](./images/image488.jpg){width="2.1875in"
-height="0.2604932195975503in"} name &apos;i &quot; Bob
-![](./images/image489.jpg){width="0.21875in"
-height="0.270913167104112in"}![](./images/image490.jpg){width="8.333333333333333e-2in"
-height="0.10419728783902012in"}department &apos;i: HR I &rbrack;
+department name &apos;i &quot; Bob
+department &apos;i: HR I &rbrack;
 
 12. . Updating JSON Object Properties :
 
 javascript code let product &lbrack; name Chair price 50
-![](./images/image491.jpg){width="0.14583333333333334in"
-height="0.2604932195975503in"}product . price 60; console . log (
+product . price 60; console . log (
 product) ; // Output: &lbrack; name &quot; Chair u price 60)
 
 13. . Removing a Property from JSON Object :
 
 javascript code let data { &quot; name &apos;t: Kate &quot;age&quot;: 25 }
-![](./images/image492.jpg){width="4.1666666666666664e-2in"
-height="0.19797462817147857in"}delete data , age; console . log ( data
+delete data , age; console . log ( data
 ) ; // Output: f &quot; name .
-Kate![](./images/image493.jpg){width="0.3229166666666667in"
-height="0.270913167104112in"}
+Kate
 
 14. Using JSON with Local Storage :
 
 javascript code let userData = f username i&apos;: user 123 email
-user@example . com ![](./images/image494.jpg){width="0.3125in"
-height="0.2813320209973753in"}localStorage . setltem ( •userData&Hat;i&Hat; &dollar;
+user@example . com localStorage . setltem ( •userData&Hat;i&Hat; &dollar;
 JSON . stringify ( userData )) ; let storedData = JSON . parse (
 localStorage . getltem ( iuserData&Hat;i&Hat;
-![](./images/image495.jpg){width="0.3333333333333333in"
-height="0.2813320209973753in"}console . log ( storedData email ) ; //
+console . log ( storedData email ) ; //
 Output : user@example . com
 
 15. . Handling JSON Date Strings :
 
 java script code letjsonData date n: 2023 - 12 - 31T08 : OO : OOZ
-![](./images/image496.jpg){width="0.3229166666666667in"
-height="0.270913167104112in"}let date = new Date (jsonData . date ) ;
+let date = new Date (jsonData . date ) ;
 console . log ( date . toDateString ; // Output: Fri Dec 31 2023 16 .
 Using JSON in Asynchronous Functions :
 >
 javascript code async function fetchData O
-![](./images/image497.jpg){width="8.333333333333333e-2in"
-height="0.2604932195975503in"}try &lbrack; let response = await fetch (
-&apos;data . jsonl ![](./images/image498.jpg){width="0.21875in"
-height="0.270913167104112in"}let data await response . json
-![](./images/image499.jpg){width="0.3125in"
-height="0.2604932195975503in"}console . log ( data ) ;
+try &lbrack; let response = await fetch (
+&apos;data . jsonl let data await response . json
+console . log ( data ) ;
 >
 } catch ( error) { console . error ( &apos;Error l, error ) ;
 >
 fetchData ;
 
 17. . JSON Serialization with Custom Functions
-    ![](./images/image500.jpg){width="6.25e-2in"
-    height="0.15629593175853018in"}javascript code let obj - {
+javascript code let obj - {
 
-&quot; name &apos;l Joe ![](./images/image501.jpg){width="0.21875in"
-height="0.2604932195975503in"}![](./images/image502.jpg){width="8.333333333333333e-2in"
-height="9.377734033245844e-2in"} birthday n: new Date ( &apos;1990 - 01 -
+&quot; name &apos;l Joe  birthday n: new Date ( &apos;1990 - 01 -
 15TOO : OO : OOZ ) ,
 >
 &quot; toJson function &lbrack; return &quot; name &dollar;{this . name} &quot; birthday 1&apos;:
 &quot; &dollar;{this . birthday , tolSOString ()
-l&apos;![](./images/image503.jpg){width="0.3333333333333333in"
-height="0.2813320209973753in"}
+l&apos;
 >
 let jsonString obj . toJson
-![](./images/image504.jpg){width="0.3229166666666667in"
-height="0.270913167104112in"}console . log (jsonString) ; // Output :
+console . log (jsonString) ; // Output :
 { &quot; name &Hat;I&Hat; &apos; . &quot; Joe &quot; &quot; birthday l&apos; 1990 - 01 - 15TOO : 00 :
-00 OOOZ![](./images/image505.jpg){width="0.3020833333333333in"
-height="0.270913167104112in"}
+00 OOOZ
 
 18. . Handling JSON Data from an API ( Using Axios ):
 
@@ -5065,45 +4687,31 @@ error = &gt; console . error ( &apos;Error : error )) ;
 19. . Merging JSON Objects :
 
 javascript code let 0b) 1 name &quot; Tom age &Hat;u&Hat; : 30
-![](./images/image506.jpg){width="0.16666666666666666in"
-height="0.270913167104112in"}letobj2 { &quot; city &apos;l: Paris , country
-France ![](./images/image507.jpg){width="0.3125in"
-height="0.2813331146106737in"}let mergedObj &lbrack; • objl, &period;.. obj2
-![](./images/image508.jpg){width="0.15625in"
-height="0.2813331146106737in"}console . log ( mergedObj ) ; // Output: {
+letobj2 { &quot; city &apos;l: Paris , country
+France let mergedObj &lbrack; • objl, &period;.. obj2
+console . log ( mergedObj ) ; // Output: {
 &quot; name &apos;I: &quot; Tom &quot; , I&apos; age
-1&apos;![](./images/image509.jpg){width="6.25e-2in"
-height="0.16671587926509188in"}30,
-![](./images/image510.jpg){width="8.333333333333333e-2in"
-height="9.377734033245844e-2in"}
-
+1&apos;
 20. Mapping JSON Data to Another Structure :
 
 javascript code let data = I
 >
-![](./images/image511.jpg){width="1.6666666666666667in"
-height="1.6567366579177603in"}![](./images/image512.jpg){width="0.3229166666666667in"
-height="1.177428915135608in"}name . Item 1 name &apos;i: Item 2 name Item
+name . Item 1 name &apos;i: Item 2 name Item
 3
 >
 let mappedData = data . map ( item = &gt; ( &lbrack; itemld : item . idi
-itemName ![](./images/image513.jpg){width="6.25e-2in"
-height="0.14587707786526685in"}console . log ( mappedData ) ;
+itemName  console . log ( mappedData ) ;
 >
 // Output: &lbrack; { itemld 1, &quot;itemName Item 1 Ij itemld &Hat;i&Hat; &apos;: 2,
-![](./images/image514.jpg){width="8.333333333333333e-2in"
-height="0.10419728783902012in"}itemName Item 3 I
+itemName Item 3 I
 >
 city 1&apos;: Paris &apos;l country &quot;: &Hat;F&Hat;&apos;
-France![](./images/image515.jpg){width="0.3020833333333333in"
-height="0.270913167104112in"}
+France
 >
 item . name} )) ;
 
-![](./images/image516.jpg){width="7.291666666666667e-2in"
-height="0.10419728783902012in"}itemName Item
-2![](./images/image517.jpg){width="0.9270833333333334in"
-height="0.2604932195975503in"}itemld 0: 3,
+itemName Item
+2 itemld 0: 3,
 
 These examples showcase different aspects of using JSON in JavaScript,
 including creating, manipulating; parsingj and working with JSON data
@@ -5129,8 +4737,7 @@ javascript code
 >
 // JavaScript code to change text color on button click function
 changeColor
-![](./images/image518.jpg){width="0.4166666666666667in"
-height="0.270913167104112in"}document . getElementById text I&apos;).
+document . getElementById text I&apos;).
 style , color &quot; blue ,
 >
 JavaScript offers native methods and APIs to interact with the
@@ -5169,9 +4776,7 @@ I . Syntax :
 
     -   JavaScript : Provides direct DOM manipulation using methods like
         getElementById and querySe1ector
-        ![](./images/image519.jpg){width="4.1666666666666664e-2in"
-        height="4.167869641294838e-2in"}![](./images/image520.jpg){width="5.2083333333333336e-2in"
-        height="4.167979002624672e-2in"} jQuery : Simplifies DOM
+ jQuery : Simplifies DOM
         traversal and manipulation with methods like &dollar; () allowing
         easier element selection and modification .
 
@@ -5182,16 +4787,13 @@ I . Syntax :
 
     -   jQuery: Provides cross - browser compatibility out - of- the -
         box, reducing the need for explicit compatibility
-        handling![](./images/image521.jpg){width="6.25e-2in"
-        height="6.251859142607175e-2in"}
+        handling
 
 4.  Learning Curve :
 
     -   JavaScript : Requires understanding core language concepts,
         which might have a steeper learning curve for beginners
-        ![](./images/image522.jpg){width="4.1666666666666664e-2in"
-        height="4.167869641294838e-2in"}![](./images/image523.jpg){width="4.1666666666666664e-2in"
-        height="4.167869641294838e-2in"} jQuery : Offers a simpler
+ jQuery : Offers a simpler
         learning curve due to its concise syntax and abstraction of
         complex JavaScript operations .
 
@@ -5199,8 +4801,7 @@ I . Syntax :
 
 jQuery provides powerful selectors that allow developers to effciently
 target and manipulate HTML elements
-![](./images/image524.jpg){width="4.1666666666666664e-2in"
-height="4.167869641294838e-2in"}
+
 >
 Example of jQuery Selectors :
 >
@@ -5208,37 +4809,29 @@ javascript code
 >
 // Selecting elements with class iexample&Hat;i&Hat;
 
-![](./images/image525.jpg){width="0.16666666666666666in"
-height="0.2604932195975503in"}. example CSS (&apos;t font - size &Hat;i&Hat;
-16px![](./images/image526.jpg){width="0.3229166666666667in"
-height="0.2604932195975503in"}
+. example CSS (&apos;t font - size &Hat;i&Hat;
+16px
 
 // Selecting all elements inside &lt;div&gt; with ID &apos;content&apos; &dollar; (&quot;
 #content p addClass highlight &quot;) ; jQuery selectors, similar to CSS
 selectors, enable developers to target elements based on IDs, classes,
 attributes, element types, and more
-![](./images/image527.jpg){width="4.1666666666666664e-2in"
-height="4.167869641294838e-2in"}jQuery HTML Manipulation
+jQuery HTML Manipulation
 >
 jQuery simplifies HTML content manipulation by providing methods to
 insert, remove, and modify HTML elements and their content .
 >
 Example of jQuery HTML Manipulation
-![](./images/image528.jpg){width="6.25e-2in"
-height="0.15629702537182852in"}javascript code
+javascript code
 
 // Appending a new element to an unordered list
 
-![](./images/image529.jpg){width="0.16666666666666666in"
-height="0.2604932195975503in"}ul append (t&apos; &lt;li&gt;New Item&lt; / t&apos;)
-![](./images/image530.jpg){width="5.2083333333333336e-2in"
-height="0.20839457567804023in"}
->
+ul append (t&apos; &lt;li&gt;New Item&lt; / t&apos;)
+
 // Changing text content inside a &lt;div&gt; element
 >
 &dollar; #content text (I&apos; Updated
-content![](./images/image531.jpg){width="0.3125in"
-height="0.270913167104112in"}
+content
 >
 With jQuery&apos;s methods like append, html text and remove , developers
 can effciently modify HTML content on the fly .
@@ -5255,15 +4848,13 @@ javascript code
 // Changing the background color of an element
 >
 &dollar; (&apos;I #box Il). CSS background - color , #f2f2f2
-&quot;)![](./images/image532.jpg){width="5.2083333333333336e-2in"
-height="0.18755468066491687in"}
+&quot;)
 >
 // Toggling a CSS class on an element
 >
 &dollar; (&apos;I #toggleBtn Il). click ( function {
 >
-![](./images/image533.jpg){width="0.17708333333333334in"
-height="0.2604932195975503in"}#content toggleClass (I&apos; active &apos;1) ;
+#content toggleClass (I&apos; active &apos;1) ;
 >
 jQueryls css , addClass , removeClass and toggleClass methods simplify
 applying, removing, and toggling CSS styles .
@@ -5272,8 +4863,7 @@ applying, removing, and toggling CSS styles .
 
 jQuery simplifies DOM traversal, enabling easy navigation between
 elements and their relationships within the
-DOM![](./images/image534.jpg){width="4.1666666666666664e-2in"
-height="4.167979002624672e-2in"}
+DOM
 >
 Example of jQuery DOM Traversal :
 >
@@ -5286,8 +4876,7 @@ javascript code
 // Traversing up the DOM to find parent elements
 >
 &dollar; (&quot; a &apos;l). closest div Il). addClass (&apos;I parent - div
-u)![](./images/image535.jpg){width="5.2083333333333336e-2in"
-height="0.20839457567804023in"}
+u)
 
 Using methods like next, prev. find, closest and siblings jQuery
 provides effcient ways to navigate and manipulate elements within the
@@ -5319,8 +4908,7 @@ javascript code let element = document . getElementById (t&apos; myElement
 >
 javascript code
 >
-![](./images/image536.jpg){width="0.16666666666666666in"
-height="0.2604932195975503in"}#myElement &ast; &Hat;I&Hat;). CSS (&apos;i color blue
+#myElement &ast; &Hat;I&Hat;). CSS (&apos;i color blue
 t&apos;) ; 2 . Selecting Multiple Elements by Class :
 
 JavaScr ipt :
@@ -5332,35 +4920,27 @@ I i style fontWeight &quot; bold l&apos; ,
 j Query :
 >
 javascript code
-![](./images/image537.jpg){width="0.22916666666666666in"
-height="0.2604932195975503in"}myClass CSS (t&apos; font - weight , bold
-&apos;![](./images/image538.jpg){width="0.2604166666666667in"
-height="0.2604932195975503in"}
+myClass CSS (t&apos; font - weight , bold
+&apos;
 >
 3 . Adding Event
-Listeners![](./images/image539.jpg){width="6.25e-2in"
-height="0.15629593175853018in"}
+Listeners
 
 JavaScr ipt :
 
 java script code document . getElementById (I&apos; myButton
 addEventListener (&apos;l click function
-![](./images/image540.jpg){width="0.4166666666666667in"
-height="0.270913167104112in"}alert Button clicked !&quot;
-![](./images/image541.jpg){width="6.25e-2in"
-height="5.209864391951006e-2in"}
+alert Button clicked !&quot;
 >
 j Query :
 >
 javascript code
 >
 &dollar; (&quot; #myButtan on (t&apos; click &apos;&Hat;i&Hat; function
-![](./images/image542.jpg){width="0.4166666666666667in"
-height="0.26049431321084865in"}alert (t&apos; Button clicked l&quot;) •
+alert (t&apos; Button clicked l&quot;) •
 >
 4 . Handling Document Ready
-Event![](./images/image543.jpg){width="6.25e-2in"
-height="0.15629593175853018in"}
+Event
 
 JavaScr ipt :
 
@@ -5372,10 +4952,8 @@ function () {
 j Query :
 >
 javascript code
-![](./images/image544.jpg){width="8.333333333333333e-2in"
-height="0.2604932195975503in"}document ready (
-function![](./images/image545.jpg){width="0.4166666666666667in"
-height="0.2604932195975503in"}
+document ready (
+function
 >
 // Code to execute when DOM is ready
 >
@@ -5384,10 +4962,8 @@ height="0.2604932195975503in"}
 JavaScr ipt :
 
 java script code let newElement = document . createElement (&apos;I div
-&quot;) ![](./images/image546.jpg){width="7.291666666666667e-2in"
-height="0.19797462817147857in"}newElement . textContent &quot; New Content
-![](./images/image547.jpg){width="0.21875in"
-height="0.10419728783902012in"}document . body. appendChild (
+&quot;) newElement . textContent &quot; New Content
+document . body. appendChild (
 newElement ) ;
 >
 j Query :
@@ -5395,8 +4971,7 @@ j Query :
 javascript code
 >
 &dollar; (&apos;i body 0). append (&apos;i &lt;div&gt;New Content&lt; / divs &apos;&Hat;i&Hat;)
-![](./images/image548.jpg){width="5.2083333333333336e-2in"
-height="0.20839457567804023in"}
+
 >
 6 . Removing an Element :
 
@@ -5409,24 +4984,20 @@ elementToRemove ) ; jQuery :
 javascript code
 >
 &dollar; #toBeRemoved &apos;). remove
-![](./images/image549.jpg){width="0.3333333333333333in"
-height="0.270913167104112in"}7 Manipulating CSS Class :
+7 Manipulating CSS Class :
 >
 JavaScript :
 >
 javascript code document . getElementById (&apos;i myDiv classList . add
-active ![](./images/image550.jpg){width="0.3125in"
-height="0.2604932195975503in"}jQuery :
+active jQuery :
 >
 javascript code
 >
 &dollar; #myDiv addClass (&apos;I active
-I&apos;)![](./images/image551.jpg){width="5.2083333333333336e-2in"
-height="0.20839457567804023in"}
+I&apos;)
 
 8.  Changing Text
-    Content![](./images/image552.jpg){width="6.25e-2in"
-    height="0.15629593175853018in"}
+    Content
 
 JavaScript :
 >
@@ -5444,32 +5015,27 @@ javascript code
 JavaScript :
 >
 javascript code document . getE1ementById toHide i). style . display =
-none ![](./images/image553.jpg){width="0.21875in"
-height="0.270913167104112in"}jQuery :
+none jQuery :
 >
 javascript code
 >
 &dollar; #toHide 0). hide () ;
 
 10. . Fading In an
-    Element![](./images/image554.jpg){width="6.25e-2in"
-    height="0.15629593175853018in"}
+    Element
 
 JavaScript :
 >
 javascript code let elementToFade = document . getElementById toFade
 &quot;) ; elementToFade . style . opacity
-![](./images/image555.jpg){width="0.22916666666666666in"
-height="0.2500732720909886in"}elementToFade style . transition =
-opacity Is ![](./images/image556.jpg){width="0.21875in"
-height="0.270913167104112in"}elementToFade . style . opacity = 1;
+elementToFade style . transition =
+opacity Is elementToFade . style . opacity = 1;
 jQuery :
 >
 javascript code
 >
 &dollar; #toFade fadeln ( 1000
-)![](./images/image557.jpg){width="7.291666666666667e-2in"
-height="0.1875557742782152in"}
+)
 
 11. . AJAX GET Request :
 
@@ -5477,13 +5043,11 @@ JavaScript :
 >
 javascript code let xhr = new XMLHttpRequest () ; xhr.
 onreadystatechange = function
-![](./images/image558.jpg){width="0.4270833333333333in"
-height="0.26049431321084865in"}if ( this . readyState 4 this . status
+if ( this . readyState 4 this . status
 200 ) { console . log this . responseText) ;
 
 l; xhr. open GET data . txt
-![](./images/image559.jpg){width="0.8333333333333334in"
-height="0.270913167104112in"}xhr. send ; jQuery :
+xhr. send ; jQuery :
 
 javascript code
 >
@@ -5494,22 +5058,18 @@ javascript code
 JavaScript :
 >
 java script code let xhr = new XMLHttpRequest () ; xhr. open POST
-saveData true ![](./images/image560.jpg){width="0.21875in"
-height="0.2813331146106737in"}xhr. setRequestHeader Content - Type &quot;
+saveData true xhr. setRequestHeader Content - Type &quot;
 , application / json &Hat;i&Hat;&apos;) ; xhr. send ( JSON . stringify ( { name :
 John , age : 30 )) ; jQuery :
 >
 javascript code
 
 &dollar; . ajax( &lbrack; url saveData
-![](./images/image561.jpg){width="6.25e-2in"
-height="9.377843394575679e-2in"}method : &quot; POST &quot; , contentType :
+method : &quot; POST &quot; , contentType :
 application / json I
-![](./images/image562.jpg){width="0.17708333333333334in"
-height="0.2604932195975503in"}data : JSON . stringify ( &lbrack; name : &quot;
+data : JSON . stringify ( &lbrack; name : &quot;
 John , age : 301 )
-![](./images/image563.jpg){width="7.291666666666667e-2in"
-height="8.335739282589676e-2in"}success : function ( response ) {
+success : function ( response ) {
 
 console . log ( response ) ; 1
 >
@@ -5535,8 +5095,7 @@ j Query :
 >
 javascript code
 >
-![](./images/image564.jpg){width="0.17708333333333334in"
-height="0.26049431321084865in"}#mylmage attr (&apos;t src new_image jpg
+#mylmage attr (&apos;t src new_image jpg
 N&apos;) ; 15 . Getting Form Values :
 
 JavaScr ipt :
@@ -5565,19 +5124,15 @@ checked &quot;) ;
 JavaScript :
 
 javascript code let elements = document . querySelectorAll myClass
-![](./images/image565.jpg){width="0.3125in"
-height="0.2604932195975503in"}elements . forEach ( function ( element )
+elements . forEach ( function ( element )
 { console . log ( element . textContent ) ;
 
 jQuery :
 >
 javascript code
-![](./images/image566.jpg){width="0.22916666666666666in"
-height="0.2604932195975503in"}myClass each ( function
-![](./images/image567.jpg){width="0.4166666666666667in"
-height="0.2604932195975503in"}console . log ( &dollar; ( this ).
-text![](./images/image568.jpg){width="0.4375in"
-height="0.270913167104112in"}
+myClass each ( function
+console . log ( &dollar; ( this ).
+text
 
 18. . Handling Form Submission :
 
@@ -5586,8 +5141,7 @@ JavaScr ipt :
 java script code document . getElementById C&apos; myForm addEventListener
 (Q submit I , function ( event ) { event . preventDefau.lt () ; let
 formData new FormData (
-this![](./images/image569.jpg){width="0.21875in"
-height="0.2813331146106737in"}
+this
 >
 // Process form data
 
@@ -5605,26 +5159,22 @@ JavaScr ipt :
 javascript code let element = document . getElementById (&apos;I myElement
 ; element . style transition = transform 2s &apos;i ; element . style
 transform &quot; rotate (
-360deg![](./images/image570.jpg){width="0.3229166666666667in"
-height="0.2813320209973753in"}
+360deg
 
 j Query :
 
 javascript code
 >
 &dollar; (&apos;i #myElement animate ( {rotate : 360deg 2000
-)![](./images/image571.jpg){width="7.291666666666667e-2in"
-height="0.20839457567804023in"}
+)
 >
 20 . Changing Background Color on Click :
 
 JavaScr ipt :
 
 javascript code let myDiv document . getElementById myDiv I
-![](./images/image572.jpg){width="0.2708333333333333in"
-height="0.2813331146106737in"}myDiv. addEventListener (Il click &Hat;I&Hat;&apos;
-, function ![](./images/image573.jpg){width="0.4375in"
-height="0.270913167104112in"}this . style backgroundC010r Il&quot; red ;
+myDiv. addEventListener (Il click &Hat;I&Hat;&apos;
+, function this . style backgroundC010r Il&quot; red ;
 
 j Query :
 
@@ -5643,8 +5193,7 @@ I JavaScript Graphics
 >
 JavaScript is a versatile language that allows developers to create
 interactive graphics and visualizations on the web
-![](./images/image107.jpg){width="4.1666666666666664e-2in"
-height="4.167869641294838e-2in"}Several libraries and tools empower
+Several libraries and tools empower
 developers to generate captivating graphics for data representation,
 animations, games, and more .
 
@@ -5670,12 +5219,9 @@ scatter plots, and more . Plotly provides easy to - use APIs for
 customization and interactivity .
 >
 Example - Creating a Line Chart with Plotly
-![](./images/image574.jpg){width="6.25e-2in"
-height="0.14587598425196852in"}javascript code constdata = &lbrack; 1, 2,
-![](./images/image575.jpg){width="1.1770833333333333in"
-height="0.29175196850393703in"} 10, 15, 13,
-18![](./images/image576.jpg){width="0.9895833333333334in"
-height="0.29175196850393703in"}&apos;scatteril I ; Plotly . newPlot (
+javascript code constdata = &lbrack; 1, 2,
+ 10, 15, 13,
+18&apos;scatteril I ; Plotly . newPlot (
 &apos;myDivi, data ) ;
 
 4.  JS Chart . js
@@ -6720,8 +6266,7 @@ Advanced Object Manipulation :
 5.  Object . fromEntries Method :
 
 javascript code let entries - - &apos;name&apos;, &apos;Alice&apos; &apos;age&apos;,
-30![](./images/image753.jpg){width="0.2916666666666667in"
-height="0.2813331146106737in"}
+30
 
 // Output:1 3, 4, 5, 6 1
 
@@ -6918,17 +6463,14 @@ Manipulation :
 3.  Using Array. from with Mapping and Filtering :
 
 numbers =
-![](./images/image776.jpg){width="2.1145833333333335in"
-height="0.2813331146106737in"}constnewArray = Array . from ( numbers,
+constnewArray = Array . from ( numbers,
 x = x &ast; 2
-filter![](./images/image777.jpg){width="1.7708333333333333in"
-height="0.2813331146106737in"} // Output: &lbrack; 6, 8, 10, 12 &vert;
+filter // Output: &lbrack; 6, 8, 10, 12 &vert;
 
 4.  Using Array reduceRight :
 
 javascript code constarray - 1 1, 2, 3,4
-![](./images/image778.jpg){width="0.20833333333333334in"
-height="0.2813331146106737in"}const sum - array. reduceRight (( acc,
+const sum - array. reduceRight (( acc,
 curr ) - &gt; acc + curr // Output : 10
 >
 Advanced Object Manipulation :
@@ -6936,8 +6478,7 @@ Advanced Object Manipulation :
 5.  Object . fromEntries with Map :
 
 javascript code const entries - new
-Map![](./images/image779.jpg){width="0.16666666666666666in"
-height="0.2604932195975503in"}
+Map
 
 -   &apos;name&apos;, &apos;Alice&ast; I ,
 
@@ -6949,31 +6490,24 @@ constobj - Object . fromEntries ( entries ) ; // Output : { name
 6, Object . seal and Object. isSealed :
 >
 javascript code const { name :
-&apos;Alice&apos;![](./images/image780.jpg){width="0.14583333333333334in"
-height="0.270913167104112in"}
+&apos;Alice&apos;
 >
 Object . seal ( obj ) ; console log ( Object . isSealed ( obj )) ; //
 Output : true
 >
 Advanced Promises and Async /
-Await![](./images/image781.jpg){width="4.1666666666666664e-2in"
-height="0.13545603674540682in"}
-
+Await
 7.  Promise . any for the First Fulfilled Promise :
 
 promises = I
 >
 Promise . reject ( &quot;Rejected li )
-![](./images/image782.jpg){width="6.25e-2in"
-height="0.10419728783902012in"}
 >
 Promise . resolve ( &quot;Resolved
-2&apos;![](./images/image783.jpg){width="8.333333333333333e-2in"
-height="0.2604932195975503in"}
+2&apos;
 >
 Promise . resolve ( &apos;Resolved
-3&apos;![](./images/image784.jpg){width="8.333333333333333e-2in"
-height="0.2604932195975503in"}
+3&apos;
 >
 Promise . any ( promises )
 
@@ -7008,20 +6542,17 @@ Advanced Functions and Operations :
 
 javascript code const multiply = ( a, b ) = &gt; a &ast; b; const
 partialMultiplyByTwo = multiply. bind ( null, 2
-![](./images/image785.jpg){width="0.23958333333333334in"
-height="0.270913167104112in"}console . log ( partialMultiplyByTwo ( 5
+console . log ( partialMultiplyByTwo ( 5
 )) ; // Output : 10
 
 2.  Debouncing Function :
 
 javascript code const debounce - ( func, delay ) - &gt;
-![](./images/image786.jpg){width="6.25e-2in"
-height="0.2813331146106737in"}let timeout; return function const
+let timeout; return function const
 context --- this; const args - arguments; clearTimeout ( timeout ) ;
 timeout - setTimeout (() - &gt; func . apply ( context, args ) , delay )
 ; function handlelnput
-![](./images/image787.jpg){width="0.4166666666666667in"
-height="0.2604932195975503in"}console . log ( &apos;Input event handled&apos;
+console . log ( &apos;Input event handled&apos;
 ) ;
 >
 const debouncedInputHand1er = debounce ( handlelnput, 300 ) ;
@@ -7031,28 +6562,23 @@ Advanced Array Manipulation :
 3.  Using Array flat to Flatten Arrays :
 
 javascript code const nestedArray - ( 1, 1 2, 3 Il , 4, &lbrack; 5
-![](./images/image788.jpg){width="0.2916666666666667in"
-height="0.2813331146106737in"}const flatArray nestedArray. flat (
+const flatArray nestedArray. flat (
 Infinity ) ; // Output : 1 1, 2, 3, 4, 5 1
 >
 4, Using Array. slice to Clone Arrays :
 >
 javascript code const originalArray &lbrack; 1, 2, 3, 4 1
-![](./images/image789.jpg){width="6.25e-2in"
-height="0.19797462817147857in"}const clonedArray originalArray. slice
+const clonedArray originalArray. slice
 () ; // Clones the originalArray
 >
 Advanced Object Manipulation :
 >
 5, Using Object . keys with Mapping :
 >
-javascript code const ![](./images/image790.jpg){width="3.25in"
-height="0.2813331146106737in"}constmappedObj = Object . fromEntries (
+javascript code const constmappedObj = Object . fromEntries (
 Object . keys ( obj ). map ( key
-![](./images/image791.jpg){width="6.25e-2in"
-height="8.335739282589676e-2in"}&gt; &lbrack; key, obj &lbrack; key &rbrack; &quot;
-2![](./images/image792.jpg){width="0.3958333333333333in"
-height="0.270913167104112in"}
+&gt; &lbrack; key, obj &lbrack; key &rbrack; &quot;
+2
 
 6.  Object . is for Strict Equality Comparison :
 
@@ -7062,8 +6588,7 @@ true console . log ( Object . is ( 5, &apos;51 )) ; // Output : false
 Advanced Promises and Async / Await :
 
 7.  Promise . allSettled with Optional Chaining
-    ![](./images/image793.jpg){width="6.25e-2in"
-    height="0.16671587926509188in"}javascript code const promises = I
+    javascript code const promises = I
 
 Promise . resolve ( { name : Alice&apos;, age : 301 ) ,
 >
@@ -7080,66 +6605,53 @@ await new Promise ( resolve - &gt; setTimeout ( resolve, 1000 )) ; yield
 &apos;Second&apos;;
 >
 ( async O
-![](./images/image794.jpg){width="0.5416666666666666in"
-height="0.2813320209973753in"}for await ( let item of asyncGenerator
+for await ( let item of asyncGenerator
 ()) { console . log ( item ) ; // Output &apos;First&apos; after Oms,
 &apos;Second&apos; after 1000ms
 >
 ES6 + Features :
 
 9.  Optional Chaining for Nested Properties
-    ![](./images/image795.jpg){width="6.25e-2in"
-    height="0.16671587926509188in"}javascript code const user = {address
+    javascript code const user = {address
     : ( city : iNew York&apos;
-    ![](./images/image796.jpg){width="0.3333333333333333in"
-    height="0.270913167104112in"}const city = user. address? . city; //
+    const city = user. address? . city; //
     Output : &apos;New York
-    ![](./images/image797.jpg){width="2.0833333333333332e-2in"
-    height="8.335739282589676e-2in"}const zipCode = user. address? .
+    const zipCode = user. address? .
     zipCode ?? &apos;Not available&apos;; // Output : &quot;Not available&apos;
 
 10. Biglnt for Large Integer Values :
 
 javascript code const bigNumber Biglnt (
-Number![](./images/image798.jpg){width="3.125in"
-height="0.2604932195975503in"} Biglnt ( 1 )
-;![](./images/image799.jpg){width="0.25in"
-height="0.2292344706911636in"}Biglnt :
+Number Biglnt ( 1 )
+Biglnt :
 >
 9007199254740992n + In
 >
 These JavaScript code snippets explore advanced function operations,
 array manipulations, object methods, promises and async / await
 functionalities, and ES6 + features like optional chaining and Biglnt
-![](./images/image800.jpg){width="4.1666666666666664e-2in"
-height="4.167869641294838e-2in"}
+
 >
 Advanced Functions and Operations :
 
 1.  Currying Function :
 
 javascript code const multiply
-![](./images/image801.jpg){width="2.8333333333333335in"
-height="0.2813331146106737in"}constmultiplyByTwo = multiply ( 2 ) ;
+constmultiplyByTwo = multiply ( 2 ) ;
 console . log ( multiplyByTwo ( 5 )) ; // Output • 10
 
 2.  Function Memoization Using Closures :
 
 javascript code const memoize - ( func ) &gt; ( const
-cache![](./images/image802.jpg){width="0.5625in"
-height="8.335739282589676e-2in"}
->
+cache>
 return args ) - - f&gt; const stringifiedArgs = JSON . stringify ( args
 ) ; return cache &lbrack; stringifiedArgs &rbrack; Il ( cache &lbrack; stringifiedArgs
 &rbrack; - func args )) ; l;
 >
 const sum = ( a, b ) = &gt;
-![](./images/image803.jpg){width="8.333333333333333e-2in"
-height="0.270913167104112in"}console . log ( &apos;Calculating sum
-![](./images/image804.jpg){width="0.625in"
-height="0.2813331146106737in"}returna +
-b![](./images/image805.jpg){width="4.1666666666666664e-2in"
-height="4.167869641294838e-2in"}
+console . log ( &apos;Calculating sum
+returna +
+b
 >
 const memoizedSum = memoize ( sum ) ; console log ( memoizedSum ( 2, 3
 )) ; // Output Calculating sum &period;.. 5 console log ( memoizedSum ( 2.3
@@ -7150,8 +6662,7 @@ Advanced Array Manipulation :
 3.  Using Array. reduce with Initial Value :
 
 javascript code constarray = &vert; 1, 2, 3, 4, 5
-![](./images/image806.jpg){width="0.19791666666666666in"
-height="0.2604932195975503in"}const sum = array. reduce (( acc, curr )
+const sum = array. reduce (( acc, curr )
 = &gt; acc + curr,O) ; // Output: 15
 
 4.  Array. findlndex with Custom Predicate :
@@ -7165,16 +6676,14 @@ Advanced Object Manipulation :
 5.  Object . entries with Object . fromEntries :
 
 javascript code const { name : &apos;Alice&apos;, age : 30
-![](./images/image807.jpg){width="0.16666666666666666in"
-height="0.270913167104112in"}const entries = Object . entries ( obj )
+const entries = Object . entries ( obj )
 ; // Output : &lbrack;l •name&apos;, &apos;Alicei I , I iagei, 30 Il const
 reconstructedObj = Object . fromEntries ( entries ) ;
 
 6.  Object . freeze for Immutable Objects :
 
 javascript code constobj - {prop : •value&apos;)
-![](./images/image808.jpg){width="5.2083333333333336e-2in"
-height="0.19797462817147857in"}Object . freeze ( obj ) ; obj prop -
+Object . freeze ( obj ) ; obj prop -
 &apos;newValue&dollar;; // Assignment not allowed in a frozen object
 >
 Advanced Promises and Async / Await :
@@ -7201,8 +6710,7 @@ ES6 + Features :
 9.  Array Destructuring :
 
 javascript code const &lbrack; first, second, rest I =
-![](./images/image809.jpg){width="0.875in"
-height="0.2604932195975503in"}console . log ( first, second, rest ) ;
+console . log ( first, second, rest ) ;
 // Output : 1 2 3, 4, 5 1
 
 10. Rest Parameters in Functions :
@@ -7220,27 +6728,22 @@ Advanced Functions and Operations :
 1.  Function Composition with Multiple Functions :
 
 javascript code const add = ( x, y)
-![](./images/image810.jpg){width="0.6458333333333334in"
-height="0.16671587926509188in"}const multiply = (x, y) = &gt; x y
-![](./images/image811.jpg){width="3.125e-2in"
-height="0.1771347331583552in"}const compose funcs ) &gt; funcs . reduce
+const multiply = (x, y) = &gt; x y
+const compose funcs ) &gt; funcs . reduce
 (( f, g) &gt; args ) - f ( g args ))) ;
 >
 constaddAndMultiply = compose ( multiply, add ) ; console log (
 addAndMultiply( 3, 4 )) ; // Output: 21 ( 3 +
-4![](./images/image812.jpg){width="0.5625in"
-height="0.2604932195975503in"}
+4
 
 2.  Using Function . toString () to Get Function Source Code :
 
 javascript code function greet () { console , log ( &apos;Hello ! ) ;
 >
 constfunctionSource greet . toString
-![](./images/image813.jpg){width="0.3229166666666667in"
-height="0.2813331146106737in"}console , log ( functionSource ) ; //
+console , log ( functionSource ) ; //
 Output : &quot;l function greet ( ) { console log ( &apos;Hello ! ) ; )
-I![](./images/image814.jpg){width="4.1666666666666664e-2in"
-height="8.335739282589676e-2in"}
+I
 >
 Advanced Array Manipulation :
 
@@ -7254,15 +6757,13 @@ Output 2, 3, 4, 6, 6, 9 &vert;
 >
 javascript code constnumbers &lbrack; 5, 10, 15, 20 &rbrack; ; const isEvenPresent
 numbers . some ( num &gt; num
-%![](./images/image815.jpg){width="1.3125in"
-height="0.2813320209973753in"}// Output : true
+%// Output : true
 >
 Advanced Object Manipulation :
 
 5.  Using Object . keys to Get Object&apos;s Own Properties :
 
-javascript code const ![](./images/image816.jpg){width="3.25in"
-height="0.2813331146106737in"}constkeys - Object . keys ( obj ) ; //
+javascript code const constkeys - Object . keys ( obj ) ; //
 Output : &lbrack; la&apos;, &apos;c&apos; I
 
 6.  Object . setPrototypeOf for Dynamic Prototype Setting :
@@ -7274,8 +6775,7 @@ const newObj O;
 >
 Object . setPrototypeOf ( newObj, protoObj ) ; newObj greet ; //
 Output : Greetings !
-![](./images/image817.jpg){width="4.1666666666666664e-2in"
-height="8.335739282589676e-2in"}
+
 >
 Advanced Promises and Async / Await :
 
@@ -7286,8 +6786,7 @@ setTimeout ( resolve, 1000, &apos;First&apos; )) ; constpromise2 - new Promise
 (( resolve ) - &gt; setTimeout ( resolve, 500, &ast;Second&apos; )) ;
 >
 Promise . race ( promisel, promise2 1). then value )
-![](./images/image818.jpg){width="0.5416666666666666in"
-height="0.2813320209973753in"}console . log ( value ) ; // Output :
+console . log ( value ) ; // Output :
 &apos;Secondl ( Resolved earlier )
 
 8.  Async Function Using try &period;.. catch for Error Handling .
@@ -7296,8 +6795,7 @@ javascript code async function fetchData () { try &lbrack;
 >
 const response = await fetch ( ihttps api . example com / data&apos; ) ;
 const data = awaitresponse . json () ; console . log ( data ) ;
-![](./images/image819.jpg){width="8.333333333333333e-2in"
-height="0.2604932195975503in"}catch ( error) { console . error (
+catch ( error) { console . error (
 &apos;Error fetching data : t, error) ;
 >
 ES6 + Features :
@@ -7306,8 +6804,7 @@ ES6 + Features :
 
 javascript code constname = &apos;Alice&apos;; constage = 30; console . log (
 My name is &dollar; {name} and lim &dollar;{age} years old
-.![](./images/image820.jpg){width="0.4166666666666667in"
-height="0.270913167104112in"}
+
 
 10. Array Spread Operator for Concatenation :
 
@@ -7324,16 +6821,14 @@ Advanced Functions and Operations :
 1.  Function Returning Functions - Higher - Order Functions :
 
 javascript code const add = ( x ) = &gt; ( y) =
-![](./images/image821.jpg){width="0.3125in"
-height="0.14587707786526685in"}+ y; constaddTwo = add ( 2 ) ; console
++ y; constaddTwo = add ( 2 ) ; console
 . log ( addTwo ( 3 )) ; // Output : 5
 
 2.  Function That Delays Execution :
 
 javascript code const delayExecution ( time ) &gt; { return new Promise
 (( resolve )
-![](./images/image822.jpg){width="0.2916666666666667in"
-height="0.2813331146106737in"}setTimeout ( resolve, time ) ; n;
+setTimeout ( resolve, time ) ; n;
 >
 delayExecution ( 2000 ). then (0 = &gt; console . log ( Delayed
 execution&apos; )) ; // Output after 2 seconds
@@ -7343,16 +6838,14 @@ Advanced Array Manipulation :
 3, Array. every with Custom Predicate :
 >
 javascript code constnumbers &lbrack; 10, 20, 30
-![](./images/image823.jpg){width="0.20833333333333334in"
-height="0.2813320209973753in"}const allGreaterThanFive numbers . every
+const allGreaterThanFive numbers . every
 ( num &gt; num &gt; 5 ) ; // Output : true
 
 4.  Using Array. reverse to Reverse an Array :
 
 javascript code const array = &lbrack; 1, 2, 3, &rbrack; ; const reversedArray
 array. slice O. reverse // Output:1
-![](./images/image824.jpg){width="0.46875in"
-height="0.23965332458442695in"}3, 2, 1 &rbrack;
+3, 2, 1 &rbrack;
 >
 Advanced Object Manipulation :
 
@@ -7365,13 +6858,10 @@ javascript code const entries = &lbrack;l I l , I &apos;b, 2 1 , I 3 ; constobj
 6.  Object . assign for Merging Objects :
 
 javascript code constobJ1
-![](./images/image825.jpg){width="2.0in"
-height="0.2813331146106737in"}constobj2 - { b : 3, c : 4 }
-![](./images/image826.jpg){width="6.25e-2in"
-height="0.19797462817147857in"}constmergedObj - Object . assign ( f},
+constobj2 - { b : 3, c : 4 }
+constmergedObj - Object . assign ( f},
 objl, obj2 ) ; // Output : { a : li b
-:![](./images/image827.jpg){width="0.8541666666666666in"
-height="0.2500732720909886in"}
+:
 >
 Advanced Promises and Async / Await :
 
