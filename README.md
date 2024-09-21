@@ -57,17 +57,18 @@ functional programming) styles.</p>
 web, along with HTML and CSS.</p>
 
 <h3>Variables</h3>
-<p>Variables are containers for storing data values. In JavaScript, we declare a variable using the var keyword, followed
-by the name of the variable. Let’s look at how we can create a variable.
+<p>Variables are containers for storing data values. In JavaScript, we declare a variable 
+using the var keyword, followed by the name of the variable. Let’s look at how we can create 
+a variable.</p>
 ```
 var name = "John Doe"
 ```
 <h3>JavaScript Environment</h3>
-Before we start, we need to set up our JavaScript environment. While you can write JavaScript in any text editor,
-you’ll need a web browser to run your scripts.
-Most web browsers have built-in JavaScript engines. You can open a JavaScript console in your browser and run
-JavaScript code directly in the console.
-Basic JavaScript Syntax
+Before we start, we need to set up our JavaScript environment. While you can write JavaScript 
+in any text editor, you’ll need a web browser to run your scripts.
+Most web browsers have built-in JavaScript engines. You can open a JavaScript console in your 
+browser and run JavaScript code directly in the console.
+<h3>Basic JavaScript Syntax</h3>
 JavaScript syntax is the set of rules, how JavaScript programs are constructed:
 ```
 var x = 5; // declaring a variable
@@ -80,50 +81,59 @@ console.log(z); // prints the result to the console
 JavaScript has dynamic types. This means you don’t have to specify the data type of a variable when you declare it,
 and you can change the data type of a variable that has already been declared.
 ```
-var length =16;// Number
+var length =16; // Number
 var lastName = "Johnson"; // String
 var x = {firstName:"John", lastName:"Doe"}; // Object
 ```
-In the next chapter, we’ll dive deeper into JavaScript’s data types, how to manipulate them, and how to use them
-effectively in your code
+In the next chapter, we’ll dive deeper into JavaScript’s data types, how to manipulate them, 
+and how to use them effectively in your code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2">Chapter 2: Understanding Variables and Data Types in JavaScript</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-In this chapter, we will explore variables and data types, which are fundamental concepts in JavaScript. As you learn
-about these topics, you will also get to see them in action through various code examples.
-Variables
-Variables are containers for storing data values. In JavaScript, we declare a variable using the var keyword, followed
-by the name of the variable. Let’s look at how we can create a variable.
+In this chapter, we will explore variables and data types, which are fundamental concepts 
+in JavaScript. As you learn about these topics, you will also get to see them in action through 
+various code examples.
+<h3>Variables</h3>
+Variables are containers for storing data values. In JavaScript, we declare a variable using 
+the var keyword, followed by the name of the variable. Let’s look at how we can create a variable.
+```
 var name = "John Doe";
-In the example above, we created a variable named name and assigned it the value “John Doe”. We can also declare
-a variable without assigning a value, and assign it later.
+```
+In the example above, we created a variable named name and assigned it the value “John Doe”. 
+We can also declare a variable without assigning a value, and assign it later.
 ```
 var name;
 name = "John Doe";
 ```
-JavaScript also provides two other keywords for declaring variables - let and const. The let keyword is similar to var,
-but it has a block scope. On the other hand, const is used for declaring constants, which are variables that cannot be
-reassigned.
+JavaScript also provides two other keywords for declaring variables - let and const. The 
+let keyword is similar to var, but it has a block scope. On the other hand, const is used 
+for declaring constants, which are variables that cannot be reassigned.
 ```
 let age = 25;
 const country = "USA";
 ```
-
-Data Types
-
+<h4>Data Types</h4>
 JavaScript has several data types, including:
-
 1. Number - Represents numeric values. For example: 
 ```
-var num = 25;.
+var num = 25;
 ```
 2. String - Represents sequence of characters. For example: 
 ```
-var str = "Hello World";.
+var str = "Hello World";
 ```
-3. Boolean - Represents logical values. Can either be true or false. For example: var isTrue = true;.
-4. Undefined - Represents a variable that has not been assigned a value. For example: var x;.
-5. Null - Represents a null value. For example: var y = null;.
+3. Boolean - Represents logical values. Can either be true or false. For example: 
+```
+var isTrue = true;
+```
+4. Undefined - Represents a variable that has not been assigned a value. For example: 
+```
+var x;
+```
+5. Null - Represents a null value. For example: 
+```
+var y = null;
+```
 6. Object - Represents an instance through which we can access methods. For example: 
 ```
 var obj = {name: "John", age: 25, country: "USA"};
@@ -133,7 +143,6 @@ var obj = {name: "John", age: 25, country: "USA"};
 var arr = [1,2, 3,4, 5];
 ```
 Let’s look at a few examples of these data types.
-
 ```
 //Number
 var num = 25;
@@ -149,7 +158,9 @@ var y = null;
 var obj = {name: "John", age: 25, country: "USA"};
 //Array
 var arr = [1, 2, 3,4, 5];
+```
 In JavaScript, we can find the type of a variable using the typeof operator.
+```
 console.log(typeof num);//Returns "number"
 console.log(typeof str);//Returns "string"
 console.log(typeof isTrue); // Returns "boolean"
@@ -294,12 +305,12 @@ return number * number;
 console.log(square(5)); // Outputs: 25
 ```
 In this example, square is an arrow function that calculates the square of a number.
-Now that you understand the basics of functions in JavaScript, you can use them to create more complex and
-dynamic applications. In the next chapter, we’ll look at objects and how they can help us structure our code in a
-more logical and readable way.
+Now that you understand the basics of functions in JavaScript, you can use them to create 
+more complex and dynamic applications. In the next chapter, we’ll look at objects and how 
+they can help us structure our code in a more logical and readable way.
 
-Functions are the main building blocks in JavaScript. A function is a reusable set of statements that perform a task
-or calculates a value.
+Functions are the main building blocks in JavaScript. A function is a reusable set of statements 
+that perform a task or calculates a value.
 <h4>Function Definition</h4>
 In JavaScript, you can define a function using the function keyword, followed by a name for the function, a list of
 parameters enclosed in parentheses (), and the JavaScript statements that define the function enclosed in curly
@@ -329,28 +340,28 @@ return x * y;
 var z = myFunction(5, 6); // z equals to 30
 ```
 <h4>Function Hoisting</h4>
-In JavaScript, functions can be called before they are declared. This is because function declarations are hoisted to
-the top of the current scope.
+In JavaScript, functions can be called before they are declared. This is because function 
+declarations are hoisted to the top of the current scope.
 ```
 console.log(myFunction(5, 6)); // Outputs: 30
 function myFunction(x, y) {
 return x * y;
 ```
 <h4>Arrow Functions</h4>
-Arrow functions were introduced in ES6 as a short syntax for writing function expressions. You don’t need the
-function keyword, the return keyword, and the curly brackets.
+Arrow functions were introduced in ES6 as a short syntax for writing function expressions. 
+You don’t need the function keyword, the return keyword, and the curly brackets.
 ```
 const myFunction = (x, y) = > x * y;
 console.log(myFunction(5,6)); // Outputs: 30
 ```
-In the next chapter, we will explore more complex aspects of JavaScript functions, such as closures and higher-order
-functions.
+In the next chapter, we will explore more complex aspects of JavaScript functions, such as 
+closures and higher-order functions.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch5">Chapter 5: Arrays and Iteration in JS</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-In this chapter, we will explore one of the most important data structures in JavaScript: Arrays. We will go through
-the basics of creating and manipulating arrays, along with the different methods of iterating through arrays to ma­
-nipulate or access the data stored within them.
+In this chapter, we will explore one of the most important data structures in JavaScript: 
+Arrays. We will go through the basics of creating and manipulating arrays, along with the 
+different methods of iterating through arrays to manipulate or access the data stored within them.
 <h4>Understanding Arrays</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch6">Chapter 6: Objects and Object-Oriented Programming in JS</h2>
