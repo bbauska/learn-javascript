@@ -60,16 +60,20 @@ web, along with HTML and CSS.</p>
 <p>Variables are containers for storing data values. In JavaScript, we declare a variable 
 using the var keyword, followed by the name of the variable. Let’s look at how we can create 
 a variable.</p>
+
 ```
 var name = "John Doe"
 ```
+
 <h3>JavaScript Environment</h3>
 Before we start, we need to set up our JavaScript environment. While you can write JavaScript 
 in any text editor, you’ll need a web browser to run your scripts.
 Most web browsers have built-in JavaScript engines. You can open a JavaScript console in your 
 browser and run JavaScript code directly in the console.
+
 <h3>Basic JavaScript Syntax</h3>
 JavaScript syntax is the set of rules, how JavaScript programs are constructed:
+
 ```
 var x = 5; // declaring a variable
 var y = 6; // declaring another variable
@@ -77,14 +81,17 @@ var z = x + y; // adding the variables together
 
 console.log(z); // prints the result to the console
 ```
+
 <h3>Variables and Data Types</h3>
-JavaScript has dynamic types. This means you don’t have to specify the data type of a variable when you declare it,
-and you can change the data type of a variable that has already been declared.
+JavaScript has dynamic types. This means you don’t have to specify the data type of a variable 
+when you declare it, and you can change the data type of a variable that has already been declared.
+
 ```
 var length =16; // Number
 var lastName = "Johnson"; // String
 var x = {firstName:"John", lastName:"Doe"}; // Object
 ```
+
 In the next chapter, we’ll dive deeper into JavaScript’s data types, how to manipulate them, 
 and how to use them effectively in your code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -96,53 +103,74 @@ various code examples.
 <h3>Variables</h3>
 Variables are containers for storing data values. In JavaScript, we declare a variable using 
 the var keyword, followed by the name of the variable. Let’s look at how we can create a variable.
+
 ```
 var name = "John Doe";
 ```
+
 In the example above, we created a variable named name and assigned it the value “John Doe”. 
 We can also declare a variable without assigning a value, and assign it later.
+
 ```
 var name;
 name = "John Doe";
 ```
+
 JavaScript also provides two other keywords for declaring variables - let and const. The 
 let keyword is similar to var, but it has a block scope. On the other hand, const is used 
 for declaring constants, which are variables that cannot be reassigned.
+
 ```
 let age = 25;
 const country = "USA";
 ```
+
 <h4>Data Types</h4>
 JavaScript has several data types, including:
 1. Number - Represents numeric values. For example: 
+
 ```
 var num = 25;
 ```
+
 2. String - Represents sequence of characters. For example: 
+
 ```
 var str = "Hello World";
 ```
+
 3. Boolean - Represents logical values. Can either be true or false. For example: 
+
 ```
 var isTrue = true;
 ```
+
 4. Undefined - Represents a variable that has not been assigned a value. For example: 
+
 ```
 var x;
 ```
+
 5. Null - Represents a null value. For example: 
+
 ```
 var y = null;
 ```
+
 6. Object - Represents an instance through which we can access methods. For example: 
+
 ```
 var obj = {name: "John", age: 25, country: "USA"};
 ```
+
 7. Array - Represents a group of similar items in a list. For example: 
+
 ```
-var arr = [1,2, 3,4, 5];
+var arr = &lbrack;1, 2, 3, 4, 5&rbrack;;
 ```
+
 Let’s look at a few examples of these data types.
+
 ```
 //Number
 var num = 25;
@@ -157,9 +185,11 @@ var y = null;
 // Object
 var obj = {name: "John", age: 25, country: "USA"};
 //Array
-var arr = [1, 2, 3,4, 5];
+var arr = &lbrack;1, 2, 3, 4, 5&rbrack;;
 ```
+
 In JavaScript, we can find the type of a variable using the typeof operator.
+
 ```
 console.log(typeof num);//Returns "number"
 console.log(typeof str);//Returns "string"
@@ -186,21 +216,27 @@ There are three ways to declare a variable in JavaScript
 Let’s look at each of them.
 <h4>Var</h4>
 Before ES6, var was the only way to declare variables in JavaScript. Here is an example:
+
 ```
 var name = "John Doe";
 ```
+
 <h4>Let</h4>
 Introduced in ES6, let is now the preferred way to declare variables. It has more restrictions than var, which helps
 prevent bugs in your code. Here is an example:
+
 ```
 let name = "John Doe";
 ```
+
 <h4>Const</h4>
 Also introduced in ES6, const is used to declare constants, i.e., variables that cannot be reassigned. Here is an
 example:
+
 ```
 const PI = 3.14159;
 ```
+
 <h3>Data Types</h3>
 JavaScript has a few basic data types, including:
 1. Number
@@ -213,42 +249,56 @@ JavaScript has a few basic data types, including:
 
 <h4>Number</h4>
 Numbers in JavaScript can be with or without decimals. For example:
+
 ```
 letnuml = 5;// without decimal
 let num2 = 5.5;//with decimal
 ```
+
 <h4>String</h4>
 Strings are sequences of characters, and they must be inside quotes. For example:
+
 ```
 let strl = "Hello"; // double quotes
 let str2 = 'Hello'; //single quotes
 ```
+
 <h4>Boolean</h4>
 Booleans can only be true or false. For example:
+
 ```
 let isReading = true;
 let isSleeping = false;
 ```
+
 <h4>Object</h4>
 Objects are complex data types that allow for the combination of other data types. For example:
+
 ```
 let person = {firstName: "John", lastName: "Doe", age: 30};
 ```
+
 <h4>Null and Undefined</h4>
 In JavaScript, null means “nothing”. It needs to be assigned:
+
 ```
 let nothing = null;
 ```
+
 Undefined means a variable has not been assigned a value:
+
 ```
 let something;
 console.log(something); // Outputs: undefined
 ```
+
 <h4>Symbol</h4>
 The Symbol data type was introduced in ES6, and it produces a unique value:
+
 ```
 let symbol 1 = Symbol('symbol');
 ```
+
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4">Chapter 4: Functions in JS</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -259,51 +309,61 @@ or result.
 In JavaScript, functions are first-class objects, which means they can be stored in variables, passed as arguments to
 other functions, and returned from other functions. This flexibility gives JavaScript its power and versatility.
 <h5>Here’s a simple example of a function:</h5>
+
 ```
 function greet() {
 console.log("Hello, World!");
 greet(); // Outputs: Hello, World!
 ```
+
 In this example, greet is the function name, and the code inside the curly braces {} is the function body. We call or
 invoke the function by using its name followed by parentheses ().
 <h4>Function Parameters and Arguments</h4>
 Functions can take inputs, known as parameters. When we call a function, we pass values, known as arguments, into
 the function.
 <h5>Here’s an example:</h5>
+
 ```
 function greet(name) {
 console.log("Hello," + name +
 greet("Alice"); // Outputs: Hello, Alice!
 ```
+
 In this example, name is the parameter and “Alice” is the argument.
 <h5>Return Statement</h5>
 Functions can output a result using the return statement. When a function encounters a return statement, it stops
 execution and returns the specified value.
 <h5>Here’s an example:</h5>
+
 ```
 function square(number) {
   return number * number;
   console.log(square(5)); // Outputs: 25
 ```
+
 In this example, square is a function that takes one parameter, number, and returns the square of that number.
 <h5>Function Expressions</h5>
 In JavaScript, functions can also be defined using function expressions. Here’s an example:
+
 ```
 var square = function(number) {
   return number * number;
   1;
 console.log(square(5)); // Outputs: 25
 ```
+
 In this example, square is a function expression that calculates the square of a number.
 <h4>Arrow Functions</h4>
 ES6 introduced arrow functions, a shorter way to write functions using the = > syntax.
 <h5>Here’s an example:</h5>
+
 ```
 const square = (number) => {
 return number * number;
 1;
 console.log(square(5)); // Outputs: 25
 ```
+
 In this example, square is an arrow function that calculates the square of a number.
 Now that you understand the basics of functions in JavaScript, you can use them to create 
 more complex and dynamic applications. In the next chapter, we’ll look at objects and how 
@@ -315,45 +375,57 @@ that perform a task or calculates a value.
 In JavaScript, you can define a function using the function keyword, followed by a name for the function, a list of
 parameters enclosed in parentheses (), and the JavaScript statements that define the function enclosed in curly
 brackets {}.
+
 ```
 function functionName(parameterl, parameter2, parameters) {
 // code to be executed
 ```
+
 <h4>Calling a Function</h4>
 To call a function in JavaScript, you would simply use the function name followed by parentheses ().
+
 ```
 functionName();
 ```
+
 <h4>Function Parameters and Arguments</h4>
 Function parameters are the names listed in the function definition. Function arguments are the real values that are
 passed to the function.
+
 ```
 function myFunction(x; y) {
 return x * y;
 console.log(myFunction(5, 6)); // Outputs: 30
 ```
+
 <h4>Function Return</h4>
 The return statement stops the execution of a function and returns a value from that function.
+
 ```
 function myFunction(x, y) {
 return x * y;
 var z = myFunction(5, 6); // z equals to 30
 ```
+
 <h4>Function Hoisting</h4>
 In JavaScript, functions can be called before they are declared. This is because function 
 declarations are hoisted to the top of the current scope.
+
 ```
 console.log(myFunction(5, 6)); // Outputs: 30
 function myFunction(x, y) {
 return x * y;
 ```
+
 <h4>Arrow Functions</h4>
 Arrow functions were introduced in ES6 as a short syntax for writing function expressions. 
 You don’t need the function keyword, the return keyword, and the curly brackets.
+
 ```
 const myFunction = (x, y) = > x * y;
 console.log(myFunction(5,6)); // Outputs: 30
 ```
+
 In the next chapter, we will explore more complex aspects of JavaScript functions, such as 
 closures and higher-order functions.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
