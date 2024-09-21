@@ -4,6 +4,7 @@ author: "bbauska"
 date prior editted: "8/31/2024 4+pm"
 date last editted: "9/9/2024 12+pm"
 date last editted: "9/12/2024 1+pm"
+date last editted: "9/20/2024 10+pm"
 output: 
   markdown:
     with some style
@@ -20,29 +21,30 @@ output:
   <img src="./images/image001.png"
   title="JS Learn JS logo"
   alt="JS Learn JS logo."
-  style="border: 2px solid #000000; width:45%;" />
+  style="border: 2px solid #000000; width:45%; height:33%;" />
 </p>
-<h2>Table of Contents</h2>
+<h2><a href="#table-of-contents">Table of Contents - JS Learn JS</a></h2>
 
-Chapter 1: Introduction to JavaScript
-Chapter 2: Understanding Variables and Data Type in JS
-Chapter 3: Variables and Data
-Chapter 4: Functions in JS
-Chapter 5: Arrays and Iteration in JS
-Chapter 6: Objects and Object-Oriented Programming in JS
-Chapter 7: Loops in JS
-Chapter 8: Async and Await
-Chapter 9: Promises and Asynchronous Programming in JS
-Chapter 10: Working with JSON in JS
-Chapter 11: JS HTML DOM
-Chapter 12: JS Browser BOM
-Chapter 13: JS Libraries and Web APIs
-Chapter 14: JS AJAX
-Chapter 15: Handling Errors and Exceptions in JS
-Chapter 16: Libraries and APIs
-Chapter 17: 
+<blockquote>
+<h4><a href="#ch1">Chapter 1: Introduction to JavaScript</a></h4>
+<h4><a href="#ch2">Chapter 2: Understanding Variables and Data Type in JS</a></h4>
+<h4><a href="#ch3">Chapter 3: Variables and Data</a></h4>
+<h4><a href="#ch4">Chapter 4: Functions in JS</a></h4>
+<h4><a href="#ch5">Chapter 5: Arrays and Iteration in JS</a></h4>
+<h4><a href="#ch6">Chapter 6: Objects and Object-Oriented Programming in JS</a></h4>
+<h4><a href="#ch7">Chapter 7: Loops in JS</a></h4>
+<h4><a href="#ch8">Chapter 8: Async and Await</a></h4>
+<h4><a href="#ch9">Chapter 9: Promises and Asynchronous Programming in JS</a></h4>
+<h4><a href="#ch10">Chapter 10: Working with JSON in JS</a></h4>
+<h4><a href="#ch11">Chapter 11: JS HTML DOM</a></h4>
+<h4><a href="#ch12">Chapter 12: JS Browser BOM</a></h4>
+<h4><a href="#ch13">Chapter 13: JS Libraries and Web APIs</a></h4>
+<h4><a href="#ch14">Chapter 14: JS AJAX</a></h4>
+<h4><a href="#ch15">Chapter 15: Handling Errors and Exceptions in JS</a></h4>
+<h4><a href="#ch16">Chapter 16: Libraries and APIs</a></h4>
+</blockquote>
 
-
+<a href="https://github.com/bbauska/JS-Learn-JS.git" target="_blank" rel="noopener noreferrer">JS Learn JS - git</a>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1">Chapter 1: Introduction to JavaScript</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -57,8 +59,9 @@ web, along with HTML and CSS.</p>
 <h3>Variables</h3>
 <p>Variables are containers for storing data values. In JavaScript, we declare a variable using the var keyword, followed
 by the name of the variable. Let’s look at how we can create a variable.
+```
 var name = "John Doe"
-
+```
 <h3>JavaScript Environment</h3>
 Before we start, we need to set up our JavaScript environment. While you can write JavaScript in any text editor,
 you’ll need a web browser to run your scripts.
@@ -66,21 +69,21 @@ Most web browsers have built-in JavaScript engines. You can open a JavaScript co
 JavaScript code directly in the console.
 Basic JavaScript Syntax
 JavaScript syntax is the set of rules, how JavaScript programs are constructed:
-
+```
 var x = 5; // declaring a variable
 var y = 6; // declaring another variable
 var z = x + y; // adding the variables together
 
 console.log(z); // prints the result to the console
-
+```
 <h3>Variables and Data Types</h3>
 JavaScript has dynamic types. This means you don’t have to specify the data type of a variable when you declare it,
 and you can change the data type of a variable that has already been declared.
-
+```
 var length =16;// Number
 var lastName = "Johnson"; // String
 var x = {firstName:"John", lastName:"Doe"}; // Object
-
+```
 In the next chapter, we’ll dive deeper into JavaScript’s data types, how to manipulate them, and how to use them
 effectively in your code
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -94,28 +97,44 @@ by the name of the variable. Let’s look at how we can create a variable.
 var name = "John Doe";
 In the example above, we created a variable named name and assigned it the value “John Doe”. We can also declare
 a variable without assigning a value, and assign it later.
+```
 var name;
 name = "John Doe";
+```
 JavaScript also provides two other keywords for declaring variables - let and const. The let keyword is similar to var,
 but it has a block scope. On the other hand, const is used for declaring constants, which are variables that cannot be
 reassigned.
+```
 let age = 25;
 const country = "USA";
+```
 
 Data Types
 
 JavaScript has several data types, including:
 
-1. Number - Represents numeric values. For example: var num = 25;.
-2. String - Represents sequence of characters. For example: var str = "Hello World";.
+1. Number - Represents numeric values. For example: 
+```
+var num = 25;.
+```
+2. String - Represents sequence of characters. For example: 
+```
+var str = "Hello World";.
+```
 3. Boolean - Represents logical values. Can either be true or false. For example: var isTrue = true;.
 4. Undefined - Represents a variable that has not been assigned a value. For example: var x;.
 5. Null - Represents a null value. For example: var y = null;.
-6. Object - Represents an instance through which we can access methods. For example: var obj = {name:
-"John", age: 25, country: "USA"};.
-7. Array - Represents a group of similar items in a list. For example: var arr = [1,2, 3,4, 5];.
+6. Object - Represents an instance through which we can access methods. For example: 
+```
+var obj = {name: "John", age: 25, country: "USA"};
+```
+7. Array - Represents a group of similar items in a list. For example: 
+```
+var arr = [1,2, 3,4, 5];
+```
 Let’s look at a few examples of these data types.
 
+```
 //Number
 var num = 25;
 // String
@@ -126,7 +145,6 @@ var isTrue = true;
 var x;
 // Null
 var y = null;
-
 // Object
 var obj = {name: "John", age: 25, country: "USA"};
 //Array
@@ -139,11 +157,11 @@ console.log(typeof x); //Returns "undefined"
 console.log(typeof y); // Returns "object"
 console.log(typeof obj);//Returns "object"
 console.log(typeof arr); // Returns "object
-
+```
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3">Chapter 3: Variables and Data</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2>Types in JavaScript</h2>
+<h3>Types in JavaScript</h3>
 In this chapter, we will explore the foundation of any programming language: variables and data types. In
 JavaScript, we have a variety of data types and ways to declare variables, which we will be delving into in this
 chapter.
@@ -157,15 +175,21 @@ There are three ways to declare a variable in JavaScript
 Let’s look at each of them.
 <h4>Var</h4>
 Before ES6, var was the only way to declare variables in JavaScript. Here is an example:
+```
 var name = "John Doe";
+```
 <h4>Let</h4>
 Introduced in ES6, let is now the preferred way to declare variables. It has more restrictions than var, which helps
 prevent bugs in your code. Here is an example:
+```
 let name = "John Doe";
+```
 <h4>Const</h4>
 Also introduced in ES6, const is used to declare constants, i.e., variables that cannot be reassigned. Here is an
 example:
+```
 const PI = 3.14159;
+```
 <h3>Data Types</h3>
 JavaScript has a few basic data types, including:
 1. Number
@@ -190,65 +214,85 @@ let str2 = 'Hello'; //single quotes
 ```
 <h4>Boolean</h4>
 Booleans can only be true or false. For example:
+```
 let isReading = true;
 let isSleeping = false;
+```
 <h4>Object</h4>
 Objects are complex data types that allow for the combination of other data types. For example:
+```
 let person = {firstName: "John", lastName: "Doe", age: 30};
+```
 <h4>Null and Undefined</h4>
 In JavaScript, null means “nothing”. It needs to be assigned:
+```
 let nothing = null;
+```
 Undefined means a variable has not been assigned a value:
+```
 let something;
 console.log(something); // Outputs: undefined
+```
 <h4>Symbol</h4>
 The Symbol data type was introduced in ES6, and it produces a unique value:
+```
 let symbol 1 = Symbol('symbol');
+```
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4">Chapter 4: Functions in JS</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 In this chapter, we will delve into one of the most fundamental aspects of JavaScript: functions. Functions are
 reusable blocks of code that perform a specific task. They can take inputs, called parameters, and return an output,
 or result.
-What are Functions?
+<h4>What are Functions?</h4>
 In JavaScript, functions are first-class objects, which means they can be stored in variables, passed as arguments to
 other functions, and returned from other functions. This flexibility gives JavaScript its power and versatility.
-Here’s a simple example of a function:
+<h5>Here’s a simple example of a function:</h5>
+```
 function greet() {
 console.log("Hello, World!");
 greet(); // Outputs: Hello, World!
+```
 In this example, greet is the function name, and the code inside the curly braces {} is the function body. We call or
 invoke the function by using its name followed by parentheses ().
-Function Parameters and Arguments
+<h4>Function Parameters and Arguments</h4>
 Functions can take inputs, known as parameters. When we call a function, we pass values, known as arguments, into
 the function.
-Here’s an example:
+<h5>Here’s an example:</h5>
+```
 function greet(name) {
 console.log("Hello," + name +
 greet("Alice"); // Outputs: Hello, Alice!
+```
 In this example, name is the parameter and “Alice” is the argument.
-Return Statement
+<h5>Return Statement</h5>
 Functions can output a result using the return statement. When a function encounters a return statement, it stops
 execution and returns the specified value.
-Here’s an example:
+<h5>Here’s an example:</h5>
+```
 function square(number) {
-return number * number;
-console.log(square(5)); // Outputs: 25
+  return number * number;
+  console.log(square(5)); // Outputs: 25
+```
 In this example, square is a function that takes one parameter, number, and returns the square of that number.
-Function Expressions
+<h5>Function Expressions</h5>
 In JavaScript, functions can also be defined using function expressions. Here’s an example:
+```
 var square = function(number) {
-return number * number;
-1;
+  return number * number;
+  1;
 console.log(square(5)); // Outputs: 25
+```
 In this example, square is a function expression that calculates the square of a number.
-Arrow Functions
+<h4>Arrow Functions</h4>
 ES6 introduced arrow functions, a shorter way to write functions using the = > syntax.
-Here’s an example:
+<h5>Here’s an example:</h5>
+```
 const square = (number) => {
 return number * number;
 1;
 console.log(square(5)); // Outputs: 25
+```
 In this example, square is an arrow function that calculates the square of a number.
 Now that you understand the basics of functions in JavaScript, you can use them to create more complex and
 dynamic applications. In the next chapter, we’ll look at objects and how they can help us structure our code in a
@@ -256,37 +300,49 @@ more logical and readable way.
 
 Functions are the main building blocks in JavaScript. A function is a reusable set of statements that perform a task
 or calculates a value.
-Function Definition
+<h4>Function Definition</h4>
 In JavaScript, you can define a function using the function keyword, followed by a name for the function, a list of
 parameters enclosed in parentheses (), and the JavaScript statements that define the function enclosed in curly
 brackets {}.
+```
 function functionName(parameterl, parameter2, parameters) {
 // code to be executed
-Calling a Function
+```
+<h4>Calling a Function</h4>
 To call a function in JavaScript, you would simply use the function name followed by parentheses ().
+```
 functionName();
-Function Parameters and Arguments
+```
+<h4>Function Parameters and Arguments</h4>
 Function parameters are the names listed in the function definition. Function arguments are the real values that are
 passed to the function.
+```
 function myFunction(x; y) {
 return x * y;
 console.log(myFunction(5, 6)); // Outputs: 30
-Function Return
+```
+<h4>Function Return</h4>
 The return statement stops the execution of a function and returns a value from that function.
+```
 function myFunction(x, y) {
 return x * y;
 var z = myFunction(5, 6); // z equals to 30
-Function Hoisting
+```
+<h4>Function Hoisting</h4>
 In JavaScript, functions can be called before they are declared. This is because function declarations are hoisted to
 the top of the current scope.
+```
 console.log(myFunction(5, 6)); // Outputs: 30
 function myFunction(x, y) {
 return x * y;
-Arrow Functions
+```
+<h4>Arrow Functions</h4>
 Arrow functions were introduced in ES6 as a short syntax for writing function expressions. You don’t need the
 function keyword, the return keyword, and the curly brackets.
+```
 const myFunction = (x, y) = > x * y;
 console.log(myFunction(5,6)); // Outputs: 30
+```
 In the next chapter, we will explore more complex aspects of JavaScript functions, such as closures and higher-order
 functions.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -295,7 +351,7 @@ functions.
 In this chapter, we will explore one of the most important data structures in JavaScript: Arrays. We will go through
 the basics of creating and manipulating arrays, along with the different methods of iterating through arrays to ma­
 nipulate or access the data stored within them.
-Understanding Arrays
+<h4>Understanding Arrays</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch6">Chapter 6: Objects and Object-Oriented Programming in JS</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7912,3 +7968,4 @@ projects, using a module bundler like Webpack or a task runner like
 Gulp might be beneficial to enhance your development environment
 further
 
+<!-- last editted 9-20-2024 10:17pm -->
