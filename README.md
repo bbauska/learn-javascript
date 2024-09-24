@@ -166,17 +166,17 @@ var obj = {name: "John", age: 25, country: "USA"};
 7. Array - Represents a group of similar items in a list. For example: 
 
 ```
-var arr = &lbrack;1, 2, 3, 4, 5&rbrack;;
+var arr = [1, 2, 3, 4, 5];
 ```
 
 Let’s look at a few examples of these data types.
 
 ```
-//Number
+// Number
 var num = 25;
 // String
 var str = "Hello World";
-//Boolean
+// Boolean
 var isTrue = true;
 // Undefined
 var x;
@@ -184,19 +184,19 @@ var x;
 var y = null;
 // Object
 var obj = {name: "John", age: 25, country: "USA"};
-//Array
-var arr = &lbrack;1, 2, 3, 4, 5&rbrack;;
+// Array
+var arr = [1, 2, 3, 4, 5];
 ```
 
 In JavaScript, we can find the type of a variable using the typeof operator.
 
 ```
-console.log(typeof num);//Returns "number"
-console.log(typeof str);//Returns "string"
+console.log(typeof num); // Returns "number"
+console.log(typeof str); // Returns "string"
 console.log(typeof isTrue); // Returns "boolean"
-console.log(typeof x); //Returns "undefined"
+console.log(typeof x); // Returns "undefined"
 console.log(typeof y); // Returns "object"
-console.log(typeof obj);//Returns "object"
+console.log(typeof obj); // Returns "object"
 console.log(typeof arr); // Returns "object
 ```
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -251,8 +251,8 @@ JavaScript has a few basic data types, including:
 Numbers in JavaScript can be with or without decimals. For example:
 
 ```
-letnuml = 5;// without decimal
-let num2 = 5.5;//with decimal
+letnuml = 5; // without decimal
+let num2 = 5.5; // with decimal
 ```
 
 <h4>String</h4>
@@ -260,7 +260,7 @@ Strings are sequences of characters, and they must be inside quotes. For example
 
 ```
 let strl = "Hello"; // double quotes
-let str2 = 'Hello'; //single quotes
+let str2 = 'Hello'; // single quotes
 ```
 
 <h4>Boolean</h4>
@@ -404,7 +404,7 @@ The return statement stops the execution of a function and returns a value from 
 ```
 function myFunction(x, y) {
 return x * y;
-var z = myFunction(5, 6); // z equals to 30
+var z = myFunction(5, 6); // z equal to 30
 ```
 
 <h4>Function Hoisting</h4>
